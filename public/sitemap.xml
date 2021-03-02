@@ -3,22 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.ozzie.eu/categories/</loc>
-    <lastmod>2021-02-28T21:41:22+00:00</lastmod>
+    <loc>https://www.ozzie.eu/tags/c#/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.ozzie.eu/tags/firebase/</loc>
-    <lastmod>2021-02-28T21:41:22+00:00</lastmod>
+    <loc>https://www.ozzie.eu/categories/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/categories/cms/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.ozzie.eu/categories/frontend/</loc>
-    <lastmod>2021-02-28T21:41:22+00:00</lastmod>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.ozzie.eu/tags/git/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/tags/umbraco/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/post/umbraco-forms-translations/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/categories/web/</loc>
+    <lastmod>2021-03-02T15:47:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/tags/firebase/</loc>
     <lastmod>2021-02-28T21:41:22+00:00</lastmod>
   </url>
   
@@ -38,27 +78,7 @@
   </url>
   
   <url>
-    <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2021-02-28T21:41:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2021-02-28T21:41:22+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.ozzie.eu/post/stepping-stone/</loc>
-    <lastmod>2021-02-28T21:41:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/tags/</loc>
-    <lastmod>2021-02-28T21:41:22+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/categories/web/</loc>
     <lastmod>2021-02-28T21:41:22+00:00</lastmod>
   </url>
   

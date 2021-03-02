@@ -3,6 +3,14 @@ title: "Umbraco Forms Translations"
 description: "Umbraco consent warning translations not working."
 date: 2021-03-02T15:47:06Z
 draft: false
+tags:
+- Umbraco
+- C#
+- Git
+categories:
+- web
+- frontend
+- CMS
 ---
 Last year I evaluated the [Umbraco Forms](https://umbraco.com/products/umbraco-forms/) product to migrate some existing forms and build new ones.
 Despite being overall satisfied, I  stumbled upon [an issue](https://github.com/umbraco/Umbraco.Forms.Issues/issues/376) with form control translation. The consent warning translations were not working.
