@@ -8,7 +8,7 @@ tags:
 - Automation
 categories:
 - Console
-- Backend
+- Backend 
 ---
 I'm building a [collection of simple programs](https://github.com/ozzie-eu/automate-dotnetcore), using C#, for automating everyday tasks with .NET Core.
 So far I've made available examples on how to:
