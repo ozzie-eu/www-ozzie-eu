@@ -7,10 +7,34 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 12 Mar 2021 16:05:02 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 16 Mar 2021 14:36:32 +0000</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/categories/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>frontend</title>
+			<link>https://www.ozzie.eu/categories/frontend/</link>
+			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/categories/frontend/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>web</title>
+			<link>https://www.ozzie.eu/categories/web/</link>
+			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/categories/web/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
 		<item>
 			<title>Backend</title>
 			<link>https://www.ozzie.eu/categories/backend/</link>
@@ -41,30 +65,6 @@
 			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
 			
 			<guid>https://www.ozzie.eu/categories/cms/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>frontend</title>
-			<link>https://www.ozzie.eu/categories/frontend/</link>
-			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/frontend/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>web</title>
-			<link>https://www.ozzie.eu/categories/web/</link>
-			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/web/</guid>
 			<description>
 			
 				

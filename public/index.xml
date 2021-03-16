@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 12 Mar 2021 16:05:02 +0000</lastBuildDate>
+		<lastBuildDate>Tue, 16 Mar 2021 14:36:32 +0000</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Hugo post tag causing 404 Error</title>
+			<link>https://www.ozzie.eu/post/hugo-tag-404-error/</link>
+			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/hugo-tag-404-error/</guid>
+			<description>
+			
+				Using the &#39;#&#39; special character caused HTTP 404 Not Found error.
+			
+			</description>
+		</item>
 		<item>
 			<title>Simple automation programs in .NET Core</title>
 			<link>https://www.ozzie.eu/post/automate-dotnetcore/</link>
