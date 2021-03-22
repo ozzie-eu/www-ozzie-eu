@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Backend on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/backend/</link>
-		<description>Recent content in Backend on www.ozzie.eu</description>
+		<title>dotnetcore on Ozzie.eu</title>
+		<link>https://www.ozzie.eu/tags/dotnetcore/</link>
+		<description>Recent content in dotnetcore on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Mon, 22 Mar 2021 15:58:36 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/categories/backend/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://www.ozzie.eu/tags/dotnetcore/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>SQL Server alias is not supported on .NET Core</title>

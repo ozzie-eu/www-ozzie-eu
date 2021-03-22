@@ -6,6 +6,7 @@ draft: false
 tags:
 - C#
 - Automation
+- dotnetcore
 categories:
 - Console
 - Backend 

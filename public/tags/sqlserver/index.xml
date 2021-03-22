@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Backend on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/backend/</link>
-		<description>Recent content in Backend on www.ozzie.eu</description>
+		<title>sqlserver on Ozzie.eu</title>
+		<link>https://www.ozzie.eu/tags/sqlserver/</link>
+		<description>Recent content in sqlserver on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Mon, 22 Mar 2021 15:58:36 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/categories/backend/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://www.ozzie.eu/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>SQL Server alias is not supported on .NET Core</title>
@@ -20,18 +20,6 @@
 			<description>
 			
 				Sharing is caring, so this is more to save time to other developers out there, than to put something new on tha table. Having set-up 3 …
-			
-			</description>
-		</item>
-		<item>
-			<title>Simple automation programs in .NET Core</title>
-			<link>https://www.ozzie.eu/post/automate-dotnetcore/</link>
-			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/automate-dotnetcore/</guid>
-			<description>
-			
-				Collection of simple programs, using C#, for automating everyday tasks
 			
 			</description>
 		</item>
