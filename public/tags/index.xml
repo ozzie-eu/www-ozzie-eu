@@ -7,10 +7,46 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 22 Mar 2021 15:58:36 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 29 Mar 2021 16:30:47 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>C#</title>
+			<link>https://www.ozzie.eu/tags/c#/</link>
+			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/c#/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>JSON</title>
+			<link>https://www.ozzie.eu/tags/json/</link>
+			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/json/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>VisualStudio</title>
+			<link>https://www.ozzie.eu/tags/visualstudio/</link>
+			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/visualstudio/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
 		<item>
 			<title>dotnetcore</title>
 			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
@@ -53,18 +89,6 @@
 			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
 			
 			<guid>https://www.ozzie.eu/tags/automation/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>C#</title>
-			<link>https://www.ozzie.eu/tags/c#/</link>
-			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/c#/</guid>
 			<description>
 			
 				

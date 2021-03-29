@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 22 Mar 2021 15:58:36 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 29 Mar 2021 16:30:47 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/post/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Automatic class creation for unmarshalling JSON</title>
+			<link>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</link>
+			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</guid>
+			<description>
+			
+				If you’re working with JSON, say for REST web services, and you don’t have the class to unmarshall the response, Visual Studio can …
+			
+			</description>
+		</item>
 		<item>
 			<title>SQL Server alias is not supported on .NET Core</title>
 			<link>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</link>
