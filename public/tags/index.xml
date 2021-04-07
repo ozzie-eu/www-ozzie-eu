@@ -7,16 +7,40 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 29 Mar 2021 16:30:47 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 07 Apr 2021 17:30:14 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>Automation</title>
+			<link>https://www.ozzie.eu/tags/automation/</link>
+			<pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/automation/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
 			<title>C#</title>
 			<link>https://www.ozzie.eu/tags/c#/</link>
-			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
+			<pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/tags/c#/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>dotnetcore</title>
+			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
+			<pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
 			<description>
 			
 				
@@ -48,18 +72,6 @@
 			</description>
 		</item>
 		<item>
-			<title>dotnetcore</title>
-			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
-			<pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
 			<title>sqlserver</title>
 			<link>https://www.ozzie.eu/tags/sqlserver/</link>
 			<pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
@@ -77,18 +89,6 @@
 			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
 			
 			<guid>https://www.ozzie.eu/tags/hugo/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Automation</title>
-			<link>https://www.ozzie.eu/tags/automation/</link>
-			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/automation/</guid>
 			<description>
 			
 				
