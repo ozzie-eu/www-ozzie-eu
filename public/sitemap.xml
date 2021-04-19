@@ -4,7 +4,47 @@
   
   <url>
     <loc>https://www.ozzie.eu/tags/automation/</loc>
-    <lastmod>2021-04-07T17:30:14+01:00</lastmod>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/tags/c#/</loc>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/categories/</loc>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/categories/console/</loc>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/</loc>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</loc>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2021-04-19T18:05:17+01:00</lastmod>
   </url>
   
   <url>
@@ -14,41 +54,6 @@
   
   <url>
     <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2021-04-07T17:30:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/tags/c#/</loc>
-    <lastmod>2021-04-07T17:30:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/categories/</loc>
-    <lastmod>2021-04-07T17:30:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/categories/console/</loc>
-    <lastmod>2021-04-07T17:30:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
-    <lastmod>2021-04-07T17:30:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2021-04-07T17:30:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2021-04-07T17:30:14+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ozzie.eu/tags/</loc>
     <lastmod>2021-04-07T17:30:14+01:00</lastmod>
   </url>
   

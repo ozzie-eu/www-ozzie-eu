@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Wed, 07 Apr 2021 17:30:14 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 19 Apr 2021 18:05:17 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/c#/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Reading appsettings.json without DI/IoC using .NET Core</title>
+			<link>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</link>
+			<pubDate>Mon, 19 Apr 2021 18:05:17 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</guid>
+			<description>
+			
+				Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some …
+			
+			</description>
+		</item>
 		<item>
 			<title>Automation programs in .NET Core - more examples</title>
 			<link>https://www.ozzie.eu/post/more-automate-programs/</link>
