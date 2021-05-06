@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 29 Mar 2021 16:30:47 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/categories/tools/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Contract First Ws Development in .NET</title>
+			<link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
+			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/contract-first-ws-development/</guid>
+			<description>
+			
+				Working on infomration systems integration, often comes the task of implementing a Web Service following a previously defined contract.
+			
+			</description>
+		</item>
 		<item>
 			<title>Automatic class creation for unmarshalling JSON</title>
 			<link>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</link>
