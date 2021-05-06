@@ -6,17 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
-	<meta property="og:title" content="Contract First Ws Development in .NET">
+	<meta property="og:title" content="Contract First Web Service Development in .NET">
 	
 	
-	<meta name="keywords" content="C#,XML,WSDL,SOAP,VisualStudio"><meta name="description" content="Working on infomration systems integration, often comes the task of implementing a Web Service following a previously defined contract."><meta property="og:title" content="Contract First Ws Development in .NET" />
+	<meta name="keywords" content="C#,XML,WSDL,SOAP,VisualStudio"><meta name="description" content="Working on infomration systems integration, often comes the task of implementing a Web Service following a previously defined contract."><meta property="og:title" content="Contract First Web Service Development in .NET" />
 <meta property="og:description" content="Working on infomration systems integration, often comes the task of implementing a Web Service following a previously defined contract." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.ozzie.eu/post/contract-first-ws-development/" />
 <meta property="article:published_time" content="2021-05-05T09:24:28+01:00" />
 <meta property="article:modified_time" content="2021-05-05T09:24:28+01:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Contract First Ws Development in .NET"/>
+<meta name="twitter:title" content="Contract First Web Service Development in .NET"/>
 <meta name="twitter:description" content="Working on infomration systems integration, often comes the task of implementing a Web Service following a previously defined contract."/>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
@@ -24,7 +24,7 @@
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
 	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
 	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>Contract First Ws Development in .NET | Ozzie.eu</title>
+	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>Contract First Web Service Development in .NET | Ozzie.eu</title>
 
 
 </head>
@@ -82,28 +82,46 @@
 		</div>
 		
 		<div class="matter">
-			<h1 class="title">Contract First Ws Development in .NET</h1>
+			<h1 class="title">Contract First Web Service Development in .NET</h1>
 		</div>
 	</div>
 	<div class="markdown">
 		<p>Working on information systems integration often comes with the task of implementing a Web Service following a previously defined contract. This can happen with a design-first approach or a partner interoperability project where you must implement the expected receiver for the incoming data.</p>
 <p>To develop an XML web service, having an existing WSDL, we can use the tooling provided with Microsoft Visual Studio.</p>
-<p>We will use an ASMX project. If you&rsquo;re worried about support because this is no longer a part of .NET from version 5 upward, I&rsquo;d advise you to read <a href="https://forums.asp.net/post/6306984.aspx" target="_blank">this guy&amp;rsquo;s opinion</a>:</p>
+<p>We will use an ASMX project. If you&rsquo;re worried about support because this is no longer a part of .NET from version 5 upward, I&rsquo;d advise you to read <a href="https://forums.asp.net/post/6306984.aspx" target="_blank">this guy&#39;s opinion</a>:</p>
 <blockquote>
 <p>To be accurate, both WCF and ASMX will be supported after .NET 5 is released. They will be included in .NET 4.8 and that will be supported as a component of the OS that they are installed on.</p>
 </blockquote>
 <p>Sure, we could use <a href="https://github.com/DigDes/SoapCore" target="_blank">Soap Core</a>, but to work with existing contracts I find it to be a very manual solution and with some risk of inadvertently altering the schema.</p>
-<p>Getting down to business, let&rsquo;s go through the steps of a quick and easy proof of concept for an existing, simple, and free of charge public web service: <a href="www.learnwebservices.com/services/hello?WSDL">www.learnwebservices.com/services/hello?WSDL</a>
-Download the WSDL file onto a folder on your local computer.
-You&rsquo;ll need Visual Studio installed. Open &ldquo;Developer Command Prompt for VS 2019&rdquo;
-On the command prompt, go to the folder where you saved the WSDL file.
+<p>Getting down to business, let&rsquo;s go through the steps of a quick and easy proof of concept for an existing, simple, and free of charge public web service:</p>
+<p><a href="http://www.learnwebservices.com/services/hello?WSDL" target="_blank">www.learnwebservices.com/services/hello?WSDL</a></p>
+<p>Download the WSDL file onto a folder on your local computer.
+You&rsquo;ll need Visual Studio installed. Open &ldquo;Developer Command Prompt for VS 2019&rdquo;:
+<figure>
+  <img src="VSTools2019.webp" alt="Developer Command Prompt for VS 2019"  />
+</figure></p>
+<p>On the command prompt, go to the folder where you saved the WSDL file.
 Run the WSDL command:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">wsdl /namespace:Cnpd.Guias.Integracao /protocol:SOAP12 /serverInterface &lt;file.wsdl&gt;
-</code></pre></div><p>Where file.wsdl is the name you gave when saving the contract.
-Open Visual Studio and create a new empty ASP.NET web application
-Add a new ASMX item.
-Implement the Interface generated by the WSDL tool on your ASMX
-Build and deploy</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">wsdl /namespace:My.Contract.First /serverInterface &lt;file.wsdl&gt;
+</code></pre></div><p>Where &lt;file.wsdl&gt; is the name you gave when saving the contract. Choose an adequate namespace also. Upon successful completion of this command you should have an interface definition corresponding to the methods available on the given Web service:</p>
+<script type="application/javascript" src="https://gist.github.com/ozzie-eu/d1cd3433bc94f5f08f10cdcfe602bcbe.js"></script>
+
+<p>Open Visual Studio and create a new empty ASP.NET Web Application (.NET Framework):</p>
+<p><figure>
+  <img src="aspnet-web-app.webp" alt="ASP.NET Web Application (.NET Framework)"  />
+</figure></p>
+<p>Right click on your project and &ldquo;Add &gt; Existing Item&rdquo;. Browse to your .CS interface file, click &ldquo;Add&rdquo;:</p>
+<p><figure>
+  <img src="add-existing-item.webp" alt="Add existing item &amp;hellip;"  />
+</figure></p>
+<p>Now Add a new ASMX item:</p>
+<p><figure>
+  <img src="new-item-asmx.webp" alt="Add new ASMX item &amp;hellip;"  />
+</figure></p>
+<p>Implement the Interface generated by the WSDL tool on your ASMX:</p>
+<script type="application/javascript" src="https://gist.github.com/ozzie-eu/2aa0b2c2470823d197f96bd832117f8d.js"></script>
+
+<p>Build and deploy.</p>
 
 	</div>
 	
