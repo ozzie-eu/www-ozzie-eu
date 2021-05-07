@@ -2,7 +2,7 @@
 title: "Contract First Web Service Development in .NET"
 date: 2021-05-05T09:24:28+01:00
 draft: false
-description: Working on infomration systems integration, often comes the task of implementing a Web Service following a previously defined contract.  
+description: Working on information systems integration, often comes the task of implementing a Web Service following a previously defined contract.  
 tags:
 - C#
 - XML
