@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.80.0" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta property="og:title" content="Generating PDF in .NET Core using Libreoffice">
+	
+	
+	<meta name="keywords" content="C#,Automation,dotnetcore,PDF"><meta name="description" content="Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion."><meta property="og:title" content="Generating PDF in .NET Core using Libreoffice" />
+<meta property="og:description" content="Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ozzie.eu/post/pdf-dotnet-libreoffice/" />
+<meta property="article:published_time" content="2021-05-14T15:16:04+01:00" />
+<meta property="article:modified_time" content="2021-05-14T15:16:04+01:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Generating PDF in .NET Core using Libreoffice"/>
+<meta name="twitter:description" content="Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion."/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
+	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>Generating PDF in .NET Core using Libreoffice | Ozzie.eu</title>
+
+
+</head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://www.ozzie.eu/">
+		  <img src="/img/ozzie.webp" alt="Ozzie.eu">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://www.ozzie.eu/">Ozzie.eu</a></h2></div>
+	<div id="title-description"><p id="subtitle">Love to code although it bugs me.</p><div id="social">
+			<nav>
+				<ul>
+					<li><a href="https://github.com/ozzie-eu"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="mailto:mail@ozzie.eu"><i title="Email" class="icons fas fa-envelope"></i></a></li>
+					<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">14</span>
+				<span class="rest">May 2021</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">Generating PDF in .NET Core using Libreoffice</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<p>Looking for Nuget extensions to generate PDF output, there&rsquo;s a lot of offer, but you have to either convert from another format like HTML or hard-code each page, text block, and layout. Also, most extensions come in freemium versions.</p>
+<p>An interesting option is used by the team at <a href="https://www.smartinmedia.com/" target="_blank">Smart In Media GmbH &amp;amp; Co. KG.</a> To use their words:</p>
+<blockquote>
+<p>I was surprised, just how difficult that endeavor is if you don&rsquo;t want to pay huge amounts of money to commercial libraries. The cheapest start at U$300 and the most expensive was around U$5,000.</p>
+</blockquote>
+<p>So they came up with the <a href="https://github.com/smartinmedia/Net-Core-DocX-HTML-To-PDF-Converter" target="_blank">Report-From-DocX-HTML-To-PDF-Converter project</a>. It&rsquo;s also available as a <a href="https://www.nuget.org/packages/DocXToPdfConverter/" target="_blank">NuGet package</a>.</p>
+<p>The idea behind it is to use FOSS all the way, implementing DOCX/HTML templates with placeholders, turned into PDF afterward using <a href="https://www.libreoffice.org/download/portable-versions/" target="_blank">Libreoffice&amp;rsquo;s portable version</a>.
+Everything you need to get started is on the project&rsquo;s <a href="https://github.com/smartinmedia/Net-Core-DocX-HTML-To-PDF-Converter" target="_blank">Github page</a>.</p>
+<p>I did a test drive project, it&rsquo;s available on my personal <a href="https://github.com/ozzie-eu/automate-dotnetcore" target="_blank">Automate .NET Core</a> project.</p>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Categories</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			<a href="/categories/backend/"> backend </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/categories/console/"> console </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+	
+		
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Tags</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			<a href="/tags/automation/"> automation </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/c%23/"> c# </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/dotnetcore/"> dotnetcore </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/pdf/"> pdf </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae">Vitae</a> theme for <a href="https://gohugo.io">Hugo</a> 
+	
+	
+	
+</footer>
+
+
+</body>
+</html>

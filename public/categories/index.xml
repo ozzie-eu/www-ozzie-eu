@@ -7,16 +7,28 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate>
+		<lastBuildDate>Fri, 14 May 2021 15:16:04 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/categories/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Backend</title>
 			<link>https://www.ozzie.eu/categories/backend/</link>
-			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
+			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/categories/backend/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>Console</title>
+			<link>https://www.ozzie.eu/categories/console/</link>
+			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/categories/console/</guid>
 			<description>
 			
 				
@@ -29,18 +41,6 @@
 			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/categories/tools/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Console</title>
-			<link>https://www.ozzie.eu/categories/console/</link>
-			<pubDate>Mon, 19 Apr 2021 18:05:17 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/console/</guid>
 			<description>
 			
 				
