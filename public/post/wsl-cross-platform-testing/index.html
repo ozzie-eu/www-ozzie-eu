@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.80.0" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta property="og:title" content="Using Windows Subsystem for Linux for cross-platform testing">
+	
+	
+	<meta name="keywords" content="dotnetcore,linux"><meta name="description" content="WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers."><meta property="og:title" content="Using Windows Subsystem for Linux for cross-platform testing" />
+<meta property="og:description" content="WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ozzie.eu/post/wsl-cross-platform-testing/" />
+<meta property="article:published_time" content="2021-06-11T13:00:00+01:00" />
+<meta property="article:modified_time" content="2021-06-11T13:00:00+01:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using Windows Subsystem for Linux for cross-platform testing"/>
+<meta name="twitter:description" content="WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers."/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
+	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>Using Windows Subsystem for Linux for cross-platform testing | Ozzie.eu</title>
+
+
+</head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://www.ozzie.eu/">
+		  <img src="/img/ozzie.webp" alt="Ozzie.eu">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://www.ozzie.eu/">Ozzie.eu</a></h2></div>
+	<div id="title-description"><p id="subtitle">Love to code although it bugs me.</p><div id="social">
+			<nav>
+				<ul>
+					<li><a href="https://github.com/ozzie-eu"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="mailto:mail@ozzie.eu"><i title="Email" class="icons fas fa-envelope"></i></a></li>
+					<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">11</span>
+				<span class="rest">Jun 2021</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">Using Windows Subsystem for Linux for cross-platform testing</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<p>Windows Subsystem for Linux is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.</p>
+<p>It&rsquo;s been around as an optional feature on Microsoft&rsquo;s Windows 10, since 2016. With the release of WSL2, users can now use a genuine linux kernel running on top of a Virtual Machine Platform based on a subset of Hyper-V features.</p>
+<p>Before you proceed, be sure you&rsquo;re running all the latest Windows updates. Then, you can follow the steps on the <a href="https://docs.microsoft.com/en-us/windows/wsl/" target="_blank">official documentation</a>.</p>
+<p>After installing the features, go to the Microsoft Store on your Windows machine and download your linux distro of choice, from the available ones. My personal favourite is Ubuntu.</p>
+<p>With the goal of developing and testing .NET core applications in linux, you should open a CLI to the linux distro you just downloaded and complete the setup steps. Afterwards, execute the following commands to install .NET 5:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb 
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt update 
+sudo apt install apt-transport-https
+sudo apt install dotnet-sdk-5.0
+</code></pre></div><p>Having done so, hopefully with success, test you installation:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">dotnet --version
+</code></pre></div><p>At the time of this writing, it reported version 5.0.301 installed.</p>
+<p>Having the .NET 5 SDK installed, I downloaded a copy of my side project <a href="https://github.com/ozzie-eu/automate-dotnetcore" target="_blank">automate-dotnetcore</a> onto the WSL filesystem and performed the &ldquo;dotnet build&rdquo; and &ldquo;dotnet run&rdquo; seamlessly with no errors.</p>
+<p>In conclusion, I&rsquo;m now able to develop .NET 5 applications and test their cross-platform compatibility without the added burden of maintaing or even buying 3rd party virtualization software.</p>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Categories</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			<a href="/categories/backend/"> backend </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/categories/console/"> console </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+	
+		
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Tags</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/dotnetcore/"> dotnetcore </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/linux/"> linux </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae">Vitae</a> theme for <a href="https://gohugo.io">Hugo</a> 
+	
+	
+	
+</footer>
+
+
+</body>
+</html>

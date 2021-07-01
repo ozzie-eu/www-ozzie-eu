@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 14 May 2021 15:16:04 +0100</lastBuildDate>
+		<lastBuildDate>Fri, 11 Jun 2021 13:00:00 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
+			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>
+			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/wsl-cross-platform-testing/</guid>
+			<description>
+			
+				WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.
+			
+			</description>
+		</item>
 		<item>
 			<title>Generating PDF in .NET Core using Libreoffice</title>
 			<link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
