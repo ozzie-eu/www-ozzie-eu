@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 11 Jun 2021 13:00:00 +0100</lastBuildDate>
+		<lastBuildDate>Tue, 07 Sep 2021 12:00:48 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/dotnetcore/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>EF Core Update Model on Database First Project</title>
+			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
+			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
+			<description>
+			
+				Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task.
+			
+			</description>
+		</item>
 		<item>
 			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
 			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>

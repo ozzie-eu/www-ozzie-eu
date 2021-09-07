@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.81.0" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta property="og:title" content="EF Core Update Model on Database First Project">
+	
+	
+	<meta name="keywords" content="sqlserver,dotnetcore,C#"><meta name="description" content="Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task."><meta property="og:title" content="EF Core Update Model on Database First Project" />
+<meta property="og:description" content="Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ozzie.eu/post/ef-core-update-model-db-first/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-09-07T12:00:48&#43;01:00" />
+<meta property="article:modified_time" content="2021-09-07T12:00:48&#43;01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="EF Core Update Model on Database First Project"/>
+<meta name="twitter:description" content="Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task."/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
+	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>EF Core Update Model on Database First Project | Ozzie.eu</title>
+
+
+</head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://www.ozzie.eu/">
+		  <img src="/img/ozzie.webp" alt="Ozzie.eu">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://www.ozzie.eu/">Ozzie.eu</a></h2></div>
+	<div id="title-description"><p id="subtitle">Love to code although it bugs me.</p><div id="social">
+			<nav>
+				<ul>
+					<li><a href="https://github.com/ozzie-eu"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="mailto:mail@ozzie.eu"><i title="Email" class="icons fas fa-envelope"></i></a></li>
+					<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">07</span>
+				<span class="rest">Sep 2021</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">EF Core Update Model on Database First Project</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<p><figure>
+  <img src="db-1st-illustration.webp" alt="Database First Development"  />
+</figure>
+Started on a software project that will run using an existing database. Went with a minimalistic structure and used the <a href="https://docs.microsoft.com/en-us/ef/core/cli/powershell" target="_blank">EF Core Tools</a>, from the Package Manager Console in Visual Studio, to generate the database context and table model classes. Namely <a href="https://docs.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext" target="_blank">scaffold-dbcontext</a>. Used the &lsquo;-t&rsquo; option to create just the model classes I would use. It went very well and development went on, business as usual.</p>
+<p>As it turned out, I missed a table, so I had to add the model class for that and update the database context. Of course I thought that Visual Studio should have some tool our wizard like it had when using <a href="https://docs.microsoft.com/en-us/ef/ef6/modeling/designer/workflows/database-first" target="_blank">EDMX files</a>. I was wrong, Entity Framework Core has not added support for EDMX generation.</p>
+<p>As I had no business related code inside the model classes, or any special customization, the simplest scenario was to reverse engineer the model from the database again using scaffold-dbcontext with the &lsquo;-Force&rsquo; option. Mind that if you reverse engineer the model from the database again, any changes you&rsquo;ve made to the files will be lost.</p>
+<p>Nevertheless, if you&rsquo;re more into GUI than CLI, you should try out EF <a href="https://marketplace.visualstudio.com/items?itemName=ErikEJ.EFCorePowerTools" target="_blank">Core Power Tools</a>. Check out the demo from .NET Conf 2020 on <a href="https://www.youtube.com/watch?v=uph-AGyOd8c" target="_blank">youtube</a>.</p>
+<h6 id="image-created-by-vectorjuice---wwwfreepikcom">Image created by vectorjuice - <a href="http://www.freepik.com">www.freepik.com</a></h6>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Categories</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			<a href="/categories/backend/"> backend </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+	
+		
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Tags</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/c%23/"> c# </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/dotnetcore/"> dotnetcore </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/sqlserver/"> sqlserver </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae">Vitae</a> theme for <a href="https://gohugo.io">Hugo</a> 
+	
+	
+	
+</footer>
+
+
+</body>
+</html>
