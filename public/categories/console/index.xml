@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 11 Jun 2021 13:00:00 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 25 Oct 2021 15:50:14 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/categories/console/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Python script to unfollow inactive friends on Twitter</title>
+			<link>https://www.ozzie.eu/post/twitter-unfollow-inactive/</link>
+			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/twitter-unfollow-inactive/</guid>
+			<description>
+			
+				Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages.
+			
+			</description>
+		</item>
 		<item>
 			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
 			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 	
-	<meta name="generator" content="Hugo 0.81.0" />
+	<meta name="generator" content="Hugo 0.88.1" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,8 @@
 If you search the Internet for some help on using a configuration file with a .NET Core console application, you get some pretty good results if you want to use some Dependency Injection/Inversion of Control pattern, or build classes to represent and perform a sort of unmarshalling of the JSON configuration file, or even go through the Microsoft Docs that probably inspired the first two options." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.ozzie.eu/post/appsettings-wo-di-ioc/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-04-19T18:05:17&#43;01:00" />
-<meta property="article:modified_time" content="2021-04-19T18:05:17&#43;01:00" />
+<meta property="article:published_time" content="2021-04-19T18:05:17+01:00" />
+<meta property="article:modified_time" content="2021-04-19T18:05:17+01:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Reading appsettings.json without DI/IoC using .NET Core"/>
@@ -93,20 +93,20 @@ If you search the Internet for some help on using a configuration file with a .N
 <p>If you search the Internet for <a href="https://www.google.com/search?q=using&#43;a&#43;configuration&#43;file&#43;with&#43;a&#43;.NET&#43;Core&#43;console&#43;application" target="_blank">some help</a> on using a configuration file with a .NET Core console application, you get some pretty good results if you want to use some Dependency Injection/Inversion of Control pattern, or build classes to represent and perform a sort of unmarshalling of the JSON configuration file, or even go through the Microsoft Docs that probably inspired the first two options.</p>
 <p>I wanted to just be able to have my simple program, a simple JSON configuration file, and a simple way of reading parameters and do stuff.</p>
 <p>Said that, let&rsquo;s get down to business. Create an empty folder and inside it a simple console application using the dotnet CLI:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">dotnet new console
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">dotnet new console
 </code></pre></div><p>Add a new text file to the folder called &ldquo;appsettings.json&rdquo;.
 To read the JSON config, you&rsquo;ll need the following two packages from Nuget:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">dotnet add <span style="color:#080;font-weight:bold">package</span> Microsoft.Extensions.Configuration
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">dotnet add <span style="color:#080;font-weight:bold">package</span> Microsoft.Extensions.Configuration
 dotnet add <span style="color:#080;font-weight:bold">package</span> Microsoft.Extensions.Configuration.Json
 </code></pre></div><p>Include these namespaces on your program, the first to use configuration classes, the second to get access to folder paths:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">using Microsoft.Extensions.Configuration;
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">using Microsoft.Extensions.Configuration;
 using System.IO;
 </code></pre></div><p>Create a configuration builder from your settings file, passing the full path as an argument:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var builder = new ConfigurationBuilder()
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var builder = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile(&#34;appsettings.json&#34;, true, true);
 </code></pre></div><p>Build the configuration and create an IConfiguration with keys and values:</p>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var config = builder.Build();
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">var config = builder.Build();
 Console.WriteLine($&#34;Hello Setting: {config[&#34;HelloSetting&#34;]}&#34;);
 </code></pre></div><p>This is not a best practice and I do not claim it to be, but it was really the simplest way I found to go around it, other than reading a plain old text file.
 Find the whole working example <a href="https://github.com/ozzie-eu/automate-dotnetcore/tree/main/read-settings-file" target="_blank">here</a>.</p>
@@ -125,6 +125,8 @@ Find the whole working example <a href="https://github.com/ozzie-eu/automate-dot
 		</div>
 		<div class="termsfloating_right">
 			<p>
+			
+			
 			
 			
 			
@@ -242,6 +244,14 @@ Find the whole working example <a href="https://github.com/ozzie-eu/automate-dot
 			
 			
 			<a href="/tags/dotnetcore/"> dotnetcore </a>
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			

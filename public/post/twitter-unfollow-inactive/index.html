@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.88.1" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta property="og:title" content="Python script to unfollow inactive friends on Twitter">
+	
+	
+	<meta name="keywords" content="python,twitter"><meta name="description" content="Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages."><meta property="og:title" content="Python script to unfollow inactive friends on Twitter" />
+<meta property="og:description" content="Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ozzie.eu/post/twitter-unfollow-inactive/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-10-25T15:50:14+01:00" />
+<meta property="article:modified_time" content="2021-10-25T15:50:14+01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python script to unfollow inactive friends on Twitter"/>
+<meta name="twitter:description" content="Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages."/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
+	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>Python script to unfollow inactive friends on Twitter | Ozzie.eu</title>
+
+
+</head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://www.ozzie.eu/">
+		  <img src="/img/ozzie.webp" alt="Ozzie.eu">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://www.ozzie.eu/">Ozzie.eu</a></h2></div>
+	<div id="title-description"><p id="subtitle">Love to code although it bugs me.</p><div id="social">
+			<nav>
+				<ul>
+					<li><a href="https://github.com/ozzie-eu"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="mailto:mail@ozzie.eu"><i title="Email" class="icons fas fa-envelope"></i></a></li>
+					<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">25</span>
+				<span class="rest">Oct 2021</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">Python script to unfollow inactive friends on Twitter</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<p><figure>
+  <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/csxyq2t7n4pdfxko4oaz.jpg" alt="Unfollow friends."  />
+</figure>
+Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&rsquo;t updated their status in ages. It&rsquo;s a daunting task to go over all of your friends, check their status, and unfollow the ones not using Twitter for a long time.</p>
+<p>I&rsquo;ve written a Python script to do this. The script works with the following python packages:</p>
+<ul>
+<li>Tweepy</li>
+<li>configmanager</li>
+</ul>
+<p>The required dependencies are on the <strong>requirements.txt</strong> file. To install them run:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">python -m pip install -r requirements.txt
+</code></pre></div><h2 id="script-configuration">Script Configuration</h2>
+<h3 id="configuration-file-location">Configuration file location</h3>
+<p>The project comes with an example.ini file that you can use to fill with your own Twitter API credentials.
+Don&rsquo;t forget to change the following line on the script:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">config.read(&#39;..\..\TwitterAPI\config.ini&#39;)
+</code></pre></div><p>It should point to wherever you save your .INI file with the authorization tokens.</p>
+<h3 id="configuration-parameters">Configuration parameters</h3>
+<ul>
+<li><strong>API.Key and API.Secret</strong>: Think of these as the user name and password that represents your Twitter developer app when making API requests.</li>
+<li><strong>Bearer.Token</strong>: OAuth 2.0 Bearer Token authenticates requests on behalf of your developer App.</li>
+<li><strong>Access.Token and Access.Secret</strong>: user-specific credentials used to authenticate OAuth 1.0a API requests.</li>
+<li><strong>General.ScreenName</strong>: your twitter account screen name.</li>
+<li><strong>General.BatchSize</strong>: the maximum number of friend acconts you wish to be able to remove on each run.</li>
+<li><strong>General.DaysInactive</strong>: the time threshold to consider a friend as inactive, in days.</li>
+</ul>
+<h2 id="the-script">The script</h2>
+<p>The program starts by importing the required modules for execution:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">import configparser
+import tweepy
+from datetime import date
+</code></pre></div><p>The first is for reading the configuration file, the second is to work with the Twitter API and the third is to be able to find the difference in days between two given date.</p>
+<p>Before calling the twitter API, you must have the Twitter Developer account and a set of App&rsquo;s keys and tokens. Read more about it on the <a href="https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api" target="_blank">official portal</a>.</p>
+<p>On the begining of the program, the Twitter App keys and tokens are read from the INI file:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">config = configparser.ConfigParser()
+config.read(&#39;..\..\TwitterAPI\config.ini&#39;)
+</code></pre></div><p>The path should point to your INI file. The contents must follow the structure presented on the <strong>example.ini</strong> sample:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">[API]
+Key = &lt;your api key&gt;
+Secret = &lt;your api secret&gt;
+
+[Bearer]
+Token = &lt;your bearer token, for &gt;
+
+[Acess]
+Token = &lt;your access token&gt;
+Secret = &lt;your access secret&gt;
+
+[General]
+ScreenName = &lt;the target user&gt;
+BatchSize = 10
+DaysInactive = 5
+</code></pre></div><p>After reading the INI file, we pass the tokens for authorization and create the API object:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">auth = tweepy.OAuthHandler(config[&#39;API&#39;][&#39;Key&#39;], config[&#39;API&#39;][&#39;Secret&#39;])
+auth.set_access_token(config[&#39;Acess&#39;][&#39;Token&#39;], config[&#39;Acess&#39;][&#39;Secret&#39;])
+
+api = tweepy.API(auth, wait_on_rate_limit=True)
+</code></pre></div><p>The Twitter API has thresholds for the allowed rate on API calls. The <strong>wait_on_rate_limit</strong> flag configures a sleep time when the allowed rate is reached.</p>
+<p>The script then tests calling the API by getting the User object and initializes an empty list of inactive friends:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">user = api.get_user(screen_name=config[&#39;General&#39;][&#39;ScreenName&#39;])
+inactive_friends = [];
+</code></pre></div><p>Next we go through all the friends and check their last status. If they haven&rsquo;t tweeted for more than the configured DaysInactive parameter, their account is added to the inactive friends list:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">for friend in tweepy.Cursor(api.get_friends, screen_name=user.screen_name).items(): 
+        tweets_list= api.user_timeline(screen_name = friend.screen_name, count = 1)
+        tweet= tweets_list[0] # last status of this friend (tweepy.models.Status)
+
+        delta = date.today() - tweet.created_at.date()
+        if (delta.days &gt; int(config[&#39;General&#39;][&#39;DaysInactive&#39;])):
+            inactive_friends.append(friend)
+</code></pre></div><p>If the program has already reached the maximum number of intended inactive friends to remove, it exits the loop:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">if (len(inactive_friends) &gt;= int(config[&#39;General&#39;][&#39;BatchSize&#39;])):
+    break
+</code></pre></div><p>If there were inactive friends detected, the user&rsquo;s consent for removal is confirmed and those account will be unfollowed:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">    if (len(inactive_friends) &gt; 0):
+        print(&#39;The following % s friends are inactive for more than 5 days:&#39; % len(inactive_friends))
+        for friend in inactive_friends:
+            print(friend.screen_name)
+
+        print(&#39;Unfollowing %s inactive users..&#39; % len(inactive_friends))
+        answer = input(&#34;Are you sure? [Y/n]&#34;).lower()
+        if answer and answer[0] == &#34;y&#34;:
+            for friend in inactive_friends:
+                print(&#34;Unfollowing &#34; + friend.screen_name)
+                friend.unfollow()
+</code></pre></div><p>Please note, when creating the Twitter app on the developer portal, you must define it as read/write, otherwise the unfollow command will fail with an error.</p>
+<p>The full source code is on <a href="https://github.com/ozzie-eu/twitter-unfollow-inactive" target="_blank">Github</a>.</p>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Categories</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/categories/console/"> console </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+	
+		
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Tags</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/python/"> python </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/twitter/"> twitter </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae">Vitae</a> theme for <a href="https://gohugo.io">Hugo</a> 
+	
+	
+	
+</footer>
+
+
+</body>
+</html>
