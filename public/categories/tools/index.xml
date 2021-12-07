@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate>
+		<lastBuildDate>Tue, 07 Dec 2021 15:31:31 +0000</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/categories/tools/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Preferred Programming Language Versus Getting Things Done</title>
+			<link>https://www.ozzie.eu/post/preferred-language-vs-gtd/</link>
+			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/preferred-language-vs-gtd/</guid>
+			<description>
+			
+				Now and then you’ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations. For that, the key performance indicator is GTD.
+			
+			</description>
+		</item>
 		<item>
 			<title>Contract First Web Service Development in .NET</title>
 			<link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
