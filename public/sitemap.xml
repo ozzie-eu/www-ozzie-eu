@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.ozzie.eu/tags/c#/</loc>
-    <lastmod>2021-12-07T15:31:31+00:00</lastmod>
+    <loc>https://www.ozzie.eu/categories/backend/</loc>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/</loc>
-    <lastmod>2021-12-07T15:31:31+00:00</lastmod>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/categories/console/</loc>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2021-12-07T15:31:31+00:00</lastmod>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/powershell/</loc>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</loc>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/c#/</loc>
     <lastmod>2021-12-07T15:31:31+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/preferred-language-vs-gtd/</loc>
@@ -20,14 +38,8 @@
     <loc>https://www.ozzie.eu/tags/python/</loc>
     <lastmod>2021-12-07T15:31:31+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/</loc>
-    <lastmod>2021-12-07T15:31:31+00:00</lastmod>
-  </url><url>
     <loc>https://www.ozzie.eu/categories/tools/</loc>
     <lastmod>2021-12-07T15:31:31+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/categories/console/</loc>
-    <lastmod>2021-10-25T15:50:14+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/twitter-unfollow-inactive/</loc>
     <lastmod>2021-10-25T15:50:14+01:00</lastmod>
@@ -35,16 +47,10 @@
     <loc>https://www.ozzie.eu/tags/twitter/</loc>
     <lastmod>2021-10-25T15:50:14+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2021-09-07T12:00:48+01:00</lastmod>
-  </url><url>
     <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
     <lastmod>2021-09-07T12:00:48+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/ef-core-update-model-db-first/</loc>
-    <lastmod>2021-09-07T12:00:48+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
     <lastmod>2021-09-07T12:00:48+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/linux/</loc>

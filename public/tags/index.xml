@@ -7,10 +7,34 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Tue, 07 Dec 2021 15:31:31 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 20 Jun 2022 11:20:16 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>powershell</title>
+			<link>https://www.ozzie.eu/tags/powershell/</link>
+			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/powershell/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>sqlserver</title>
+			<link>https://www.ozzie.eu/tags/sqlserver/</link>
+			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/sqlserver/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
 		<item>
 			<title>C#</title>
 			<link>https://www.ozzie.eu/tags/c#/</link>
@@ -53,18 +77,6 @@
 			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>sqlserver</title>
-			<link>https://www.ozzie.eu/tags/sqlserver/</link>
-			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/sqlserver/</guid>
 			<description>
 			
 				

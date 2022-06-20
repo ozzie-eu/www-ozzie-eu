@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.88.1" />
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta property="og:title" content="Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.">
+	
+	
+	<meta name="keywords" content="sqlserver,powershell"><meta name="description" content="As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faces with unexpected errors for something as trivial as an export/import job."><meta property="og:title" content="Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator." />
+<meta property="og:description" content="As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faces with unexpected errors for something as trivial as an export/import job." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-20T11:20:16+01:00" />
+<meta property="article:modified_time" content="2022-06-20T11:20:16+01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator."/>
+<meta name="twitter:description" content="As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faces with unexpected errors for something as trivial as an export/import job."/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
+	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator. | Ozzie.eu</title>
+
+
+</head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://www.ozzie.eu/">
+		  <img src="/img/ozzie.webp" alt="Ozzie.eu">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://www.ozzie.eu/">Ozzie.eu</a></h2></div>
+	<div id="title-description"><p id="subtitle">Love to code although it bugs me.</p><div id="social">
+			<nav>
+				<ul>
+					<li><a href="https://github.com/ozzie-eu"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="mailto:mail@ozzie.eu"><i title="Email" class="icons fas fa-envelope"></i></a></li>
+					<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">20</span>
+				<span class="rest">Jun 2022</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<p>As you might have read, I&rsquo;m a fan of <a href="/post/preferred-language-vs-gtd">getting things done</a>. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faces with unexpected errors for something as trivial as an export/import job.
+The first version of my script went like the example below:</p>
+<script type="application/javascript" src="https://gist.github.com/ozzie-eu/fdef9b1b3f64e428a52d5e82c645d3b6.js"></script>
+
+<p>On execution, it read the first record correctly and then aborted with the following error:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">Invoke-Sqlcmd : The WriteObject and WriteError methods cannot be called 
+from outside the overrides of the BeginProcessing, ProcessRecord, 
+and EndProcessing methods, and they can only be called 
+from within the same thread.
+Validate that the cmdlet makes these calls correctly, 
+or contact Microsoft Customer Support Services.
+</code></pre></div><p>Perform the usual lazy Google search got me this <a href="https://stackoverflow.com/questions/57665324/invoke-sqlcmd-generates-an-exception-when-used-in-a-loop-that-contains-another-i" target="_blank">Stack Overflow post</a>. Feel free the learn the thread management and parallelism that Powershell performs when using its pipe operator. I was pressed for time, so I just went with a simpler explicit programming iterations solution, abandoning the ForEach-Object Cmdlet and going with a For loop. The new code, real similar to the previous one, looks like this:</p>
+<script type="application/javascript" src="https://gist.github.com/ozzie-eu/d70091576f497fd296ef2c671fae22bb.js"></script>
+
+<p>Performance was not key, being this a nightly batch, and parallelism was perfectly dispensable. So, it was a good solution. Hope this helps anyone getting unstuck from the same error.</p>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Categories</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			<a href="/categories/backend/"> backend </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/categories/console/"> console </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+	
+		
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Tags</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/powershell/"> powershell </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/sqlserver/"> sqlserver </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae">Vitae</a> theme for <a href="https://gohugo.io">Hugo</a> 
+	
+	
+	
+</footer>
+
+
+</body>
+</html>
