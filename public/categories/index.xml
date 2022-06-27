@@ -7,14 +7,14 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 20 Jun 2022 11:20:16 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 27 Jun 2022 11:20:16 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/categories/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Backend</title>
 			<link>https://www.ozzie.eu/categories/backend/</link>
-			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
+			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/categories/backend/</guid>
 			<description>
@@ -26,7 +26,7 @@
 		<item>
 			<title>Console</title>
 			<link>https://www.ozzie.eu/categories/console/</link>
-			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
+			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/categories/console/</guid>
 			<description>

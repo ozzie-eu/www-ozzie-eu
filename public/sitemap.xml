@@ -3,30 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</loc>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/</loc>
-    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/console/</loc>
-    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/powershell/</loc>
-    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</loc>
-    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
-    <lastmod>2022-06-20T11:20:16+01:00</lastmod>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</loc>
     <lastmod>2022-06-20T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/c#/</loc>
