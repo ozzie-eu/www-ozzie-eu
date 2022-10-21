@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 27 Jun 2022 11:20:16 +0100</lastBuildDate>
+		<lastBuildDate>Fri, 21 Oct 2022 09:21:57 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/post/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Award on Better Governance through Procurement Digitalisation</title>
+			<link>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</link>
+			<pubDate>Fri, 21 Oct 2022 09:21:57 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</guid>
+			<description>
+			
+				Four years ago, I was the technical lead in the development & support team for the Portuguese Public Contract Register. The platform won …
+			
+			</description>
+		</item>
 		<item>
 			<title>Better Powershell SQL comand exection using Dbatools</title>
 			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
