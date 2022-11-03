@@ -2,22 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.ozzie.eu/categories/backend/</loc>
+    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/categories/</loc>
+    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/ora-01704/</loc>
+    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/oracle/</loc>
+    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/</loc>
+    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/plsql/</loc>
+    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+  </url><url>
     <loc>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</loc>
     <lastmod>2022-10-21T09:21:57+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2022-10-21T09:21:57+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2022-10-21T09:21:57+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
-  </url><url>
     <loc>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</loc>
-    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/categories/</loc>
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/console/</loc>
@@ -27,9 +39,6 @@
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
-    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/</loc>
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</loc>
