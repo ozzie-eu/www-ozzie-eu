@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+    <lastmod>2022-12-02T12:00:34+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/</loc>
-    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
+    <lastmod>2022-12-02T12:00:34+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/mariadb/</loc>
+    <lastmod>2022-12-02T12:00:34+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/mysql/</loc>
+    <lastmod>2022-12-02T12:00:34+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</loc>
+    <lastmod>2022-12-02T12:00:34+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/</loc>
+    <lastmod>2022-12-02T12:00:34+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2022-12-02T12:00:34+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2022-12-02T12:00:34+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/ora-01704/</loc>
     <lastmod>2022-11-03T08:58:50+00:00</lastmod>
@@ -14,16 +32,7 @@
     <loc>https://www.ozzie.eu/tags/oracle/</loc>
     <lastmod>2022-11-03T08:58:50+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
-  </url><url>
     <loc>https://www.ozzie.eu/tags/plsql/</loc>
-    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2022-11-03T08:58:50+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/</loc>
     <lastmod>2022-11-03T08:58:50+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</loc>

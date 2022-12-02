@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>mysql on Ozzie.eu</title>
+		<link>https://www.ozzie.eu/tags/mysql/</link>
+		<description>Recent content in mysql on www.ozzie.eu</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
+		<lastBuildDate>Fri, 02 Dec 2022 12:00:34 +0000</lastBuildDate>
+		
+		<atom:link href="https://www.ozzie.eu/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>MySQL vs MariaDB: Performance on Bug Management </title>
+			<link>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</link>
+			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</guid>
+			<description>
+			
+				Cleaning up the e-mail inbox, I discovered a 7-year-old bug report I made on the MySQL bugs database: Bug #79497. Someone verified it on the …
+			
+			</description>
+		</item>
+		
+	</channel>
+</rss>

@@ -7,10 +7,34 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Thu, 03 Nov 2022 08:58:50 +0000</lastBuildDate>
+		<lastBuildDate>Fri, 02 Dec 2022 12:00:34 +0000</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>mariadb</title>
+			<link>https://www.ozzie.eu/tags/mariadb/</link>
+			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/mariadb/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>mysql</title>
+			<link>https://www.ozzie.eu/tags/mysql/</link>
+			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/mysql/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
 		<item>
 			<title>oracle</title>
 			<link>https://www.ozzie.eu/tags/oracle/</link>
