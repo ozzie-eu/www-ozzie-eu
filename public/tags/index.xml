@@ -7,10 +7,46 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 02 Dec 2022 12:00:34 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 13 Apr 2023 14:03:58 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>C#</title>
+			<link>https://www.ozzie.eu/tags/c#/</link>
+			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/c#/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>dotnet</title>
+			<link>https://www.ozzie.eu/tags/dotnet/</link>
+			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/dotnet/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>dotnetcore</title>
+			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
+			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
 		<item>
 			<title>mariadb</title>
 			<link>https://www.ozzie.eu/tags/mariadb/</link>
@@ -84,18 +120,6 @@
 			</description>
 		</item>
 		<item>
-			<title>C#</title>
-			<link>https://www.ozzie.eu/tags/c#/</link>
-			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/c#/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
 			<title>python</title>
 			<link>https://www.ozzie.eu/tags/python/</link>
 			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
@@ -113,18 +137,6 @@
 			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/tags/twitter/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>dotnetcore</title>
-			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
-			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
 			<description>
 			
 				

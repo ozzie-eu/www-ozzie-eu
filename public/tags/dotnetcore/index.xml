@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Tue, 07 Sep 2021 12:00:48 +0100</lastBuildDate>
+		<lastBuildDate>Thu, 13 Apr 2023 14:03:58 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/dotnetcore/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Why I think you should use only LTS versions of .NET</title>
+			<link>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</link>
+			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</guid>
+			<description>
+			
+				In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming
+			
+			</description>
+		</item>
 		<item>
 			<title>EF Core Update Model on Database First Project</title>
 			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>

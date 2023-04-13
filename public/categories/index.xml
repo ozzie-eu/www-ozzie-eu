@@ -7,16 +7,28 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Tue, 31 Jan 2023 08:30:20 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 13 Apr 2023 14:03:58 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/categories/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Backend</title>
 			<link>https://www.ozzie.eu/categories/backend/</link>
-			<pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
+			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/categories/backend/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>frontend</title>
+			<link>https://www.ozzie.eu/categories/frontend/</link>
+			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/categories/frontend/</guid>
 			<description>
 			
 				
@@ -41,18 +53,6 @@
 			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
 			
 			<guid>https://www.ozzie.eu/categories/tools/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>frontend</title>
-			<link>https://www.ozzie.eu/categories/frontend/</link>
-			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/frontend/</guid>
 			<description>
 			
 				

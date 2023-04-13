@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 	
-	<meta name="generator" content="Hugo 0.110.0">
+	<meta name="generator" content="Hugo 0.80.0" />
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
 	<meta name="keywords" content="dotnetcore,linux"><meta name="description" content="WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers."><meta property="og:title" content="Using Windows Subsystem for Linux for cross-platform testing" />
 <meta property="og:description" content="WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.ozzie.eu/post/wsl-cross-platform-testing/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="https://www.ozzie.eu/post/wsl-cross-platform-testing/" />
 <meta property="article:published_time" content="2021-06-11T13:00:00+01:00" />
 <meta property="article:modified_time" content="2021-06-11T13:00:00+01:00" />
 <meta name="twitter:card" content="summary"/>
@@ -91,14 +91,14 @@
 <p>Before you proceed, be sure you&rsquo;re running all the latest Windows updates. Then, you can follow the steps on the <a href="https://docs.microsoft.com/en-us/windows/wsl/" target="_blank">official documentation</a>.</p>
 <p>After installing the features, go to the Microsoft Store on your Windows machine and download your linux distro of choice, from the available ones. My personal favourite is Ubuntu.</p>
 <p>With the goal of developing and testing .NET core applications in linux, you should open a CLI to the linux distro you just downloaded and complete the setup steps. Afterwards, execute the following commands to install .NET 5:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb 
-</span></span><span style="display:flex;"><span>sudo dpkg -i packages-microsoft-prod.deb
-</span></span><span style="display:flex;"><span>sudo apt update 
-</span></span><span style="display:flex;"><span>sudo apt install apt-transport-https
-</span></span><span style="display:flex;"><span>sudo apt install dotnet-sdk-5.0
-</span></span></code></pre></div><p>Having done so, hopefully with success, test you installation:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>dotnet --version
-</span></span></code></pre></div><p>At the time of this writing, it reported version 5.0.301 installed.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb 
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt update 
+sudo apt install apt-transport-https
+sudo apt install dotnet-sdk-5.0
+</code></pre></div><p>Having done so, hopefully with success, test you installation:</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">dotnet --version
+</code></pre></div><p>At the time of this writing, it reported version 5.0.301 installed.</p>
 <p>Having the .NET 5 SDK installed, I downloaded a copy of my side project <a href="https://github.com/ozzie-eu/automate-dotnetcore" target="_blank">automate-dotnetcore</a> onto the WSL filesystem and performed the &ldquo;dotnet build&rdquo; and &ldquo;dotnet run&rdquo; seamlessly with no errors.</p>
 <p>In conclusion, I&rsquo;m now able to develop .NET 5 applications and test their cross-platform compatibility without the added burden of maintaing or even buying 3rd party virtualization software.</p>
 
@@ -116,6 +116,8 @@
 		</div>
 		<div class="termsfloating_right">
 			<p>
+			
+			
 			
 			
 			
@@ -193,6 +195,8 @@
 			
 			
 			
+			
+			
 			</p>
 		</div>
 		<div class="clearit"></div>
@@ -211,6 +215,14 @@
 		</div>
 		<div class="termsfloating_right">
 			<p>
+			
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			
@@ -374,7 +386,7 @@
 
   </main>
 <footer>
-	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a> 
+	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae">Vitae</a> theme for <a href="https://gohugo.io">Hugo</a> 
 	
 	
 	
