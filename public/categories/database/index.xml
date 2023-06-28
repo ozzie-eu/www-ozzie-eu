@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Database on Ozzie.eu</title>
+		<link>https://www.ozzie.eu/categories/database/</link>
+		<description>Recent content in Database on www.ozzie.eu</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
+		<lastBuildDate>Tue, 31 Jan 2023 08:30:20 +0000</lastBuildDate>
+		
+		<atom:link href="https://www.ozzie.eu/categories/database/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>This is why you&#39;re not better off with a commercial database</title>
+			<link>https://www.ozzie.eu/post/youre-not-better-commercial-database/</link>
+			<pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/youre-not-better-commercial-database/</guid>
+			<description>
+			
+				When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.
+			
+			</description>
+		</item>
+		<item>
+			<title>Better Powershell SQL comand exection using Dbatools</title>
+			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
+			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</guid>
+			<description>
+			
+				Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.
+			
+			</description>
+		</item>
+		<item>
+			<title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
+			<link>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</link>
+			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</guid>
+			<description>
+			
+				As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
+			
+			</description>
+		</item>
+		<item>
+			<title>EF Core Update Model on Database First Project</title>
+			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
+			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
+			<description>
+			
+				Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task.
+			
+			</description>
+		</item>
+		
+	</channel>
+</rss>

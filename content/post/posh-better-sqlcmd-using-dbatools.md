@@ -9,6 +9,7 @@ tags:
 categories:
 - Console
 - Backend 
+- Database
 ---
 Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet. 
 

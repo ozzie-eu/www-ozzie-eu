@@ -5,6 +5,7 @@ date: 2023-01-31T08:30:20Z
 draft: false
 categories:
 - Backend 
+- Database
 ---
 ![Database](database-marker.webp)
 When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.

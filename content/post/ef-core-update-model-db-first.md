@@ -9,6 +9,7 @@ tags:
 - C#
 categories:
 - backend
+- Database
 ---
 ![Database First Development](db-1st-illustration.webp)
 Started on a software project that will run using an existing database. Went with a minimalistic structure and used the [EF Core Tools](https://docs.microsoft.com/en-us/ef/core/cli/powershell), from the Package Manager Console in Visual Studio, to generate the database context and table model classes. Namely [scaffold-dbcontext](https://docs.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext). Used the '-t' option to create just the model classes I would use. It went very well and development went on, business as usual.
