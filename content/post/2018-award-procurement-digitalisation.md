@@ -3,7 +3,7 @@ title: "Award on Better Governance through Procurement Digitalisation"
 date: 2022-10-21T09:21:57+01:00
 draft: false
 ---
-Four years ago, I was the technical lead in the development & support team for the Portuguese Public Contract Register. The platform won second place in the Award 'Better Governance through Procurement Digitalisation'. That award aimed to highlight and reward the solutions in digital public procurement in Europe that help to improve the governance of the national procurement systems.
+Four years ago, I was the technical lead in the development and support team for the Portuguese Public Contract Register. The platform won second place in the Award 'Better Governance through Procurement Digitalisation'. That award aimed to highlight and reward the solutions in digital public procurement in Europe that help to improve the governance of the national procurement systems.
 There was a cash prize for the award winners. We invested ours in text-to-speech software. With it, we could produce video tutorials with an adequate voice-over. 
  
 Since then, I've left that line of business, returning to data/technology-focused work. Recently, I had the chance to attend a webinar with my former workmates as speakers. Fantastic to watch them keep up the good job. 
