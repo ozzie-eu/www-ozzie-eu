@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.ozzie.eu/tags/authentication/</loc>
+    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/categories/</loc>
+    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/</loc>
+    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/categories/security/</loc>
+    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/using-email-as-login-bad-idea/</loc>
+    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+  </url><url>
     <loc>https://www.ozzie.eu/categories/backend/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/c#/</loc>
-    <lastmod>2023-04-13T14:03:58+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/categories/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/dotnet/</loc>
@@ -18,15 +36,6 @@
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/frontend/</loc>
-    <lastmod>2023-04-13T14:03:58+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2023-04-13T14:03:58+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2023-04-13T14:03:58+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</loc>
