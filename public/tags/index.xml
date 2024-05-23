@@ -7,10 +7,46 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 05 Jan 2024 13:44:06 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 23 May 2024 16:02:02 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>C#</title>
+			<link>https://www.ozzie.eu/tags/c#/</link>
+			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/c#/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>dotnetcore</title>
+			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
+			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>sqlserver</title>
+			<link>https://www.ozzie.eu/tags/sqlserver/</link>
+			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/sqlserver/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
 		<item>
 			<title>Authentication</title>
 			<link>https://www.ozzie.eu/tags/authentication/</link>
@@ -24,35 +60,11 @@
 			</description>
 		</item>
 		<item>
-			<title>C#</title>
-			<link>https://www.ozzie.eu/tags/c#/</link>
-			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/c#/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
 			<title>dotnet</title>
 			<link>https://www.ozzie.eu/tags/dotnet/</link>
 			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/tags/dotnet/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>dotnetcore</title>
-			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
-			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
 			<description>
 			
 				
@@ -113,18 +125,6 @@
 			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/tags/powershell/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>sqlserver</title>
-			<link>https://www.ozzie.eu/tags/sqlserver/</link>
-			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/sqlserver/</guid>
 			<description>
 			
 				

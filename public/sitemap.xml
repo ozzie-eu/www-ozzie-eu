@@ -2,37 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.ozzie.eu/tags/authentication/</loc>
-    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+    <loc>https://www.ozzie.eu/categories/backend/</loc>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/c#/</loc>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/</loc>
-    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/categories/database/</loc>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</loc>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/authentication/</loc>
     <lastmod>2024-01-05T13:44:06+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/security/</loc>
     <lastmod>2024-01-05T13:44:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/</loc>
-    <lastmod>2024-01-05T13:44:06+00:00</lastmod>
-  </url><url>
     <loc>https://www.ozzie.eu/post/using-email-as-login-bad-idea/</loc>
     <lastmod>2024-01-05T13:44:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2023-04-13T14:03:58+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/c#/</loc>
-    <lastmod>2023-04-13T14:03:58+01:00</lastmod>
-  </url><url>
     <loc>https://www.ozzie.eu/tags/dotnet/</loc>
-    <lastmod>2023-04-13T14:03:58+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/frontend/</loc>
@@ -40,9 +49,6 @@
   </url><url>
     <loc>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/categories/database/</loc>
-    <lastmod>2023-01-31T08:30:20+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/youre-not-better-commercial-database/</loc>
     <lastmod>2023-01-31T08:30:20+00:00</lastmod>
@@ -75,9 +81,6 @@
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/powershell/</loc>
-    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</loc>
