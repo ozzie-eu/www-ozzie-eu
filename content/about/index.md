@@ -2,9 +2,23 @@
 title: "About"
 draft: false
 ---
-Currently employed as a consultant, working with Microsoft and FOSS technologies, at the portuguese public administration. As time flies, I've been an IT professional for over 20 years, working first as a systems analyst (what they used to call a jack of all trades programmer) at Andersen Consulting (now Accenture) and evolving my career to a senior consultant there. Having a brief CRM platform experience at a portuguese firm called Novabase, I finally landed a job as a developer and later database support engineer, at the portuguese ministry of justice IT institute. This is where I spent most of my career, until I landed on an open position for head of unit on a public Institution for regulatory affairs regarding public works, real estate and public procurement. Recently I've progressed back to doing stuff I love: working as a technology consultant and programmer.
+
+# Over 25 years of IT experience.
+
+* I started my career as a systems analyst (a jack-of-all-trades programmer back then) at Andersen Consulting (now Accenture).
+* After gaining CRM experience at a Portuguese firm called Novabase, I transitioned to a developer and later database support engineer role at the Portuguese Ministry of Justice IT institute. This is where I spent most of my career.
+* I then took on a leadership role as head of unit at a public institution for regulatory affairs.
+* Now, I'm happy to be back in my passion: technology consulting and programming.
 
 # BIO
-Ozzie was my nickname at school and still is for some close friends. It's a made up abbreviation for my family name "Osório". The meaning of "Eu" in portuguese is "me" so it made perfect sense to call my personal site Ozzie.EU, being a statement for "Ozzie, yes that's me".
-All the firms and institutions I worked for had an awesome variety of support platforms and applications. All this background and the daily problem solving I'm faced with, adding some eagerness to learn, qualify me as a technology handyman. As we say in portuguese: "pau para toda a obra", in english "jack of all trades".
-To describe myself in short: IT developer, passionate about my loved ones (they know who they are), keen on understanding new technologies, eager to learn new things and a general technology trends watcher.
+
+**They call me Ozzie.** It's a nickname from school that stuck with close friends - a playful twist on my last name, Osório. And since "Eu" means "me" in Portuguese, "Ozzie.EU" felt like a perfect fit: a simple statement like "Ozzie, that's me."
+
+**A Tech Handyman by Experience.** Throughout my career at various companies and institutions, I've encountered a diverse range of support platforms and applications. This exposure, combined with my daily problem-solving skills and a thirst for learning, makes me a jack-of-all-trades in the tech world, just like the Portuguese saying "pau para toda a obra."
+
+**In a Nutshell:**
+
+* IT Developer (with a passion for code!)
+* Devoted to loved ones (you know who you are!)
+* Tech Enthusiast: Always eager to learn and explore new technologies
+* Keen Observer: Keeping a watchful eye on emerging trends
