@@ -3,33 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/c#/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/database/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/orm-vs-raw-sql/</loc>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
-    <lastmod>2024-05-23T16:02:02+01:00</lastmod>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</loc>
     <lastmod>2024-05-23T16:02:02+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/authentication/</loc>
