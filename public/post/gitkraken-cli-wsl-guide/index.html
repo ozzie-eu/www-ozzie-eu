@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.119.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta property="og:title" content="Using GitKraken CLI on WSL: A Comprehensive Guide">
+	
+	
+	<meta name="keywords" content="joao,osorio,ozzie,blog"><meta name="description" content="Using GitKraken CLI on WSL: A Comprehensive Guide Windows Subsystem for Linux (WSL) provides a robust environment for developers who need …"><meta property="og:title" content="Using GitKraken CLI on WSL: A Comprehensive Guide" />
+<meta property="og:description" content="Using GitKraken CLI on WSL: A Comprehensive Guide Windows Subsystem for Linux (WSL) provides a robust environment for developers who need the power and flexibility of Linux without leaving the comfort of their Windows setup. Running WSL allows you to utilize a completely isolated environment where you can natively install and use tools that are designed for Linux. This isolation ensures that your development environment remains consistent and separated from your main operating system, reducing the risk of conflicts and ensuring greater stability." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ozzie.eu/post/gitkraken-cli-wsl-guide/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2024-11-06T14:56:00+00:00" />
+<meta property="article:modified_time" content="2024-11-06T14:56:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using GitKraken CLI on WSL: A Comprehensive Guide"/>
+<meta name="twitter:description" content="Using GitKraken CLI on WSL: A Comprehensive Guide Windows Subsystem for Linux (WSL) provides a robust environment for developers who need the power and flexibility of Linux without leaving the comfort of their Windows setup. Running WSL allows you to utilize a completely isolated environment where you can natively install and use tools that are designed for Linux. This isolation ensures that your development environment remains consistent and separated from your main operating system, reducing the risk of conflicts and ensuring greater stability."/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
+	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>Using GitKraken CLI on WSL: A Comprehensive Guide | Ozzie.eu</title>
+
+
+</head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://www.ozzie.eu/">
+		  <img src="/img/ozzie.webp" alt="Ozzie.eu">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://www.ozzie.eu/">Ozzie.eu</a></h2></div>
+	<div id="title-description"><p id="subtitle">Love to code although it bugs me.</p><div id="social">
+			<nav>
+				<ul>
+					<li><a href="https://github.com/ozzie-eu"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="mailto:mail@ozzie.eu"><i title="Email" class="icons fas fa-envelope"></i></a></li>
+					<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">06</span>
+				<span class="rest">Nov 2024</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">Using GitKraken CLI on WSL: A Comprehensive Guide</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<h3 id="using-gitkraken-cli-on-wsl-a-comprehensive-guide">Using GitKraken CLI on WSL: A Comprehensive Guide</h3>
+<p>Windows Subsystem for Linux (WSL) provides a robust environment for developers who need the power and flexibility of Linux without leaving the comfort of their Windows setup. Running WSL allows you to utilize a completely isolated environment where you can natively install and use tools that are designed for Linux. This isolation ensures that your development environment remains consistent and separated from your main operating system, reducing the risk of conflicts and ensuring greater stability.</p>
+<p>When it comes to version control, using GitKraken CLI on WSL is especially appealing. While the VS Code Git integration with the Remote - WSL feature is convenient, GitKraken offers enhanced features and integration capabilities. as well as provides an intuitive experience that can significantly improve productivity. Additionally, it integrates seamlessly with popular platforms like GitHub, GitLab, and Bitbucket, offering advanced features that go beyond the basic functionality provided by the standard Git CLI or the VS Code Git integration.</p>
+<p>In this post, we&rsquo;ll guide you through the steps to install GitKraken CLI on WSL and explore how it compares to other Git tools, helping you to leverage the best of both worlds.</p>
+<h3 id="installation-steps-for-linux-using-deb-or-rpm-packages">Installation Steps for Linux Using .deb or .rpm Packages</h3>
+<p>To get started with GitKraken CLI on WSL, follow these steps:</p>
+<ol>
+<li>
+<p><strong>Update your WSL</strong>: Ensure you have the latest version of WSL 2 installed. You can check your WSL version by running:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>wsl --version
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Download the .deb or .rpm Package</strong>: Visit the <a href="https://github.com/gitkraken/gk-cli/releases" target="_blank">GitKraken CLI releases page</a> and download the latest release for Linux. Choose the appropriate package for your system (.deb for Debian-based systems or .rpm for Red Hat-based systems).</p>
+</li>
+<li>
+<p><strong>Install the Package</strong>:</p>
+<ul>
+<li>For Debian-based systems (like Ubuntu), use the following command:
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install ./gk_&lt;version&gt;_Linux_x86_64.deb
+</span></span></code></pre></div></li>
+<li>For Red Hat-based systems (like CentOS or Fedora), use the following command:
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo rpm -i ./gk_&lt;version&gt;_Linux_x86_64.rpm
+</span></span></code></pre></div></li>
+</ul>
+</li>
+<li>
+<p><strong>Verify Installation</strong>: To confirm the installation was successful, run:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gk version
+</span></span></code></pre></div></li>
+</ol>
+<h3 id="feature-comparison">Feature Comparison</h3>
+<p><strong>GitKraken CLI vs. Original Git CLI:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>GitKraken CLI</th>
+<th>Original Git CLI</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>User Interface</strong></td>
+<td>Graphical, intuitive UI</td>
+<td>Command-line only</td>
+</tr>
+<tr>
+<td><strong>Visualization</strong></td>
+<td>Visualizes branches, commits, and merges</td>
+<td>No visualization</td>
+</tr>
+<tr>
+<td><strong>Ease of Use</strong></td>
+<td>Easier for beginners</td>
+<td>Steeper learning curve</td>
+</tr>
+<tr>
+<td><strong>Integration</strong></td>
+<td>Integrates with GitHub, GitLab, Bitbucket</td>
+<td>Primarily Git operations</td>
+</tr>
+<tr>
+<td><strong>Custom Commands</strong></td>
+<td>Custom commands and aliases</td>
+<td>Limited to Git commands</td>
+</tr>
+</tbody>
+</table>
+<p><strong>GitKraken CLI vs. VS Code Git Integration:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>GitKraken CLI</th>
+<th>VS Code Git Integration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>User Interface</strong></td>
+<td>Graphical, standalone app</td>
+<td>Integrated within the editor</td>
+</tr>
+<tr>
+<td><strong>Visualization</strong></td>
+<td>Visualizes branches, commits, and merges</td>
+<td>Basic visualization</td>
+</tr>
+<tr>
+<td><strong>Ease of Use</strong></td>
+<td>Easier for beginners</td>
+<td>Beginner-friendly</td>
+</tr>
+<tr>
+<td><strong>Integration</strong></td>
+<td>Integrates with GitHub, GitLab, Bitbucket</td>
+<td>Integrates with GitHub, GitLab, Bitbucket</td>
+</tr>
+<tr>
+<td><strong>Custom Commands</strong></td>
+<td>Custom commands and aliases</td>
+<td>Limited to Git commands</td>
+</tr>
+</tbody>
+</table>
+<h3 id="conclusion">Conclusion</h3>
+<p>Using GitKraken CLI on WSL provides a seamless and visually appealing way to manage your Git repositories. Whether you&rsquo;re a beginner or an experienced developer, GitKraken CLI offers a range of features that make Git operations more intuitive and efficient.</p>
+<p>For more information, visit the <a href="https://www.gitkraken.com/cli" target="_blank">GitKraken product page</a> and download the latest version from the <a href="https://github.com/gitkraken/gk-cli/releases" target="_blank">GitKraken download links</a>.</p>
+<p>Happy coding! 🚀</p>
+
+	</div>
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a> 
+	
+	
+	
+</footer>
+
+
+</body>
+</html>

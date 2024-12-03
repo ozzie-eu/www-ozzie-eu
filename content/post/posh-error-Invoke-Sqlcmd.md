@@ -11,7 +11,7 @@ categories:
 - Backend 
 - Database
 ---
-As you might have read, I'm a fan of [getting things done](/post/preferred-language-vs-gtd). Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
+As you might have read, I'm a fan of [getting things done](/post/preferred-language-vs-gtd). Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I faced unexpected errors for something as trivial as an export/import job.
 The first version of my script went like the example below:
 
 {{< gist ozzie-eu fdef9b1b3f64e428a52d5e82c645d3b6 >}}
