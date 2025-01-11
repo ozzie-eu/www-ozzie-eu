@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 	
-	<meta name="generator" content="Hugo 0.119.0">
+	<meta name="generator" content="Hugo 0.126.2">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +9,21 @@
 	<meta property="og:title" content="ORA-01704: string literal too long">
 	
 	
-	<meta name="keywords" content="oracle,plsql"><meta name="description" content="On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates."><meta property="og:title" content="ORA-01704: string literal too long" />
-<meta property="og:description" content="On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.ozzie.eu/post/ora-01704/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-11-03T08:58:50+00:00" />
-<meta property="article:modified_time" content="2022-11-03T08:58:50+00:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="ORA-01704: string literal too long"/>
-<meta name="twitter:description" content="On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates."/>
+	<meta name="keywords" content="oracle,plsql"><meta name="description" content="On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates."><meta property="og:url" content="https://www.ozzie.eu/post/ora-01704/">
+  <meta property="og:site_name" content="Ozzie.eu">
+  <meta property="og:title" content="ORA-01704: string literal too long">
+  <meta property="og:description" content="On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2022-11-03T08:58:50+00:00">
+    <meta property="article:modified_time" content="2022-11-03T08:58:50+00:00">
+    <meta property="article:tag" content="Oracle">
+    <meta property="article:tag" content="Plsql">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ORA-01704: string literal too long">
+  <meta name="twitter:description" content="On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates.">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
@@ -89,9 +95,9 @@
 		<p>Having an Oracle database with a given table storing long strings as binary data types (BLOB/CLOB), one might need to perform manual updates on those columns:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>update myTable set lobColumn=&#39;Some String Value&#39; where somekey=somecriteria;
 </span></span></code></pre></div><p>The following error might occur while performing the direct update on that column:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>ORA-01704: string literal too long
-</span></span><span style="display:flex;"><span>Cause: The string literal is longer than 4000 characters.
-</span></span><span style="display:flex;"><span>Action: Use a string literal of at most 4000 characters. Longer values may only be entered using bind variables.
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span>ORA<span style="color:#333">-</span><span style="color:#00d;font-weight:bold">01704</span>: string literal too long
+</span></span><span style="display:flex;"><span>Cause: The string literal is longer than <span style="color:#00d;font-weight:bold">4000</span> characters<span style="color:#333">.</span>
+</span></span><span style="display:flex;"><span>Action: Use a string literal of at most <span style="color:#00d;font-weight:bold">4000</span> characters<span style="color:#333">.</span> Longer values may only be entered using bind variables<span style="color:#333">.</span>
 </span></span></code></pre></div><p>The origin of the error is that the string value passed is indeed over 4000 characters long. A simple workaround script that works like a charm is:</p>
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>DECLARE
 </span></span><span style="display:flex;"><span>  vString myTable.lobColumn.%type;
@@ -425,6 +431,9 @@
 	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a> 
 	
 	
+  
+
+ 
 	
 </footer>
 

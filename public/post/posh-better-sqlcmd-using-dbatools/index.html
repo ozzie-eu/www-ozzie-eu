@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 	
-	<meta name="generator" content="Hugo 0.119.0">
+	<meta name="generator" content="Hugo 0.126.2">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +9,21 @@
 	<meta property="og:title" content="Better Powershell SQL comand exection using Dbatools">
 	
 	
-	<meta name="keywords" content="sqlserver,powershell"><meta name="description" content="Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet."><meta property="og:title" content="Better Powershell SQL comand exection using Dbatools" />
-<meta property="og:description" content="Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-06-27T11:20:16+01:00" />
-<meta property="article:modified_time" content="2022-06-27T11:20:16+01:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Better Powershell SQL comand exection using Dbatools"/>
-<meta name="twitter:description" content="Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet."/>
+	<meta name="keywords" content="sqlserver,powershell"><meta name="description" content="Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet."><meta property="og:url" content="https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/">
+  <meta property="og:site_name" content="Ozzie.eu">
+  <meta property="og:title" content="Better Powershell SQL comand exection using Dbatools">
+  <meta property="og:description" content="Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2022-06-27T11:20:16+01:00">
+    <meta property="article:modified_time" content="2022-06-27T11:20:16+01:00">
+    <meta property="article:tag" content="Sqlserver">
+    <meta property="article:tag" content="Powershell">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Better Powershell SQL comand exection using Dbatools">
+  <meta name="twitter:description" content="Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
@@ -89,10 +95,10 @@
 		<p>Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.</p>
 <p>The <a href="https://docs.dbatools.io/Invoke-DbaQuery" target="_blank">Invoke-DbaQuery Cmdlet</a> is part of the <a href="https://dbatools.io/commands/" target="_blank">Dbatools</a>, a free PowerShell module with over 500 SQL Server best practice, administration, development and migration commands included.</p>
 <p>So, my previous solution got me to the following code:</p>
-<script type="application/javascript" src="https://gist.github.com/ozzie-eu/d70091576f497fd296ef2c671fae22bb.js"></script>
+<script src="https://gist.github.com/ozzie-eu/d70091576f497fd296ef2c671fae22bb.js"></script>
 
 <p>As simple as it looks, the fact that I threw away the pipe operator and the ForEach-Object meant to loose thead paralelism. To improve performance I tried replacing it with Invoke-DbaQuery. It executed fine, with an almost instant processing in comparison with the FIFO code. The final code I have is simmilar to the originally intended:</p>
-<script type="application/javascript" src="https://gist.github.com/ozzie-eu/bf53c7f2a719b61ade2847ac9a238746.js"></script>
+<script src="https://gist.github.com/ozzie-eu/bf53c7f2a719b61ade2847ac9a238746.js"></script>
 
 
 	</div>
@@ -422,6 +428,9 @@
 	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a> 
 	
 	
+  
+
+ 
 	
 </footer>
 

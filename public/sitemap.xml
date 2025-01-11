@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.ozzie.eu/</loc>
+    <lastmod>2024-12-06T14:56:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2024-12-06T14:56:00+00:00</lastmod>
+  </url><url>
     <loc>https://www.ozzie.eu/categories/backend/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/c#/</loc>
+    <loc>https://www.ozzie.eu/tags/c%23/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/</loc>
@@ -18,12 +24,6 @@
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/orm-vs-raw-sql/</loc>
-    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/post/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
