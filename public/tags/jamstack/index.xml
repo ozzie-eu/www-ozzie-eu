@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Jamstack on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/jamstack/</link>
-		<description>Recent content in Jamstack on www.ozzie.eu</description>
+		<link>http://localhost:1313/tags/jamstack/</link>
+		<description>Recent content in Jamstack on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Sun, 28 Feb 2021 21:41:22 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/tags/jamstack/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/tags/jamstack/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Stepping Stone</title>
-			<link>https://www.ozzie.eu/post/stepping-stone/</link>
+			<link>http://localhost:1313/post/stepping-stone/</link>
 			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/stepping-stone/</guid>
+			<guid>http://localhost:1313/post/stepping-stone/</guid>
 			<description>
 			
 				Starting over with a clean slate.

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Dotnetcore on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/dotnetcore/</link>
-		<description>Recent content in Dotnetcore on www.ozzie.eu</description>
+		<link>http://localhost:1313/tags/dotnetcore/</link>
+		<description>Recent content in Dotnetcore on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Tue, 29 Oct 2024 12:38:26 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/tags/dotnetcore/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/tags/dotnetcore/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>ORM vs. Raw SQL: A Performance Showdown</title>
-			<link>https://www.ozzie.eu/post/orm-vs-raw-sql/</link>
+			<link>http://localhost:1313/post/orm-vs-raw-sql/</link>
 			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/orm-vs-raw-sql/</guid>
+			<guid>http://localhost:1313/post/orm-vs-raw-sql/</guid>
 			<description>
 			
 				In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. This post delves into the nuances of each and explore a comparative analysis using .NET code examples.
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>Recover deleted .net EF Core Migration History Table</title>
-			<link>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</link>
+			<link>http://localhost:1313/post/deleted-dotnet-ef-core-migration-history/</link>
 			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</guid>
+			<guid>http://localhost:1313/post/deleted-dotnet-ef-core-migration-history/</guid>
 			<description>
 			
 				Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&#39;s an easy way to do it.
@@ -37,10 +37,10 @@
 		</item>
 		<item>
 			<title>Why I think you should use only LTS versions of .NET</title>
-			<link>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</link>
+			<link>http://localhost:1313/post/why-use-only-dotnet-lts-versions/</link>
 			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</guid>
+			<guid>http://localhost:1313/post/why-use-only-dotnet-lts-versions/</guid>
 			<description>
 			
 				In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming
@@ -49,10 +49,10 @@
 		</item>
 		<item>
 			<title>EF Core Update Model on Database First Project</title>
-			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
+			<link>http://localhost:1313/post/ef-core-update-model-db-first/</link>
 			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
+			<guid>http://localhost:1313/post/ef-core-update-model-db-first/</guid>
 			<description>
 			
 				Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task.
@@ -61,10 +61,10 @@
 		</item>
 		<item>
 			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
-			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>
+			<link>http://localhost:1313/post/wsl-cross-platform-testing/</link>
 			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/wsl-cross-platform-testing/</guid>
+			<guid>http://localhost:1313/post/wsl-cross-platform-testing/</guid>
 			<description>
 			
 				WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.
@@ -73,10 +73,10 @@
 		</item>
 		<item>
 			<title>Generating PDF in .NET Core using Libreoffice</title>
-			<link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
+			<link>http://localhost:1313/post/pdf-dotnet-libreoffice/</link>
 			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</guid>
+			<guid>http://localhost:1313/post/pdf-dotnet-libreoffice/</guid>
 			<description>
 			
 				Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion.
@@ -85,10 +85,10 @@
 		</item>
 		<item>
 			<title>Reading appsettings.json without DI/IoC using .NET Core</title>
-			<link>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</link>
+			<link>http://localhost:1313/post/appsettings-wo-di-ioc/</link>
 			<pubDate>Mon, 19 Apr 2021 18:05:17 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</guid>
+			<guid>http://localhost:1313/post/appsettings-wo-di-ioc/</guid>
 			<description>
 			
 				Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some …
@@ -97,10 +97,10 @@
 		</item>
 		<item>
 			<title>Automation programs in .NET Core - more examples</title>
-			<link>https://www.ozzie.eu/post/more-automate-programs/</link>
+			<link>http://localhost:1313/post/more-automate-programs/</link>
 			<pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/more-automate-programs/</guid>
+			<guid>http://localhost:1313/post/more-automate-programs/</guid>
 			<description>
 			
 				Addition of some more examples to the collection of simple automation programs, using C#.
@@ -109,10 +109,10 @@
 		</item>
 		<item>
 			<title>SQL Server alias is not supported on .NET Core</title>
-			<link>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</link>
+			<link>http://localhost:1313/post/sqlalias-no-support-dotnetcore/</link>
 			<pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</guid>
+			<guid>http://localhost:1313/post/sqlalias-no-support-dotnetcore/</guid>
 			<description>
 			
 				The support for SQL alias has been intentionally removed from .NET Core.
@@ -121,10 +121,10 @@
 		</item>
 		<item>
 			<title>Simple automation programs in .NET Core</title>
-			<link>https://www.ozzie.eu/post/automate-dotnetcore/</link>
+			<link>http://localhost:1313/post/automate-dotnetcore/</link>
 			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/automate-dotnetcore/</guid>
+			<guid>http://localhost:1313/post/automate-dotnetcore/</guid>
 			<description>
 			
 				Collection of simple programs, using C#, for automating everyday tasks

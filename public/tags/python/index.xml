@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Python on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/python/</link>
-		<description>Recent content in Python on www.ozzie.eu</description>
+		<link>http://localhost:1313/tags/python/</link>
+		<description>Recent content in Python on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Tue, 07 Dec 2021 15:31:31 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/tags/python/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Preferred Programming Language Versus Getting Things Done</title>
-			<link>https://www.ozzie.eu/post/preferred-language-vs-gtd/</link>
+			<link>http://localhost:1313/post/preferred-language-vs-gtd/</link>
 			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/preferred-language-vs-gtd/</guid>
+			<guid>http://localhost:1313/post/preferred-language-vs-gtd/</guid>
 			<description>
 			
 				Now and then you’ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations. For that, the key performance indicator is GTD.
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>Python script to unfollow inactive friends on Twitter</title>
-			<link>https://www.ozzie.eu/post/twitter-unfollow-inactive/</link>
+			<link>http://localhost:1313/post/twitter-unfollow-inactive/</link>
 			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/twitter-unfollow-inactive/</guid>
+			<guid>http://localhost:1313/post/twitter-unfollow-inactive/</guid>
 			<description>
 			
 				Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages.

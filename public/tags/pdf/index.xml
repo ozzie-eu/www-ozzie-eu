@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>PDF on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/pdf/</link>
-		<description>Recent content in PDF on www.ozzie.eu</description>
+		<link>http://localhost:1313/tags/pdf/</link>
+		<description>Recent content in PDF on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Fri, 14 May 2021 15:16:04 +0100</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Generating PDF in .NET Core using Libreoffice</title>
-			<link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
+			<link>http://localhost:1313/post/pdf-dotnet-libreoffice/</link>
 			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</guid>
+			<guid>http://localhost:1313/post/pdf-dotnet-libreoffice/</guid>
 			<description>
 			
 				Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion.

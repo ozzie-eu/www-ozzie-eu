@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tools on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/tools/</link>
-		<description>Recent content in Tools on www.ozzie.eu</description>
+		<link>http://localhost:1313/categories/tools/</link>
+		<description>Recent content in Tools on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Tue, 07 Dec 2021 15:31:31 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Preferred Programming Language Versus Getting Things Done</title>
-			<link>https://www.ozzie.eu/post/preferred-language-vs-gtd/</link>
+			<link>http://localhost:1313/post/preferred-language-vs-gtd/</link>
 			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/preferred-language-vs-gtd/</guid>
+			<guid>http://localhost:1313/post/preferred-language-vs-gtd/</guid>
 			<description>
 			
 				Now and then you’ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations. For that, the key performance indicator is GTD.
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>Contract First Web Service Development in .NET</title>
-			<link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
+			<link>http://localhost:1313/post/contract-first-ws-development/</link>
 			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/contract-first-ws-development/</guid>
+			<guid>http://localhost:1313/post/contract-first-ws-development/</guid>
 			<description>
 			
 				Working on information systems integration, often comes the task of implementing a Web Service following a previously defined contract.
@@ -37,10 +37,10 @@
 		</item>
 		<item>
 			<title>Automatic class creation for unmarshalling JSON</title>
-			<link>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</link>
+			<link>http://localhost:1313/post/json-automatic-class-unmarshall/</link>
 			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</guid>
+			<guid>http://localhost:1313/post/json-automatic-class-unmarshall/</guid>
 			<description>
 			
 				If you&#39;re working with JSON, say for REST web services, and you don&#39;t have the class to unmarshall the response, Visual Studio can automatically generate the class for you.

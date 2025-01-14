@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Console on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/console/</link>
-		<description>Recent content in Console on www.ozzie.eu</description>
+		<link>http://localhost:1313/categories/console/</link>
+		<description>Recent content in Console on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Mon, 27 Jun 2022 11:20:16 +0100</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/categories/console/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/categories/console/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Better Powershell SQL comand exection using Dbatools</title>
-			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
+			<link>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</link>
 			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</guid>
+			<guid>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</guid>
 			<description>
 			
 				Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
-			<link>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</link>
+			<link>http://localhost:1313/post/posh-error-invoke-sqlcmd/</link>
 			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</guid>
+			<guid>http://localhost:1313/post/posh-error-invoke-sqlcmd/</guid>
 			<description>
 			
 				As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
@@ -37,10 +37,10 @@
 		</item>
 		<item>
 			<title>Python script to unfollow inactive friends on Twitter</title>
-			<link>https://www.ozzie.eu/post/twitter-unfollow-inactive/</link>
+			<link>http://localhost:1313/post/twitter-unfollow-inactive/</link>
 			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/twitter-unfollow-inactive/</guid>
+			<guid>http://localhost:1313/post/twitter-unfollow-inactive/</guid>
 			<description>
 			
 				Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages.
@@ -49,10 +49,10 @@
 		</item>
 		<item>
 			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
-			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>
+			<link>http://localhost:1313/post/wsl-cross-platform-testing/</link>
 			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/wsl-cross-platform-testing/</guid>
+			<guid>http://localhost:1313/post/wsl-cross-platform-testing/</guid>
 			<description>
 			
 				WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.
@@ -61,10 +61,10 @@
 		</item>
 		<item>
 			<title>Generating PDF in .NET Core using Libreoffice</title>
-			<link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
+			<link>http://localhost:1313/post/pdf-dotnet-libreoffice/</link>
 			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</guid>
+			<guid>http://localhost:1313/post/pdf-dotnet-libreoffice/</guid>
 			<description>
 			
 				Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion.
@@ -73,10 +73,10 @@
 		</item>
 		<item>
 			<title>Reading appsettings.json without DI/IoC using .NET Core</title>
-			<link>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</link>
+			<link>http://localhost:1313/post/appsettings-wo-di-ioc/</link>
 			<pubDate>Mon, 19 Apr 2021 18:05:17 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</guid>
+			<guid>http://localhost:1313/post/appsettings-wo-di-ioc/</guid>
 			<description>
 			
 				Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some …
@@ -85,10 +85,10 @@
 		</item>
 		<item>
 			<title>Automation programs in .NET Core - more examples</title>
-			<link>https://www.ozzie.eu/post/more-automate-programs/</link>
+			<link>http://localhost:1313/post/more-automate-programs/</link>
 			<pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/more-automate-programs/</guid>
+			<guid>http://localhost:1313/post/more-automate-programs/</guid>
 			<description>
 			
 				Addition of some more examples to the collection of simple automation programs, using C#.
@@ -97,10 +97,10 @@
 		</item>
 		<item>
 			<title>Simple automation programs in .NET Core</title>
-			<link>https://www.ozzie.eu/post/automate-dotnetcore/</link>
+			<link>http://localhost:1313/post/automate-dotnetcore/</link>
 			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/automate-dotnetcore/</guid>
+			<guid>http://localhost:1313/post/automate-dotnetcore/</guid>
 			<description>
 			
 				Collection of simple programs, using C#, for automating everyday tasks

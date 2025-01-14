@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Categories on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/</link>
-		<description>Recent content in Categories on www.ozzie.eu</description>
+		<link>http://localhost:1313/categories/</link>
+		<description>Recent content in Categories on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Tue, 29 Oct 2024 12:38:26 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/categories/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Backend</title>
-			<link>https://www.ozzie.eu/categories/backend/</link>
+			<link>http://localhost:1313/categories/backend/</link>
 			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/categories/backend/</guid>
+			<guid>http://localhost:1313/categories/backend/</guid>
 			<description>
 			
 				
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>Database</title>
-			<link>https://www.ozzie.eu/categories/database/</link>
+			<link>http://localhost:1313/categories/database/</link>
 			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/categories/database/</guid>
+			<guid>http://localhost:1313/categories/database/</guid>
 			<description>
 			
 				
@@ -37,10 +37,10 @@
 		</item>
 		<item>
 			<title>Security</title>
-			<link>https://www.ozzie.eu/categories/security/</link>
+			<link>http://localhost:1313/categories/security/</link>
 			<pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/categories/security/</guid>
+			<guid>http://localhost:1313/categories/security/</guid>
 			<description>
 			
 				
@@ -49,10 +49,10 @@
 		</item>
 		<item>
 			<title>Frontend</title>
-			<link>https://www.ozzie.eu/categories/frontend/</link>
+			<link>http://localhost:1313/categories/frontend/</link>
 			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/categories/frontend/</guid>
+			<guid>http://localhost:1313/categories/frontend/</guid>
 			<description>
 			
 				
@@ -61,10 +61,10 @@
 		</item>
 		<item>
 			<title>Console</title>
-			<link>https://www.ozzie.eu/categories/console/</link>
+			<link>http://localhost:1313/categories/console/</link>
 			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/categories/console/</guid>
+			<guid>http://localhost:1313/categories/console/</guid>
 			<description>
 			
 				
@@ -73,10 +73,10 @@
 		</item>
 		<item>
 			<title>Tools</title>
-			<link>https://www.ozzie.eu/categories/tools/</link>
+			<link>http://localhost:1313/categories/tools/</link>
 			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/categories/tools/</guid>
+			<guid>http://localhost:1313/categories/tools/</guid>
 			<description>
 			
 				
@@ -85,10 +85,10 @@
 		</item>
 		<item>
 			<title>Web</title>
-			<link>https://www.ozzie.eu/categories/web/</link>
+			<link>http://localhost:1313/categories/web/</link>
 			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/categories/web/</guid>
+			<guid>http://localhost:1313/categories/web/</guid>
 			<description>
 			
 				
@@ -97,10 +97,10 @@
 		</item>
 		<item>
 			<title>CMS</title>
-			<link>https://www.ozzie.eu/categories/cms/</link>
+			<link>http://localhost:1313/categories/cms/</link>
 			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/categories/cms/</guid>
+			<guid>http://localhost:1313/categories/cms/</guid>
 			<description>
 			
 				

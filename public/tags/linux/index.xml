@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Linux on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/linux/</link>
-		<description>Recent content in Linux on www.ozzie.eu</description>
+		<link>http://localhost:1313/tags/linux/</link>
+		<description>Recent content in Linux on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Fri, 11 Jun 2021 13:00:00 +0100</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
-			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>
+			<link>http://localhost:1313/post/wsl-cross-platform-testing/</link>
 			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/wsl-cross-platform-testing/</guid>
+			<guid>http://localhost:1313/post/wsl-cross-platform-testing/</guid>
 			<description>
 			
 				WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.

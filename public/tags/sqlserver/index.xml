@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Sqlserver on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/sqlserver/</link>
-		<description>Recent content in Sqlserver on www.ozzie.eu</description>
+		<link>http://localhost:1313/tags/sqlserver/</link>
+		<description>Recent content in Sqlserver on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Tue, 29 Oct 2024 12:38:26 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/tags/sqlserver/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>ORM vs. Raw SQL: A Performance Showdown</title>
-			<link>https://www.ozzie.eu/post/orm-vs-raw-sql/</link>
+			<link>http://localhost:1313/post/orm-vs-raw-sql/</link>
 			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/orm-vs-raw-sql/</guid>
+			<guid>http://localhost:1313/post/orm-vs-raw-sql/</guid>
 			<description>
 			
 				In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. This post delves into the nuances of each and explore a comparative analysis using .NET code examples.
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>Recover deleted .net EF Core Migration History Table</title>
-			<link>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</link>
+			<link>http://localhost:1313/post/deleted-dotnet-ef-core-migration-history/</link>
 			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</guid>
+			<guid>http://localhost:1313/post/deleted-dotnet-ef-core-migration-history/</guid>
 			<description>
 			
 				Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&#39;s an easy way to do it.
@@ -37,10 +37,10 @@
 		</item>
 		<item>
 			<title>Better Powershell SQL comand exection using Dbatools</title>
-			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
+			<link>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</link>
 			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</guid>
+			<guid>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</guid>
 			<description>
 			
 				Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.
@@ -49,10 +49,10 @@
 		</item>
 		<item>
 			<title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
-			<link>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</link>
+			<link>http://localhost:1313/post/posh-error-invoke-sqlcmd/</link>
 			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</guid>
+			<guid>http://localhost:1313/post/posh-error-invoke-sqlcmd/</guid>
 			<description>
 			
 				As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
@@ -61,10 +61,10 @@
 		</item>
 		<item>
 			<title>EF Core Update Model on Database First Project</title>
-			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
+			<link>http://localhost:1313/post/ef-core-update-model-db-first/</link>
 			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
+			<guid>http://localhost:1313/post/ef-core-update-model-db-first/</guid>
 			<description>
 			
 				Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task.
@@ -73,10 +73,10 @@
 		</item>
 		<item>
 			<title>SQL Server alias is not supported on .NET Core</title>
-			<link>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</link>
+			<link>http://localhost:1313/post/sqlalias-no-support-dotnetcore/</link>
 			<pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</guid>
+			<guid>http://localhost:1313/post/sqlalias-no-support-dotnetcore/</guid>
 			<description>
 			
 				The support for SQL alias has been intentionally removed from .NET Core.

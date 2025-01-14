@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Oracle on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/oracle/</link>
-		<description>Recent content in Oracle on www.ozzie.eu</description>
+		<link>http://localhost:1313/tags/oracle/</link>
+		<description>Recent content in Oracle on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Thu, 03 Nov 2022 08:58:50 +0000</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>ORA-01704: string literal too long</title>
-			<link>https://www.ozzie.eu/post/ora-01704/</link>
+			<link>http://localhost:1313/post/ora-01704/</link>
 			<pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/ora-01704/</guid>
+			<guid>http://localhost:1313/post/ora-01704/</guid>
 			<description>
 			
 				On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates.

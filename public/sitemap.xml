@@ -2,194 +2,194 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.ozzie.eu/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-12-06T14:56:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2024-12-06T14:56:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/backend/</loc>
+    <loc>http://localhost:1313/categories/backend/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/c%23/</loc>
+    <loc>http://localhost:1313/tags/c</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/database/</loc>
+    <loc>http://localhost:1313/categories/database/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
+    <loc>http://localhost:1313/tags/dotnetcore/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/orm-vs-raw-sql/</loc>
+    <loc>http://localhost:1313/post/orm-vs-raw-sql/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
+    <loc>http://localhost:1313/tags/sqlserver/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</loc>
+    <loc>http://localhost:1313/post/deleted-dotnet-ef-core-migration-history/</loc>
     <lastmod>2024-05-23T16:02:02+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/authentication/</loc>
+    <loc>http://localhost:1313/tags/authentication/</loc>
     <lastmod>2024-01-05T13:44:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/security/</loc>
+    <loc>http://localhost:1313/categories/security/</loc>
     <lastmod>2024-01-05T13:44:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/using-email-as-login-bad-idea/</loc>
+    <loc>http://localhost:1313/post/using-email-as-login-bad-idea/</loc>
     <lastmod>2024-01-05T13:44:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/dotnet/</loc>
+    <loc>http://localhost:1313/tags/dotnet/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/frontend/</loc>
+    <loc>http://localhost:1313/categories/frontend/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</loc>
+    <loc>http://localhost:1313/post/why-use-only-dotnet-lts-versions/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/youre-not-better-commercial-database/</loc>
+    <loc>http://localhost:1313/post/youre-not-better-commercial-database/</loc>
     <lastmod>2023-01-31T08:30:20+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/mariadb/</loc>
+    <loc>http://localhost:1313/tags/mariadb/</loc>
     <lastmod>2022-12-02T12:00:34+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/mysql/</loc>
+    <loc>http://localhost:1313/tags/mysql/</loc>
     <lastmod>2022-12-02T12:00:34+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</loc>
+    <loc>http://localhost:1313/post/mysql-mariadb-bug-mgmt-performance/</loc>
     <lastmod>2022-12-02T12:00:34+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/ora-01704/</loc>
+    <loc>http://localhost:1313/post/ora-01704/</loc>
     <lastmod>2022-11-03T08:58:50+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/oracle/</loc>
+    <loc>http://localhost:1313/tags/oracle/</loc>
     <lastmod>2022-11-03T08:58:50+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/plsql/</loc>
+    <loc>http://localhost:1313/tags/plsql/</loc>
     <lastmod>2022-11-03T08:58:50+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</loc>
+    <loc>http://localhost:1313/post/2018-award-procurement-digitalisation/</loc>
     <lastmod>2022-10-21T09:21:57+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</loc>
+    <loc>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</loc>
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/console/</loc>
+    <loc>http://localhost:1313/categories/console/</loc>
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/powershell/</loc>
+    <loc>http://localhost:1313/tags/powershell/</loc>
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</loc>
+    <loc>http://localhost:1313/post/posh-error-invoke-sqlcmd/</loc>
     <lastmod>2022-06-20T11:20:16+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/preferred-language-vs-gtd/</loc>
+    <loc>http://localhost:1313/post/preferred-language-vs-gtd/</loc>
     <lastmod>2021-12-07T15:31:31+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2021-12-07T15:31:31+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/tools/</loc>
+    <loc>http://localhost:1313/categories/tools/</loc>
     <lastmod>2021-12-07T15:31:31+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/twitter-unfollow-inactive/</loc>
+    <loc>http://localhost:1313/post/twitter-unfollow-inactive/</loc>
     <lastmod>2021-10-25T15:50:14+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/twitter/</loc>
+    <loc>http://localhost:1313/tags/twitter/</loc>
     <lastmod>2021-10-25T15:50:14+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/ef-core-update-model-db-first/</loc>
+    <loc>http://localhost:1313/post/ef-core-update-model-db-first/</loc>
     <lastmod>2021-09-07T12:00:48+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2021-06-11T13:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/wsl-cross-platform-testing/</loc>
+    <loc>http://localhost:1313/post/wsl-cross-platform-testing/</loc>
     <lastmod>2021-06-11T13:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/automation/</loc>
+    <loc>http://localhost:1313/tags/automation/</loc>
     <lastmod>2021-05-14T15:16:04+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</loc>
+    <loc>http://localhost:1313/post/pdf-dotnet-libreoffice/</loc>
     <lastmod>2021-05-14T15:16:04+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/pdf/</loc>
+    <loc>http://localhost:1313/tags/pdf/</loc>
     <lastmod>2021-05-14T15:16:04+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/contract-first-ws-development/</loc>
+    <loc>http://localhost:1313/post/contract-first-ws-development/</loc>
     <lastmod>2021-05-05T09:24:28+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/soap/</loc>
+    <loc>http://localhost:1313/tags/soap/</loc>
     <lastmod>2021-05-05T09:24:28+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/visualstudio/</loc>
+    <loc>http://localhost:1313/tags/visualstudio/</loc>
     <lastmod>2021-05-05T09:24:28+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/wsdl/</loc>
+    <loc>http://localhost:1313/tags/wsdl/</loc>
     <lastmod>2021-05-05T09:24:28+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/xml/</loc>
+    <loc>http://localhost:1313/tags/xml/</loc>
     <lastmod>2021-05-05T09:24:28+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</loc>
+    <loc>http://localhost:1313/post/appsettings-wo-di-ioc/</loc>
     <lastmod>2021-04-19T18:05:17+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/more-automate-programs/</loc>
+    <loc>http://localhost:1313/post/more-automate-programs/</loc>
     <lastmod>2021-04-07T17:30:14+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</loc>
+    <loc>http://localhost:1313/post/json-automatic-class-unmarshall/</loc>
     <lastmod>2021-03-29T16:30:47+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/json/</loc>
+    <loc>http://localhost:1313/tags/json/</loc>
     <lastmod>2021-03-29T16:30:47+01:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</loc>
+    <loc>http://localhost:1313/post/sqlalias-no-support-dotnetcore/</loc>
     <lastmod>2021-03-22T15:58:36+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2021-03-16T14:36:32+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/hugo-tag-404-error/</loc>
+    <loc>http://localhost:1313/post/hugo-tag-404-error/</loc>
     <lastmod>2021-03-16T14:36:32+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/web/</loc>
+    <loc>http://localhost:1313/categories/web/</loc>
     <lastmod>2021-03-16T14:36:32+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/automate-dotnetcore/</loc>
+    <loc>http://localhost:1313/post/automate-dotnetcore/</loc>
     <lastmod>2021-03-12T16:05:02+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/cms/</loc>
+    <loc>http://localhost:1313/categories/cms/</loc>
     <lastmod>2021-03-02T15:47:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/git/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2021-03-02T15:47:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/umbraco/</loc>
+    <loc>http://localhost:1313/tags/umbraco/</loc>
     <lastmod>2021-03-02T15:47:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/umbraco-forms-translations/</loc>
+    <loc>http://localhost:1313/post/umbraco-forms-translations/</loc>
     <lastmod>2021-03-02T15:47:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/firebase/</loc>
+    <loc>http://localhost:1313/tags/firebase/</loc>
     <lastmod>2021-02-28T21:41:22+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/google/</loc>
+    <loc>http://localhost:1313/tags/google/</loc>
     <lastmod>2021-02-28T21:41:22+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/tags/jamstack/</loc>
+    <loc>http://localhost:1313/tags/jamstack/</loc>
     <lastmod>2021-02-28T21:41:22+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/post/stepping-stone/</loc>
+    <loc>http://localhost:1313/post/stepping-stone/</loc>
     <lastmod>2021-02-28T21:41:22+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://www.ozzie.eu/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

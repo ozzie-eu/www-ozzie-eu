@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Powershell on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/powershell/</link>
-		<description>Recent content in Powershell on www.ozzie.eu</description>
+		<link>http://localhost:1313/tags/powershell/</link>
+		<description>Recent content in Powershell on localhost:1313</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Mon, 27 Jun 2022 11:20:16 +0100</lastBuildDate>
 		
-		<atom:link href="https://www.ozzie.eu/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Better Powershell SQL comand exection using Dbatools</title>
-			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
+			<link>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</link>
 			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</guid>
+			<guid>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</guid>
 			<description>
 			
 				Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
-			<link>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</link>
+			<link>http://localhost:1313/post/posh-error-invoke-sqlcmd/</link>
 			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</guid>
+			<guid>http://localhost:1313/post/posh-error-invoke-sqlcmd/</guid>
 			<description>
 			
 				As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
