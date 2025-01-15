@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Dotnet on Ozzie.eu</title>
-		<link>http://localhost:1313/tags/dotnet/</link>
-		<description>Recent content in Dotnet on localhost:1313</description>
+		<link>https://www.ozzie.eu/tags/dotnet/</link>
+		<description>Recent content in Dotnet on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Thu, 13 Apr 2023 14:03:58 +0100</lastBuildDate>
 		
-		<atom:link href="http://localhost:1313/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://www.ozzie.eu/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Why I think you should use only LTS versions of .NET</title>
-			<link>http://localhost:1313/post/why-use-only-dotnet-lts-versions/</link>
+			<link>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</link>
 			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/why-use-only-dotnet-lts-versions/</guid>
+			<guid>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</guid>
 			<description>
 			
 				In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming

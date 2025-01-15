@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>JSON on Ozzie.eu</title>
-		<link>http://localhost:1313/tags/json/</link>
-		<description>Recent content in JSON on localhost:1313</description>
+		<link>https://www.ozzie.eu/tags/json/</link>
+		<description>Recent content in JSON on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Mon, 29 Mar 2021 16:30:47 +0100</lastBuildDate>
 		
-		<atom:link href="http://localhost:1313/tags/json/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://www.ozzie.eu/tags/json/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>Automatic class creation for unmarshalling JSON</title>
-			<link>http://localhost:1313/post/json-automatic-class-unmarshall/</link>
+			<link>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</link>
 			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/json-automatic-class-unmarshall/</guid>
+			<guid>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</guid>
 			<description>
 			
 				If you&#39;re working with JSON, say for REST web services, and you don&#39;t have the class to unmarshall the response, Visual Studio can automatically generate the class for you.

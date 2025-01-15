@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Ozzie.eu</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on localhost:1313</description>
+		<link>https://www.ozzie.eu/</link>
+		<description>Recent content on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
 		<lastBuildDate>Fri, 06 Dec 2024 14:56:00 +0000</lastBuildDate>
 		
-		<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://www.ozzie.eu/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>ORM vs. Raw SQL: A Performance Showdown</title>
-			<link>http://localhost:1313/post/orm-vs-raw-sql/</link>
+			<link>https://www.ozzie.eu/post/orm-vs-raw-sql/</link>
 			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/orm-vs-raw-sql/</guid>
+			<guid>https://www.ozzie.eu/post/orm-vs-raw-sql/</guid>
 			<description>
 			
 				In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. This post delves into the nuances of each and explore a comparative analysis using .NET code examples.
@@ -25,10 +25,10 @@
 		</item>
 		<item>
 			<title>Recover deleted .net EF Core Migration History Table</title>
-			<link>http://localhost:1313/post/deleted-dotnet-ef-core-migration-history/</link>
+			<link>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</link>
 			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/deleted-dotnet-ef-core-migration-history/</guid>
+			<guid>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</guid>
 			<description>
 			
 				Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&#39;s an easy way to do it.
@@ -37,10 +37,10 @@
 		</item>
 		<item>
 			<title>Using an email as your login is a bad idea</title>
-			<link>http://localhost:1313/post/using-email-as-login-bad-idea/</link>
+			<link>https://www.ozzie.eu/post/using-email-as-login-bad-idea/</link>
 			<pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/using-email-as-login-bad-idea/</guid>
+			<guid>https://www.ozzie.eu/post/using-email-as-login-bad-idea/</guid>
 			<description>
 			
 				Using Email as Your Login - A Security Risk That&#39;s Been Around for Too Long.
@@ -49,10 +49,10 @@
 		</item>
 		<item>
 			<title>Why I think you should use only LTS versions of .NET</title>
-			<link>http://localhost:1313/post/why-use-only-dotnet-lts-versions/</link>
+			<link>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</link>
 			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/why-use-only-dotnet-lts-versions/</guid>
+			<guid>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</guid>
 			<description>
 			
 				In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming
@@ -61,10 +61,10 @@
 		</item>
 		<item>
 			<title>This is why you&#39;re not better off with a commercial database</title>
-			<link>http://localhost:1313/post/youre-not-better-commercial-database/</link>
+			<link>https://www.ozzie.eu/post/youre-not-better-commercial-database/</link>
 			<pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/youre-not-better-commercial-database/</guid>
+			<guid>https://www.ozzie.eu/post/youre-not-better-commercial-database/</guid>
 			<description>
 			
 				When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.
@@ -73,10 +73,10 @@
 		</item>
 		<item>
 			<title>MySQL vs MariaDB: Performance on Bug Management </title>
-			<link>http://localhost:1313/post/mysql-mariadb-bug-mgmt-performance/</link>
+			<link>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</link>
 			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/mysql-mariadb-bug-mgmt-performance/</guid>
+			<guid>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</guid>
 			<description>
 			
 				Cleaning up the e-mail inbox, I discovered a 7-year-old bug report I made on the MySQL bugs database: Bug #79497. Someone verified it on the …
@@ -85,10 +85,10 @@
 		</item>
 		<item>
 			<title>ORA-01704: string literal too long</title>
-			<link>http://localhost:1313/post/ora-01704/</link>
+			<link>https://www.ozzie.eu/post/ora-01704/</link>
 			<pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/ora-01704/</guid>
+			<guid>https://www.ozzie.eu/post/ora-01704/</guid>
 			<description>
 			
 				On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates.
@@ -97,10 +97,10 @@
 		</item>
 		<item>
 			<title>Award on Better Governance through Procurement Digitalisation</title>
-			<link>http://localhost:1313/post/2018-award-procurement-digitalisation/</link>
+			<link>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</link>
 			<pubDate>Fri, 21 Oct 2022 09:21:57 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/2018-award-procurement-digitalisation/</guid>
+			<guid>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</guid>
 			<description>
 			
 				Four years ago, I was the technical lead in the development and support team for the Portuguese Public Contract Register. The platform won …
@@ -109,10 +109,10 @@
 		</item>
 		<item>
 			<title>Better Powershell SQL comand exection using Dbatools</title>
-			<link>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</link>
+			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
 			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/posh-better-sqlcmd-using-dbatools/</guid>
+			<guid>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</guid>
 			<description>
 			
 				Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.
@@ -121,10 +121,10 @@
 		</item>
 		<item>
 			<title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
-			<link>http://localhost:1313/post/posh-error-invoke-sqlcmd/</link>
+			<link>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</link>
 			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/posh-error-invoke-sqlcmd/</guid>
+			<guid>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</guid>
 			<description>
 			
 				As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
@@ -133,10 +133,10 @@
 		</item>
 		<item>
 			<title>Preferred Programming Language Versus Getting Things Done</title>
-			<link>http://localhost:1313/post/preferred-language-vs-gtd/</link>
+			<link>https://www.ozzie.eu/post/preferred-language-vs-gtd/</link>
 			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/preferred-language-vs-gtd/</guid>
+			<guid>https://www.ozzie.eu/post/preferred-language-vs-gtd/</guid>
 			<description>
 			
 				Now and then you’ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations. For that, the key performance indicator is GTD.
@@ -145,10 +145,10 @@
 		</item>
 		<item>
 			<title>Python script to unfollow inactive friends on Twitter</title>
-			<link>http://localhost:1313/post/twitter-unfollow-inactive/</link>
+			<link>https://www.ozzie.eu/post/twitter-unfollow-inactive/</link>
 			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/twitter-unfollow-inactive/</guid>
+			<guid>https://www.ozzie.eu/post/twitter-unfollow-inactive/</guid>
 			<description>
 			
 				Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages.
@@ -157,10 +157,10 @@
 		</item>
 		<item>
 			<title>EF Core Update Model on Database First Project</title>
-			<link>http://localhost:1313/post/ef-core-update-model-db-first/</link>
+			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
 			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/ef-core-update-model-db-first/</guid>
+			<guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
 			<description>
 			
 				Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task.
@@ -169,10 +169,10 @@
 		</item>
 		<item>
 			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
-			<link>http://localhost:1313/post/wsl-cross-platform-testing/</link>
+			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>
 			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/wsl-cross-platform-testing/</guid>
+			<guid>https://www.ozzie.eu/post/wsl-cross-platform-testing/</guid>
 			<description>
 			
 				WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.
@@ -181,10 +181,10 @@
 		</item>
 		<item>
 			<title>Generating PDF in .NET Core using Libreoffice</title>
-			<link>http://localhost:1313/post/pdf-dotnet-libreoffice/</link>
+			<link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
 			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/pdf-dotnet-libreoffice/</guid>
+			<guid>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</guid>
 			<description>
 			
 				Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion.
@@ -193,10 +193,10 @@
 		</item>
 		<item>
 			<title>Contract First Web Service Development in .NET</title>
-			<link>http://localhost:1313/post/contract-first-ws-development/</link>
+			<link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
 			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/contract-first-ws-development/</guid>
+			<guid>https://www.ozzie.eu/post/contract-first-ws-development/</guid>
 			<description>
 			
 				Working on information systems integration, often comes the task of implementing a Web Service following a previously defined contract.
@@ -205,10 +205,10 @@
 		</item>
 		<item>
 			<title>Reading appsettings.json without DI/IoC using .NET Core</title>
-			<link>http://localhost:1313/post/appsettings-wo-di-ioc/</link>
+			<link>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</link>
 			<pubDate>Mon, 19 Apr 2021 18:05:17 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/appsettings-wo-di-ioc/</guid>
+			<guid>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</guid>
 			<description>
 			
 				Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some …
@@ -217,10 +217,10 @@
 		</item>
 		<item>
 			<title>Automation programs in .NET Core - more examples</title>
-			<link>http://localhost:1313/post/more-automate-programs/</link>
+			<link>https://www.ozzie.eu/post/more-automate-programs/</link>
 			<pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/more-automate-programs/</guid>
+			<guid>https://www.ozzie.eu/post/more-automate-programs/</guid>
 			<description>
 			
 				Addition of some more examples to the collection of simple automation programs, using C#.
@@ -229,10 +229,10 @@
 		</item>
 		<item>
 			<title>Automatic class creation for unmarshalling JSON</title>
-			<link>http://localhost:1313/post/json-automatic-class-unmarshall/</link>
+			<link>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</link>
 			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
 			
-			<guid>http://localhost:1313/post/json-automatic-class-unmarshall/</guid>
+			<guid>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</guid>
 			<description>
 			
 				If you&#39;re working with JSON, say for REST web services, and you don&#39;t have the class to unmarshall the response, Visual Studio can automatically generate the class for you.
@@ -241,10 +241,10 @@
 		</item>
 		<item>
 			<title>SQL Server alias is not supported on .NET Core</title>
-			<link>http://localhost:1313/post/sqlalias-no-support-dotnetcore/</link>
+			<link>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</link>
 			<pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/sqlalias-no-support-dotnetcore/</guid>
+			<guid>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</guid>
 			<description>
 			
 				The support for SQL alias has been intentionally removed from .NET Core.
@@ -253,10 +253,10 @@
 		</item>
 		<item>
 			<title>Hugo post tag causing 404 Error</title>
-			<link>http://localhost:1313/post/hugo-tag-404-error/</link>
+			<link>https://www.ozzie.eu/post/hugo-tag-404-error/</link>
 			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/hugo-tag-404-error/</guid>
+			<guid>https://www.ozzie.eu/post/hugo-tag-404-error/</guid>
 			<description>
 			
 				Using the &#39;#&#39; special character caused HTTP 404 Not Found error.
@@ -265,10 +265,10 @@
 		</item>
 		<item>
 			<title>Simple automation programs in .NET Core</title>
-			<link>http://localhost:1313/post/automate-dotnetcore/</link>
+			<link>https://www.ozzie.eu/post/automate-dotnetcore/</link>
 			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/automate-dotnetcore/</guid>
+			<guid>https://www.ozzie.eu/post/automate-dotnetcore/</guid>
 			<description>
 			
 				Collection of simple programs, using C#, for automating everyday tasks
@@ -277,10 +277,10 @@
 		</item>
 		<item>
 			<title>Umbraco Forms Translations</title>
-			<link>http://localhost:1313/post/umbraco-forms-translations/</link>
+			<link>https://www.ozzie.eu/post/umbraco-forms-translations/</link>
 			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/umbraco-forms-translations/</guid>
+			<guid>https://www.ozzie.eu/post/umbraco-forms-translations/</guid>
 			<description>
 			
 				Umbraco consent warning translations not working.
@@ -289,10 +289,10 @@
 		</item>
 		<item>
 			<title>Stepping Stone</title>
-			<link>http://localhost:1313/post/stepping-stone/</link>
+			<link>https://www.ozzie.eu/post/stepping-stone/</link>
 			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
 			
-			<guid>http://localhost:1313/post/stepping-stone/</guid>
+			<guid>https://www.ozzie.eu/post/stepping-stone/</guid>
 			<description>
 			
 				Starting over with a clean slate.
@@ -301,10 +301,10 @@
 		</item>
 		<item>
 			<title>About</title>
-			<link>http://localhost:1313/about/</link>
+			<link>https://www.ozzie.eu/about/</link>
 			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 			
-			<guid>http://localhost:1313/about/</guid>
+			<guid>https://www.ozzie.eu/about/</guid>
 			<description>
 			
 				Over 25 years of IT experience. I started my career as a systems analyst (a jack-of-all-trades programmer back then) at Andersen Consulting …
