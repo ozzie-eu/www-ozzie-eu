@@ -7,26 +7,14 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Tue, 29 Oct 2024 12:38:26 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 31 Mar 2025 12:30:22 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>C#</title>
-			<link>https://www.ozzie.eu/tags/c</link>
-			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/c</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Dotnetcore</title>
+			<title>dotnetcore</title>
 			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
-			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
+			<pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
 			
 			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
 			<description>
@@ -36,7 +24,19 @@
 			</description>
 		</item>
 		<item>
-			<title>Sqlserver</title>
+			<title>C#</title>
+			<link>https://www.ozzie.eu/tags/c#/</link>
+			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
+			
+			<guid>https://www.ozzie.eu/tags/c#/</guid>
+			<description>
+			
+				
+			
+			</description>
+		</item>
+		<item>
+			<title>sqlserver</title>
 			<link>https://www.ozzie.eu/tags/sqlserver/</link>
 			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
 			
@@ -60,7 +60,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Dotnet</title>
+			<title>dotnet</title>
 			<link>https://www.ozzie.eu/tags/dotnet/</link>
 			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
 			
@@ -72,7 +72,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Mariadb</title>
+			<title>mariadb</title>
 			<link>https://www.ozzie.eu/tags/mariadb/</link>
 			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
 			
@@ -84,7 +84,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Mysql</title>
+			<title>mysql</title>
 			<link>https://www.ozzie.eu/tags/mysql/</link>
 			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
 			
@@ -96,7 +96,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Oracle</title>
+			<title>oracle</title>
 			<link>https://www.ozzie.eu/tags/oracle/</link>
 			<pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
 			
@@ -108,7 +108,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Plsql</title>
+			<title>plsql</title>
 			<link>https://www.ozzie.eu/tags/plsql/</link>
 			<pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
 			
@@ -120,7 +120,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Powershell</title>
+			<title>powershell</title>
 			<link>https://www.ozzie.eu/tags/powershell/</link>
 			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
 			
@@ -132,7 +132,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Python</title>
+			<title>python</title>
 			<link>https://www.ozzie.eu/tags/python/</link>
 			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
 			
@@ -144,7 +144,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Twitter</title>
+			<title>twitter</title>
 			<link>https://www.ozzie.eu/tags/twitter/</link>
 			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
 			
@@ -156,7 +156,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Linux</title>
+			<title>linux</title>
 			<link>https://www.ozzie.eu/tags/linux/</link>
 			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
 			
@@ -252,7 +252,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Hugo</title>
+			<title>hugo</title>
 			<link>https://www.ozzie.eu/tags/hugo/</link>
 			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
 			
@@ -264,7 +264,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Git</title>
+			<title>git</title>
 			<link>https://www.ozzie.eu/tags/git/</link>
 			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
 			
@@ -288,7 +288,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Firebase</title>
+			<title>firebase</title>
 			<link>https://www.ozzie.eu/tags/firebase/</link>
 			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
 			
@@ -300,7 +300,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Google</title>
+			<title>google</title>
 			<link>https://www.ozzie.eu/tags/google/</link>
 			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
 			
@@ -312,7 +312,7 @@
 			</description>
 		</item>
 		<item>
-			<title>Jamstack</title>
+			<title>jamstack</title>
 			<link>https://www.ozzie.eu/tags/jamstack/</link>
 			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
 			

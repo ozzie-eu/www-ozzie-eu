@@ -2,34 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2024-12-06T14:56:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2024-12-06T14:56:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/c</loc>
-    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
+    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/</loc>
+    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/categories/console/</loc>
+    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
+    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/</loc>
+    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</loc>
+    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/c#/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/database/</loc>
-    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/orm-vs-raw-sql/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
-    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</loc>
@@ -78,9 +84,6 @@
     <lastmod>2022-10-21T09:21:57+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</loc>
-    <lastmod>2022-06-27T11:20:16+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/categories/console/</loc>
     <lastmod>2022-06-27T11:20:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/powershell/</loc>

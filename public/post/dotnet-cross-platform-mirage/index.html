@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<meta name="generator" content="Hugo 0.119.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta property="og:title" content="The Cross-Platform Mirage: .NET and the Windows Dependency Trap">
+	
+	
+	<meta name="keywords" content="dotnetcore"><meta name="description" content="The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system."><meta property="og:title" content="The Cross-Platform Mirage: .NET and the Windows Dependency Trap" />
+<meta property="og:description" content="The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ozzie.eu/post/dotnet-cross-platform-mirage/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2025-03-31T12:30:22+01:00" />
+<meta property="article:modified_time" content="2025-03-31T12:30:22+01:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The Cross-Platform Mirage: .NET and the Windows Dependency Trap"/>
+<meta name="twitter:description" content="The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system."/>
+
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
+	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
+	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>The Cross-Platform Mirage: .NET and the Windows Dependency Trap | Ozzie.eu</title>
+
+
+</head>
+<body><header>
+	
+	<div id="avatar">
+		<a href="https://www.ozzie.eu/">
+		  <img src="/img/ozzie.webp" alt="Ozzie.eu">
+		</a>
+	</div>
+	
+	<div id="titletext"><h2 id="title"><a href="https://www.ozzie.eu/">Ozzie.eu</a></h2></div>
+	<div id="title-description"><p id="subtitle">Love to code although it bugs me.</p><div id="social">
+			<nav>
+				<ul>
+					<li><a href="https://github.com/ozzie-eu"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="mailto:mail@ozzie.eu"><i title="Email" class="icons fas fa-envelope"></i></a></li>
+					<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
+			</nav>
+		</div>
+	</div>
+	
+	<div id="mainmenu">
+		<nav>
+			<ul>
+				
+				<li><a href="/">Home</a></li>
+				
+				<li><a href="/post">All Posts</a></li>
+				
+				<li><a href="/about">About</a></li>
+				
+				<li><a href="/tags">Tags</a></li>
+				
+				<li><a href="/categories">Categories</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+	
+</header>
+<main><div class="post">
+	
+	<div class="author">
+	
+	</div>
+	<div class="post-header">
+	
+		<div class="meta">
+			
+			<div class="date">
+				<span class="day">31</span>
+				<span class="rest">Mar 2025</span>
+			</div>
+			
+		</div>
+		
+		<div class="matter">
+			<h1 class="title">The Cross-Platform Mirage: .NET and the Windows Dependency Trap</h1>
+		</div>
+	</div>
+	<div class="markdown">
+		<h2 id="the-cross-platform-mirage-net-and-the-windows-dependency-trap">The Cross-Platform Mirage: .NET and the Windows Dependency Trap</h2>
+<p>The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system.</p>
+<p>Let&rsquo;s dive into a couple of real-world scenarios that illustrate this pitfall.</p>
+<p><strong>Scenario 1: Windows Authentication with <code>System.DirectoryServices</code></strong></p>
+<p>Imagine you&rsquo;re developing a web application that requires Windows authentication. On Windows, the <code>System.DirectoryServices</code> namespace provides a convenient way to interact with Active Directory. You write code like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#080;font-weight:bold">using</span> <span style="color:#0e84b5;font-weight:bold">System.DirectoryServices</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#888">// ...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>DirectoryEntry entry = <span style="color:#080;font-weight:bold">new</span> DirectoryEntry(<span style="background-color:#fff0f0">&#34;LDAP://yourdomain.com&#34;</span>);
+</span></span><span style="display:flex;"><span>DirectorySearcher searcher = <span style="color:#080;font-weight:bold">new</span> DirectorySearcher(entry);
+</span></span><span style="display:flex;"><span>searcher.Filter = <span style="background-color:#fff0f0">&#34;(sAMAccountName=username)&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>SearchResult result = searcher.FindOne();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#080;font-weight:bold">if</span> (result != <span style="color:#080;font-weight:bold">null</span>) {
+</span></span><span style="display:flex;"><span>  <span style="color:#888">// Authentication successful</span>
+</span></span><span style="display:flex;"><span>} <span style="color:#080;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#888">// Authentication failed</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This code works flawlessly on your Windows development machine. You happily deploy your application to a Linux server, expecting it to run without a hitch. But, surprise! You&rsquo;re met with runtime exceptions. The <code>System.DirectoryServices</code> namespace is heavily reliant on native Windows libraries and APIs, making it completely unusable on Linux.</p>
+<p><strong>Scenario 2: Nuget Package Fails on Alpine Linux Docker Container</strong></p>
+<p>You find a Nuget package that simplifies a specific task. It works perfectly during development on Windows. You decide to containerize your application using Docker and deploy it to an Alpine Linux-based container for its small footprint and efficiency.</p>
+<p>During testing, you discover that the application crashes within the container. After some debugging, you find that the Nuget package relies on native Windows DLLs or APIs that are not available in Alpine Linux&rsquo;s minimal environment. The package&rsquo;s documentation might not explicitly mention these dependencies, leading to a frustrating debugging experience.</p>
+<p><strong>The Root of the Problem: Implicit Dependencies</strong></p>
+<p>The core issue is that many libraries, especially those interfacing with system-level functionalities, carry implicit dependencies on the underlying operating system. These dependencies are often not clearly documented, leading to unexpected runtime failures when deployed to non-Windows environments.</p>
+<p><strong>The Solution: Embrace Linux Early and Often</strong></p>
+<p>The most effective way to mitigate these cross-platform pitfalls is to develop and test your .NET applications on Linux from the start.</p>
+<p><strong>Why Linux with WSL?</strong></p>
+<ul>
+<li><strong>Early Detection of Issues:</strong> By developing on Linux, you&rsquo;ll encounter platform-specific issues related to dependencies early in the development cycle, rather than during deployment or in production.</li>
+<li><strong>Realistic Environment:</strong> WSL (Windows Subsystem for Linux) provides a seamless way to run a Linux distribution directly on Windows, offering a realistic development environment without the overhead of a full virtual machine.</li>
+<li><strong>Docker Integration:</strong> WSL integrates well with Docker, enabling you to build and test your containerized applications within the same environment.</li>
+<li><strong>Cross-Platform Awareness:</strong> Working on Linux fosters a deeper understanding of cross-platform development challenges, leading to more robust and portable code.</li>
+</ul>
+<p><strong>Conclusion</strong></p>
+<p>While .NET promises cross-platform capabilities, the reality is that third-party packages, even those from Microsoft, can introduce hidden Windows dependencies. To truly achieve cross-platform compatibility, developers should adopt a Linux-first approach. By leveraging WSL for development and testing, you can proactively identify and address platform-specific issues, ensuring that your .NET applications run reliably on any target environment. Don&rsquo;t let the cross-platform mirage lead you astray; embrace Linux and build truly portable applications.</p>
+
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Categories</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			<a href="/categories/backend/"> backend </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/categories/console/"> console </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+	
+		
+	
+	
+	
+	<div class="tags">
+		<div class="taxosfloating_left">
+			<p>Tags</p>
+		</div>
+		<div class="termsfloating_right">
+			<p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<a href="/tags/dotnetcore/"> dotnetcore </a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</p>
+		</div>
+		<div class="clearit"></div>
+		
+		
+		
+		
+		
+	</div></div>
+
+  </main>
+<footer>
+	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a> 
+	
+	 
+	
+</footer>
+
+
+</body>
+</html>

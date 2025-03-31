@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Dotnetcore on Ozzie.eu</title>
+		<title>dotnetcore on Ozzie.eu</title>
 		<link>https://www.ozzie.eu/tags/dotnetcore/</link>
-		<description>Recent content in Dotnetcore on www.ozzie.eu</description>
+		<description>Recent content in dotnetcore on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Tue, 29 Oct 2024 12:38:26 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 31 Mar 2025 12:30:22 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/tags/dotnetcore/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>The Cross-Platform Mirage: .NET and the Windows Dependency Trap</title>
+			<link>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</link>
+			<pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</guid>
+			<description>
+			
+				The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system.
+			
+			</description>
+		</item>
 		<item>
 			<title>ORM vs. Raw SQL: A Performance Showdown</title>
 			<link>https://www.ozzie.eu/post/orm-vs-raw-sql/</link>
