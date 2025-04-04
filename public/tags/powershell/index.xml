@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>powershell on Ozzie.eu</title>
+		<title>Powershell on Ozzie.eu</title>
 		<link>https://www.ozzie.eu/tags/powershell/</link>
-		<description>Recent content in powershell on www.ozzie.eu</description>
+		<description>Recent content in Powershell on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>

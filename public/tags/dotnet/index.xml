@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>dotnet on Ozzie.eu</title>
+		<title>Dotnet on Ozzie.eu</title>
 		<link>https://www.ozzie.eu/tags/dotnet/</link>
-		<description>Recent content in dotnet on www.ozzie.eu</description>
+		<description>Recent content in Dotnet on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
