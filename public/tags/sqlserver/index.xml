@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Sqlserver on Ozzie.eu</title>
+		<title>sqlserver on Ozzie.eu</title>
 		<link>https://www.ozzie.eu/tags/sqlserver/</link>
-		<description>Recent content in Sqlserver on www.ozzie.eu</description>
+		<description>Recent content in sqlserver on www.ozzie.eu</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>

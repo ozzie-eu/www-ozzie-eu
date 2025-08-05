@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 	
-	<meta name="generator" content="Hugo 0.126.2">
+	<meta name="generator" content="Hugo 0.119.0">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,24 +9,17 @@
 	<meta property="og:title" content="Reading appsettings.json without DI/IoC using .NET Core">
 	
 	
-	<meta name="keywords" content="C#,Automation,dotnetcore"><meta name="description" content="Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some …"><meta property="og:url" content="https://www.ozzie.eu/post/appsettings-wo-di-ioc/">
-  <meta property="og:site_name" content="Ozzie.eu">
-  <meta property="og:title" content="Reading appsettings.json without DI/IoC using .NET Core">
-  <meta property="og:description" content="Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some parameters using a configuration file.
-If you search the Internet for some help on using a configuration file with a .NET Core console application, you get some pretty good results if you want to use some Dependency Injection/Inversion of Control pattern, or build classes to represent and perform a sort of unmarshalling of the JSON configuration file, or even go through the Microsoft Docs that probably inspired the first two options.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="post">
-    <meta property="article:published_time" content="2021-04-19T18:05:17+01:00">
-    <meta property="article:modified_time" content="2021-04-19T18:05:17+01:00">
-    <meta property="article:tag" content="C#">
-    <meta property="article:tag" content="Automation">
-    <meta property="article:tag" content="Dotnetcore">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Reading appsettings.json without DI/IoC using .NET Core">
-  <meta name="twitter:description" content="Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some parameters using a configuration file.
-If you search the Internet for some help on using a configuration file with a .NET Core console application, you get some pretty good results if you want to use some Dependency Injection/Inversion of Control pattern, or build classes to represent and perform a sort of unmarshalling of the JSON configuration file, or even go through the Microsoft Docs that probably inspired the first two options.">
+	<meta name="keywords" content="C#,Automation,dotnetcore"><meta name="description" content="Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some …"><meta property="og:title" content="Reading appsettings.json without DI/IoC using .NET Core" />
+<meta property="og:description" content="Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some parameters using a configuration file.
+If you search the Internet for some help on using a configuration file with a .NET Core console application, you get some pretty good results if you want to use some Dependency Injection/Inversion of Control pattern, or build classes to represent and perform a sort of unmarshalling of the JSON configuration file, or even go through the Microsoft Docs that probably inspired the first two options." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.ozzie.eu/post/appsettings-wo-di-ioc/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-19T18:05:17+01:00" />
+<meta property="article:modified_time" content="2021-04-19T18:05:17+01:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Reading appsettings.json without DI/IoC using .NET Core"/>
+<meta name="twitter:description" content="Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some parameters using a configuration file.
+If you search the Internet for some help on using a configuration file with a .NET Core console application, you get some pretty good results if you want to use some Dependency Injection/Inversion of Control pattern, or build classes to represent and perform a sort of unmarshalling of the JSON configuration file, or even go through the Microsoft Docs that probably inspired the first two options."/>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
@@ -108,12 +101,12 @@ To read the JSON config, you&rsquo;ll need the following two packages from Nuget
 <div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>using Microsoft.Extensions.Configuration;
 </span></span><span style="display:flex;"><span>using System.IO;
 </span></span></code></pre></div><p>Create a configuration builder from your settings file, passing the full path as an argument:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#080;font-weight:bold">var</span> builder <span style="color:#333">=</span> new ConfigurationBuilder()
-</span></span><span style="display:flex;"><span>            <span style="color:#333">.</span>SetBasePath(<span style="color:#f00;font-weight:bold">Directory</span><span style="color:#333">.</span>GetCurrentDirectory())
-</span></span><span style="display:flex;"><span>            <span style="color:#333">.</span>AddJsonFile(<span style="background-color:#fff0f0">&#34;appsettings.json&#34;</span>, true, true);
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>var builder = new ConfigurationBuilder()
+</span></span><span style="display:flex;"><span>            .SetBasePath(Directory.GetCurrentDirectory())
+</span></span><span style="display:flex;"><span>            .AddJsonFile(&#34;appsettings.json&#34;, true, true);
 </span></span></code></pre></div><p>Build the configuration and create an IConfiguration with keys and values:</p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-gdscript3" data-lang="gdscript3"><span style="display:flex;"><span><span style="color:#080;font-weight:bold">var</span> config <span style="color:#333">=</span> builder<span style="color:#333">.</span>Build();
-</span></span><span style="display:flex;"><span>Console<span style="color:#333">.</span>WriteLine(<span style="color:#333">$</span><span style="background-color:#fff0f0">&#34;Hello Setting: {config[&#34;</span>HelloSetting<span style="background-color:#fff0f0">&#34;]}&#34;</span>);
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>var config = builder.Build();
+</span></span><span style="display:flex;"><span>Console.WriteLine($&#34;Hello Setting: {config[&#34;HelloSetting&#34;]}&#34;);
 </span></span></code></pre></div><p>This is not a best practice and I do not claim it to be, but it was really the simplest way I found to go around it, other than reading a plain old text file.
 Find the whole working example <a href="https://github.com/ozzie-eu/automate-dotnetcore/tree/main/read-settings-file" target="_blank">here</a>.</p>
 
@@ -453,10 +446,7 @@ Find the whole working example <a href="https://github.com/ozzie-eu/automate-dot
 <footer>
 	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a> 
 	
-	
-  
-
- 
+	 
 	
 </footer>
 
