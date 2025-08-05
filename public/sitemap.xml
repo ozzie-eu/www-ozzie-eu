@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.ozzie.eu/categories/backend/</loc>
-    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/</loc>
-    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
+    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/categories/database/</loc>
+    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/</loc>
+    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/</loc>
+    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
+    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/tags/</loc>
+    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
+  </url><url>
+    <loc>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</loc>
+    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/categories/console/</loc>
     <lastmod>2025-03-31T12:30:22+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/tags/dotnetcore/</loc>
-    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/</loc>
-    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/post/</loc>
-    <lastmod>2025-03-31T12:30:22+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/</loc>
     <lastmod>2025-03-31T12:30:22+01:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</loc>
@@ -29,13 +38,7 @@
     <loc>https://www.ozzie.eu/tags/c#/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
-    <loc>https://www.ozzie.eu/categories/database/</loc>
-    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
-  </url><url>
     <loc>https://www.ozzie.eu/post/orm-vs-raw-sql/</loc>
-    <lastmod>2024-10-29T12:38:26+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ozzie.eu/tags/sqlserver/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</loc>

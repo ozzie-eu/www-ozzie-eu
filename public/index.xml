@@ -7,10 +7,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 31 Mar 2025 12:30:22 +0100</lastBuildDate>
+		<lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
 		
 		<atom:link href="https://www.ozzie.eu/index.xml" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32</title>
+			<link>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</link>
+			<pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
+			
+			<guid>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</guid>
+			<description>
+			
+				With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.
+			
+			</description>
+		</item>
 		<item>
 			<title>The Cross-Platform Mirage: .NET and the Windows Dependency Trap</title>
 			<link>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</link>
