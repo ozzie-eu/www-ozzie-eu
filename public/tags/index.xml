@@ -1,328 +1,194 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Tags on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/</link>
-		<description>Recent content in Tags on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/tags/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>sqlserver</title>
-			<link>https://www.ozzie.eu/tags/sqlserver/</link>
-			<pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/sqlserver/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>dotnetcore</title>
-			<link>https://www.ozzie.eu/tags/dotnetcore/</link>
-			<pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/dotnetcore/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>C#</title>
-			<link>https://www.ozzie.eu/tags/c#/</link>
-			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/c#/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Authentication</title>
-			<link>https://www.ozzie.eu/tags/authentication/</link>
-			<pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/authentication/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>dotnet</title>
-			<link>https://www.ozzie.eu/tags/dotnet/</link>
-			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/dotnet/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>mariadb</title>
-			<link>https://www.ozzie.eu/tags/mariadb/</link>
-			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/mariadb/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>mysql</title>
-			<link>https://www.ozzie.eu/tags/mysql/</link>
-			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/mysql/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>oracle</title>
-			<link>https://www.ozzie.eu/tags/oracle/</link>
-			<pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/oracle/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>plsql</title>
-			<link>https://www.ozzie.eu/tags/plsql/</link>
-			<pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/plsql/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>powershell</title>
-			<link>https://www.ozzie.eu/tags/powershell/</link>
-			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/powershell/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>python</title>
-			<link>https://www.ozzie.eu/tags/python/</link>
-			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/python/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>twitter</title>
-			<link>https://www.ozzie.eu/tags/twitter/</link>
-			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/twitter/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>linux</title>
-			<link>https://www.ozzie.eu/tags/linux/</link>
-			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/linux/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Automation</title>
-			<link>https://www.ozzie.eu/tags/automation/</link>
-			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/automation/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>PDF</title>
-			<link>https://www.ozzie.eu/tags/pdf/</link>
-			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/pdf/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>SOAP</title>
-			<link>https://www.ozzie.eu/tags/soap/</link>
-			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/soap/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>VisualStudio</title>
-			<link>https://www.ozzie.eu/tags/visualstudio/</link>
-			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/visualstudio/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>WSDL</title>
-			<link>https://www.ozzie.eu/tags/wsdl/</link>
-			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/wsdl/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>XML</title>
-			<link>https://www.ozzie.eu/tags/xml/</link>
-			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/xml/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>JSON</title>
-			<link>https://www.ozzie.eu/tags/json/</link>
-			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/json/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>hugo</title>
-			<link>https://www.ozzie.eu/tags/hugo/</link>
-			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/hugo/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>git</title>
-			<link>https://www.ozzie.eu/tags/git/</link>
-			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/git/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Umbraco</title>
-			<link>https://www.ozzie.eu/tags/umbraco/</link>
-			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/umbraco/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>firebase</title>
-			<link>https://www.ozzie.eu/tags/firebase/</link>
-			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/firebase/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>google</title>
-			<link>https://www.ozzie.eu/tags/google/</link>
-			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/google/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>jamstack</title>
-			<link>https://www.ozzie.eu/tags/jamstack/</link>
-			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/tags/jamstack/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Tags on Ozzie.eu</title>
+    <link>http://localhost:44149/tags/</link>
+    <description>Recent content in Tags on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:44149/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sqlserver</title>
+      <link>http://localhost:44149/tags/sqlserver/</link>
+      <pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
+      <guid>http://localhost:44149/tags/sqlserver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dotnetcore</title>
+      <link>http://localhost:44149/tags/dotnetcore/</link>
+      <pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
+      <guid>http://localhost:44149/tags/dotnetcore/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>http://localhost:44149/tags/c</link>
+      <pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
+      <guid>http://localhost:44149/tags/c</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authentication</title>
+      <link>http://localhost:44149/tags/authentication/</link>
+      <pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
+      <guid>http://localhost:44149/tags/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dotnet</title>
+      <link>http://localhost:44149/tags/dotnet/</link>
+      <pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+      <guid>http://localhost:44149/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mariadb</title>
+      <link>http://localhost:44149/tags/mariadb/</link>
+      <pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
+      <guid>http://localhost:44149/tags/mariadb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>http://localhost:44149/tags/mysql/</link>
+      <pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
+      <guid>http://localhost:44149/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle</title>
+      <link>http://localhost:44149/tags/oracle/</link>
+      <pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
+      <guid>http://localhost:44149/tags/oracle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plsql</title>
+      <link>http://localhost:44149/tags/plsql/</link>
+      <pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
+      <guid>http://localhost:44149/tags/plsql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powershell</title>
+      <link>http://localhost:44149/tags/powershell/</link>
+      <pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
+      <guid>http://localhost:44149/tags/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>http://localhost:44149/tags/python/</link>
+      <pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
+      <guid>http://localhost:44149/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Twitter</title>
+      <link>http://localhost:44149/tags/twitter/</link>
+      <pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
+      <guid>http://localhost:44149/tags/twitter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>http://localhost:44149/tags/linux/</link>
+      <pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
+      <guid>http://localhost:44149/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automation</title>
+      <link>http://localhost:44149/tags/automation/</link>
+      <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
+      <guid>http://localhost:44149/tags/automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PDF</title>
+      <link>http://localhost:44149/tags/pdf/</link>
+      <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
+      <guid>http://localhost:44149/tags/pdf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SOAP</title>
+      <link>http://localhost:44149/tags/soap/</link>
+      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
+      <guid>http://localhost:44149/tags/soap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VisualStudio</title>
+      <link>http://localhost:44149/tags/visualstudio/</link>
+      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
+      <guid>http://localhost:44149/tags/visualstudio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WSDL</title>
+      <link>http://localhost:44149/tags/wsdl/</link>
+      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
+      <guid>http://localhost:44149/tags/wsdl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>XML</title>
+      <link>http://localhost:44149/tags/xml/</link>
+      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
+      <guid>http://localhost:44149/tags/xml/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>JSON</title>
+      <link>http://localhost:44149/tags/json/</link>
+      <pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
+      <guid>http://localhost:44149/tags/json/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:44149/tags/hugo/</link>
+      <pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
+      <guid>http://localhost:44149/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:44149/tags/git/</link>
+      <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
+      <guid>http://localhost:44149/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Umbraco</title>
+      <link>http://localhost:44149/tags/umbraco/</link>
+      <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
+      <guid>http://localhost:44149/tags/umbraco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firebase</title>
+      <link>http://localhost:44149/tags/firebase/</link>
+      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
+      <guid>http://localhost:44149/tags/firebase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>http://localhost:44149/tags/google/</link>
+      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
+      <guid>http://localhost:44149/tags/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jamstack</title>
+      <link>http://localhost:44149/tags/jamstack/</link>
+      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
+      <guid>http://localhost:44149/tags/jamstack/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

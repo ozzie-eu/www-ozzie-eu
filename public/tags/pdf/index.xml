@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>PDF on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/pdf/</link>
-		<description>Recent content in PDF on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Fri, 14 May 2021 15:16:04 +0100</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Generating PDF in .NET Core using Libreoffice</title>
-			<link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
-			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</guid>
-			<description>
-			
-				Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion.
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>PDF on Ozzie.eu</title>
+    <link>http://localhost:44149/tags/pdf/</link>
+    <description>Recent content in PDF on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 14 May 2021 15:16:04 +0100</lastBuildDate>
+    <atom:link href="http://localhost:44149/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generating PDF in .NET Core using Libreoffice</title>
+      <link>http://localhost:44149/post/pdf-dotnet-libreoffice/</link>
+      <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
+      <guid>http://localhost:44149/post/pdf-dotnet-libreoffice/</guid>
+      <description>Looking for Nuget extensions to generate PDF output, there&amp;rsquo;s a lot of offer, but you have to either convert from another format like HTML or hard-code each page, text block, and layout. Also, most extensions come in freemium versions.&#xA;An interesting option is used by the team at Smart In Media GmbH &amp;amp; Co. KG. To use their words:&#xA;I was surprised, just how difficult that endeavor is if you don&amp;rsquo;t want to pay huge amounts of money to commercial libraries.</description>
+    </item>
+  </channel>
 </rss>

@@ -1,469 +1,306 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-	
-	<meta name="generator" content="Hugo 0.119.0">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-	<meta property="og:title" content="The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32">
-	
-	
-	<meta name="keywords" content="sqlserver"><meta name="description" content="With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it."><meta property="og:title" content="The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32" />
-<meta property="og:description" content="With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2025-08-04T23:30:44+01:00" />
-<meta property="article:modified_time" content="2025-08-04T23:30:44+01:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32"/>
-<meta name="twitter:description" content="With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it."/>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=44149&amp;path=livereload" data-no-instant defer></script>
 
-	<link rel="stylesheet" type="text/css" media="screen" href="/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="/css/all.css" />
-	<link rel="stylesheet" href="/css/katex.min.css" crossorigin="anonymous">
-	<script defer src="/js/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
-	<script defer src="/js/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script><title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32 | Ozzie.eu</title>
+    <title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32 :: Ozzie.eu</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it." />
+<meta name="keywords" content="joao,osorio,ozzie,blog" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:44149/post/object-not-found-mssql-kb5058722/" />
+
+
+
+
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+
+  <link rel="stylesheet" href="http://localhost:44149/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:44149/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:44149/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32">
+<meta property="og:description" content="With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it." />
+<meta property="og:url" content="http://localhost:44149/post/object-not-found-mssql-kb5058722/" />
+<meta property="og:site_name" content="Ozzie.eu" />
+
+  <meta property="og:image" content="http://localhost:44149/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+  <meta property="article:section" content="database" />
+
+  <meta property="article:section" content="Backend" />
+
+
+  <meta property="article:published_time" content="2025-08-04 23:30:44 &#43;0100 &#43;0100" />
+
+
+
+
+
+
+
+
+
+
 
 
 </head>
-<body><header>
-	
-	<div id="avatar">
-		<a href="https://www.ozzie.eu/">
-		  <img src="/img/ozzie.webp" alt="Ozzie.eu">
-		</a>
-	</div>
-	
-	<div id="titletext"><h2 id="title"><a href="https://www.ozzie.eu/">Ozzie.eu</a></h2></div>
-	<div id="title-description"><p id="subtitle">Love to code although it bugs me.</p><div id="social">
-			<nav>
-				<ul>
-					<li><a href="https://github.com/ozzie-eu"><i title="Github" class="icons fab fa-github"></i></a></li><li><a href="mailto:mail@ozzie.eu"><i title="Email" class="icons fas fa-envelope"></i></a></li>
-					<li><a href="/index.xml"><i title="RSS" class="icons fas fa-rss"></i></a></li></ul>
-			</nav>
-		</div>
-	</div>
-	
-	<div id="mainmenu">
-		<nav>
-			<ul>
-				
-				<li><a href="/">Home</a></li>
-				
-				<li><a href="/post">All Posts</a></li>
-				
-				<li><a href="/about">About</a></li>
-				
-				<li><a href="/tags">Tags</a></li>
-				
-				<li><a href="/categories">Categories</a></li>
-				
-			</ul>
-		</nav>
-	</div>
-	
+<body>
+
+
+<div class="container center">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Ozzie.eu
+  </div>
+</a>
+
+    </div>
+
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+
+
+          <li><a href="/">Home</a></li>
+
+
+
+          <li><a href="/post">All Posts</a></li>
+
+
+
+          <li><a href="/about">About</a></li>
+
+
+
+          <li><a href="/tags">Tags</a></li>
+
+
+
+          <li><a href="/categories">Categories</a></li>
+
+
+
+    </ul>
+  </li>
+</ul>
+
+
+
+  </div>
+
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+
+
+
+          <li><a href="/" >Home</a></li>
+
+
+
+          <li><a href="/post" >All Posts</a></li>
+
+
+
+          <li><a href="/about" >About</a></li>
+
+
+
+          <li><a href="/tags" >Tags</a></li>
+
+
+
+          <li><a href="/categories" >Categories</a></li>
+
+
+
+
+  </ul>
+</nav>
+
+
 </header>
-<main><div class="post">
-	
-	<div class="author">
-	
-	</div>
-	<div class="post-header">
-	
-		<div class="meta">
-			
-			<div class="date">
-				<span class="day">04</span>
-				<span class="rest">Aug 2025</span>
-			</div>
-			
-		</div>
-		
-		<div class="matter">
-			<h1 class="title">The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32</h1>
-		</div>
-	</div>
-	<div class="markdown">
-		<p>With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &ldquo;object not found&rdquo; when accessing objects outside the default <code>dbo</code> schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.</p>
-<h3 id="what-changed-with-kb5058722">What Changed with KB5058722?</h3>
+
+
+  <div class="content">
+
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:44149/post/object-not-found-mssql-kb5058722/">The &lsquo;object not found&rsquo; Error After Applying KB5058722 on SQL Server 2019 CU32</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-08-04</time></div>
+
+
+    <span class="post-tags">
+
+      #<a href="http://localhost:44149/tags/sqlserver/">sqlserver</a>&nbsp;
+
+    </span>
+
+
+
+
+
+
+  <div class="post-content"><div>
+        <p>With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &ldquo;object not found&rdquo; when accessing objects outside the default <code>dbo</code> schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.</p>
+<h3 id="what-changed-with-kb5058722">What Changed with KB5058722?<a href="#what-changed-with-kb5058722" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Update KB5058722 addresses multiple security vulnerabilities identified in SQL Server, including information disclosure risks and remote code execution threats. As part of enhanced security, SQL Server now enforces stricter rules regarding object name resolution and the explicit use of schemas.</p>
-<h3 id="why-does-this-error-occur-outside-the-dbo-schema">Why Does This Error Occur Outside the dbo Schema?</h3>
+<h3 id="why-does-this-error-occur-outside-the-dbo-schema">Why Does This Error Occur Outside the dbo Schema?<a href="#why-does-this-error-occur-outside-the-dbo-schema" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>Historically, when a T-SQL statement referenced an object without specifying its schema, SQL Server would first look in the user’s default schema and then in <code>dbo</code>. In many setups, objects outside <code>dbo</code> were accessed without the schema name, relying on this search order. After KB5058722, this logic is more restrictive:</p>
 <ul>
 <li>Referencing stored procedures, tables, or functions without specifying a schema may now result in an &ldquo;object not found&rdquo; error for non-<code>dbo</code> objects, as SQL Server might no longer resolve the correct schema automatically for that user.</li>
 <li>Especially if permissions, roles, or default schemas have changed (a common occurrence following security reviews or updates), context may now default solely to <code>dbo</code>, ignoring custom schemas used by applications or legacy users.</li>
 </ul>
-<h3 id="example-of-the-issue">Example of the Issue</h3>
+<h3 id="example-of-the-issue">Example of the Issue<a href="#example-of-the-issue" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p><strong>Common mistake when accessing an object outside dbo:</strong></p>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#888">-- Assuming a table exists in another schema, e.g. &#34;finance.despesas&#34;
-</span></span></span><span style="display:flex;"><span><span style="color:#888"></span><span style="color:#080;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#333">*</span><span style="color:#bbb"> </span><span style="color:#080;font-weight:bold">FROM</span><span style="color:#bbb"> </span>despesas;<span style="color:#bbb"> </span><span style="color:#888">-- May result in &#34;object not found&#34;
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="c1">-- Assuming a table exists in another schema, e.g. &#34;finance.despesas&#34;
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">despesas</span><span class="p">;</span><span class="w"> </span><span class="c1">-- May result in &#34;object not found&#34;
 </span></span></span></code></pre></div><p><strong>Reason</strong>: SQL Server looks for <code>dbo.despesas</code> and does not find <code>finance.despesas</code>.</p>
-<h3 id="best-practices-after-the-update">Best Practices After the Update</h3>
+<h3 id="best-practices-after-the-update">Best Practices After the Update<a href="#best-practices-after-the-update" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>To mitigate this problem and ensure scripts remain compatible:</p>
 <ul>
 <li><strong>Always specify the schema when referencing objects:</strong></li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sql" data-lang="sql"><span style="display:flex;"><span><span style="color:#080;font-weight:bold">SELECT</span><span style="color:#bbb"> </span><span style="color:#333">*</span><span style="color:#bbb"> </span><span style="color:#080;font-weight:bold">FROM</span><span style="color:#bbb"> </span>finance.despesas;<span style="color:#bbb">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">finance</span><span class="p">.</span><span class="n">despesas</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></div><ul>
 <li>Review objects, procedures, and jobs that might assume <code>dbo</code> as the default schema.</li>
 <li>Update permissions and user mappings to ensure the correct default schema, if strictly necessary.</li>
 <li>Test automated routines and orchestrations that might be affected by the changed behavior after the update.</li>
 </ul>
-<h3 id="general-recommendations">General Recommendations</h3>
+<h3 id="general-recommendations">General Recommendations<a href="#general-recommendations" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <ul>
 <li><strong>Do not rely on the default schema:</strong> Use explicit schema references in all scripts and applications.</li>
 <li><strong>Check users and roles:</strong> If roles or permissions (such as <code>sysadmin</code>) were changed after applying the update, revalidate user schema containers.</li>
 <li><strong>Document schema standards:</strong> Ensure your team follows best practices for future development and maintenance.</li>
 </ul>
-<h3 id="conclusion">Conclusion</h3>
+<h3 id="conclusion">Conclusion<a href="#conclusion" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <p>The &ldquo;object not found&rdquo; error after KB5058722 is not a bug, but rather an intentional result of strengthened security and object resolution policies in SQL Server. Issues like this highlight the need for good schema usage practices. This is a protective measure, not a limitation of the update. Always use explicit schema references to prevent future issues and keep your environments secure and up to date.</p>
-<h3 id="references">References</h3>
+<h3 id="references">References<a href="#references" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <ul>
-<li><a href="https://support.microsoft.com/en-us/topic/kb5058722-description-of-the-security-update-for-sql-server-2019-cu32-july-8-2025-09dc5da9-3a60-4462-a8ac-a8e782d088d5" target="_blank">KB5058722 - Description of the security update for SQL Server 2019 CU32: July 8, 2025</a></li>
-<li><a href="https://devicebase.net/en/microsoft-sql-server-2019/updates/kb5058722-fixes-an-issue-that-was-introduced-in-a-previous-windows/74y" target="_blank">Fixes an issue that was introduced in a previous Windows</a></li>
-<li><a href="https://cybersecuritynews.com/microsoft-sql-server-0-day-vulnerability/" target="_blank">Microsoft SQL Server 0-Day Vulnerability Exposes Sensitive Data . . .</a></li>
+<li><a href="https://support.microsoft.com/en-us/topic/kb5058722-description-of-the-security-update-for-sql-server-2019-cu32-july-8-2025-09dc5da9-3a60-4462-a8ac-a8e782d088d5">KB5058722 - Description of the security update for SQL Server 2019 CU32: July 8, 2025</a></li>
+<li><a href="https://devicebase.net/en/microsoft-sql-server-2019/updates/kb5058722-fixes-an-issue-that-was-introduced-in-a-previous-windows/74y">Fixes an issue that was introduced in a previous Windows</a></li>
+<li><a href="https://cybersecuritynews.com/microsoft-sql-server-0-day-vulnerability/">Microsoft SQL Server 0-Day Vulnerability Exposes Sensitive Data . . .</a></li>
 </ul>
 
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="tags">
-		<div class="taxosfloating_left">
-			<p>Categories</p>
-		</div>
-		<div class="termsfloating_right">
-			<p>
-			
-			
-			
-			<a href="/categories/backend/"> backend </a>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			<a href="/categories/database/"> database </a>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			</p>
-		</div>
-		<div class="clearit"></div>
-		
-		
-		
-		
-	
-		
-	
-	
-	
-	<div class="tags">
-		<div class="taxosfloating_left">
-			<p>Tags</p>
-		</div>
-		<div class="termsfloating_right">
-			<p>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			<a href="/tags/sqlserver/"> sqlserver </a>
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			</p>
-		</div>
-		<div class="clearit"></div>
-		
-		
-		
-		
-		
-	</div></div>
+      </div></div>
 
-  </main>
-<footer>
-	 © Copyright Joao Osorio | <a href="https://github.com/dataCobra/hugo-vitae" target="_blank">Vitae</a> theme for <a href="https://gohugo.io" target="_blank">Hugo</a> 
-	
-	 
-	
+
+
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+
+
+
+      <a href="http://localhost:44149/post/dotnet-cross-platform-mirage/" class="button inline next">
+         [<span class="button__text">The Cross-Platform Mirage: .NET and the Windows Dependency Trap</span>] &gt;
+      </a>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</article>
+
+  </div>
+
+
+    <footer class="footer">
+  <div class="footer__inner">
+
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
 </footer>
 
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+
+</div>
 
 </body>
 </html>

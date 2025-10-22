@@ -1,64 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>frontend on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/frontend/</link>
-		<description>Recent content in frontend on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Thu, 13 Apr 2023 14:03:58 +0100</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/categories/frontend/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Why I think you should use only LTS versions of .NET</title>
-			<link>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</link>
-			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</guid>
-			<description>
-			
-				In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming
-			
-			</description>
-		</item>
-		<item>
-			<title>Hugo post tag causing 404 Error</title>
-			<link>https://www.ozzie.eu/post/hugo-tag-404-error/</link>
-			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/hugo-tag-404-error/</guid>
-			<description>
-			
-				Using the &#39;#&#39; special character caused HTTP 404 Not Found error.
-			
-			</description>
-		</item>
-		<item>
-			<title>Umbraco Forms Translations</title>
-			<link>https://www.ozzie.eu/post/umbraco-forms-translations/</link>
-			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/umbraco-forms-translations/</guid>
-			<description>
-			
-				Umbraco consent warning translations not working.
-			
-			</description>
-		</item>
-		<item>
-			<title>Stepping Stone</title>
-			<link>https://www.ozzie.eu/post/stepping-stone/</link>
-			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/stepping-stone/</guid>
-			<description>
-			
-				Starting over with a clean slate.
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Frontend on Ozzie.eu</title>
+    <link>http://localhost:44149/categories/frontend/</link>
+    <description>Recent content in Frontend on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Apr 2023 14:03:58 +0100</lastBuildDate>
+    <atom:link href="http://localhost:44149/categories/frontend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I think you should use only LTS versions of .NET</title>
+      <link>http://localhost:44149/post/why-use-only-dotnet-lts-versions/</link>
+      <pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+      <guid>http://localhost:44149/post/why-use-only-dotnet-lts-versions/</guid>
+      <description>In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming. If you&amp;rsquo;re not familiar with the terms, LTS stands for Long Term Support and .NET is the platform that provides a runtime, a SDK, and various libraries and frameworks for building applications.&#xA;.NET has a release cadence of one major version every year in November. Each release is either LTS or STS (Standard Term Support).</description>
+    </item>
+    <item>
+      <title>Hugo post tag causing 404 Error</title>
+      <link>http://localhost:44149/post/hugo-tag-404-error/</link>
+      <pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
+      <guid>http://localhost:44149/post/hugo-tag-404-error/</guid>
+      <description>I write code mainly in C# so imagine my surprise when I was testing the tags on this site and that one in particular caused a 404 - Not Found error.&#xA;After some searching, I found the source file where the Hugo theme I&amp;rsquo;m using renders the tag links (\hugo-vitae\layouts_default\terms.html).&#xA;The only character causing this error, so far, is the &amp;ldquo;#&amp;rdquo; so I edited the file for a quick and dirty solution, replacing the special character &amp;lsquo;#&amp;rsquo; with the URL encoding &amp;lsquo;#23&amp;rsquo;.</description>
+    </item>
+    <item>
+      <title>Umbraco Forms Translations</title>
+      <link>http://localhost:44149/post/umbraco-forms-translations/</link>
+      <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
+      <guid>http://localhost:44149/post/umbraco-forms-translations/</guid>
+      <description>Last year I evaluated the Umbraco Forms product to migrate some existing forms and build new ones. Despite being overall satisfied, I stumbled upon an issue with form control translation. The consent warning translations were not working. Being Umbraco a developer-friendly CMS, the workaround solution was easy enough to come by and extend with this piece of code:&#xA;Anyway, the good news is the issue is closed as of today with a report that it&amp;rsquo;s working fine on the upcoming 8.</description>
+    </item>
+    <item>
+      <title>Stepping Stone</title>
+      <link>http://localhost:44149/post/stepping-stone/</link>
+      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
+      <guid>http://localhost:44149/post/stepping-stone/</guid>
+      <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve published anything on my previous web log. So, it sort of did not make sense to give it continuity with such a big hiatus. I also wanted to stop using blogging platforms and really have full control on the site&amp;rsquo;s content, navigation and overall source code.&#xA;So for code versioning system and full source disclosure I&amp;rsquo;ve chosen Github. For the web site building and content management framework I&amp;rsquo;ve gone with Hugo.</description>
+    </item>
+  </channel>
 </rss>

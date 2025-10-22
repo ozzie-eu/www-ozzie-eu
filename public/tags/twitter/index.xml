@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>twitter on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/twitter/</link>
-		<description>Recent content in twitter on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 25 Oct 2021 15:50:14 +0100</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Python script to unfollow inactive friends on Twitter</title>
-			<link>https://www.ozzie.eu/post/twitter-unfollow-inactive/</link>
-			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/twitter-unfollow-inactive/</guid>
-			<description>
-			
-				Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages.
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Twitter on Ozzie.eu</title>
+    <link>http://localhost:44149/tags/twitter/</link>
+    <description>Recent content in Twitter on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Oct 2021 15:50:14 +0100</lastBuildDate>
+    <atom:link href="http://localhost:44149/tags/twitter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python script to unfollow inactive friends on Twitter</title>
+      <link>http://localhost:44149/post/twitter-unfollow-inactive/</link>
+      <pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
+      <guid>http://localhost:44149/post/twitter-unfollow-inactive/</guid>
+      <description>Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&amp;rsquo;t updated their status in ages. It&amp;rsquo;s a daunting task to go over all of your friends, check their status, and unfollow the ones not using Twitter for a long time.&#xA;I&amp;rsquo;ve written a Python script to do this. The script works with the following python packages:</description>
+    </item>
+  </channel>
 </rss>

@@ -1,100 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Database on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/database/</link>
-		<description>Recent content in Database on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/categories/database/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32</title>
-			<link>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</link>
-			<pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</guid>
-			<description>
-			
-				With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.
-			
-			</description>
-		</item>
-		<item>
-			<title>ORM vs. Raw SQL: A Performance Showdown</title>
-			<link>https://www.ozzie.eu/post/orm-vs-raw-sql/</link>
-			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/orm-vs-raw-sql/</guid>
-			<description>
-			
-				In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. This post delves into the nuances of each and explore a comparative analysis using .NET code examples.
-			
-			</description>
-		</item>
-		<item>
-			<title>Recover deleted .net EF Core Migration History Table</title>
-			<link>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</link>
-			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</guid>
-			<description>
-			
-				Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&#39;s an easy way to do it.
-			
-			</description>
-		</item>
-		<item>
-			<title>This is why you&#39;re not better off with a commercial database</title>
-			<link>https://www.ozzie.eu/post/youre-not-better-commercial-database/</link>
-			<pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/youre-not-better-commercial-database/</guid>
-			<description>
-			
-				When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.
-			
-			</description>
-		</item>
-		<item>
-			<title>Better Powershell SQL comand exection using Dbatools</title>
-			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
-			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</guid>
-			<description>
-			
-				Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.
-			
-			</description>
-		</item>
-		<item>
-			<title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
-			<link>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</link>
-			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</guid>
-			<description>
-			
-				As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
-			
-			</description>
-		</item>
-		<item>
-			<title>EF Core Update Model on Database First Project</title>
-			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
-			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
-			<description>
-			
-				Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task.
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Database on Ozzie.eu</title>
+    <link>http://localhost:44149/categories/database/</link>
+    <description>Recent content in Database on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:44149/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32</title>
+      <link>http://localhost:44149/post/object-not-found-mssql-kb5058722/</link>
+      <pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
+      <guid>http://localhost:44149/post/object-not-found-mssql-kb5058722/</guid>
+      <description>With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &amp;ldquo;object not found&amp;rdquo; when accessing objects outside the default dbo schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.&#xA;What Changed with KB5058722? Update KB5058722 addresses multiple security vulnerabilities identified in SQL Server, including information disclosure risks and remote code execution threats.</description>
+    </item>
+    <item>
+      <title>ORM vs. Raw SQL: A Performance Showdown</title>
+      <link>http://localhost:44149/post/orm-vs-raw-sql/</link>
+      <pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
+      <guid>http://localhost:44149/post/orm-vs-raw-sql/</guid>
+      <description>ORM vs. Raw SQL: A Performance Showdown with Northwind Traders&#xA;In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. Let&amp;rsquo;s delve into the nuances of each and explore a comparative analysis using .NET code examples, benchmarking their performance against the classic Northwind Traders database.&#xA;Understanding the Contenders&#xA;ORM (Entity Framework Core):</description>
+    </item>
+    <item>
+      <title>Recover deleted .net EF Core Migration History Table</title>
+      <link>http://localhost:44149/post/deleted-dotnet-ef-core-migration-history/</link>
+      <pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
+      <guid>http://localhost:44149/post/deleted-dotnet-ef-core-migration-history/</guid>
+      <description>Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&amp;rsquo;s an easy way to do it, right from Visual Studio&amp;rsquo;s Package Manager Console.&#xA;If you&amp;rsquo;re using migrations, for sure you have used Microsoft.EntityFrameworkCore.Tools. this tools make available a set of Cmdlets, the one we need for the task in hand is Get-Migration.&#xA;First of all, go to the Nuget Package Manager and check which version of the EF package you are using.</description>
+    </item>
+    <item>
+      <title>This is why you&#39;re not better off with a commercial database</title>
+      <link>http://localhost:44149/post/youre-not-better-commercial-database/</link>
+      <pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
+      <guid>http://localhost:44149/post/youre-not-better-commercial-database/</guid>
+      <description>When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.&#xA;Typically, several factors should be taken into consideration like security features, storage requirements, reliability, high availability, backups, disaster recovery, data compression, technical support, and last but not least, the cost of the solution.</description>
+    </item>
+    <item>
+      <title>Better Powershell SQL comand exection using Dbatools</title>
+      <link>http://localhost:44149/post/posh-better-sqlcmd-using-dbatools/</link>
+      <pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
+      <guid>http://localhost:44149/post/posh-better-sqlcmd-using-dbatools/</guid>
+      <description>Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.&#xA;The Invoke-DbaQuery Cmdlet is part of the Dbatools, a free PowerShell module with over 500 SQL Server best practice, administration, development and migration commands included.</description>
+    </item>
+    <item>
+      <title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
+      <link>http://localhost:44149/post/posh-error-invoke-sqlcmd/</link>
+      <pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
+      <guid>http://localhost:44149/post/posh-error-invoke-sqlcmd/</guid>
+      <description>As you might have read, I&amp;rsquo;m a fan of getting things done. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I faced unexpected errors for something as trivial as an export/import job. The first version of my script went like the example below:&#xA;On execution, it read the first record correctly and then aborted with the following error:</description>
+    </item>
+    <item>
+      <title>EF Core Update Model on Database First Project</title>
+      <link>http://localhost:44149/post/ef-core-update-model-db-first/</link>
+      <pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
+      <guid>http://localhost:44149/post/ef-core-update-model-db-first/</guid>
+      <description>Started on a software project that will run using an existing database. Went with a minimalistic structure and used the EF Core Tools, from the Package Manager Console in Visual Studio, to generate the database context and table model classes. Namely scaffold-dbcontext. Used the &amp;lsquo;-t&amp;rsquo; option to create just the model classes I would use. It went very well and development went on, business as usual.&#xA;As it turned out, I missed a table, so I had to add the model class for that and update the database context.</description>
+    </item>
+  </channel>
 </rss>

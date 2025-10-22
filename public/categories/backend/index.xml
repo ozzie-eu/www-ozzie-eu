@@ -1,220 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Backend on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/backend/</link>
-		<description>Recent content in Backend on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/categories/backend/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32</title>
-			<link>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</link>
-			<pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</guid>
-			<description>
-			
-				With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.
-			
-			</description>
-		</item>
-		<item>
-			<title>The Cross-Platform Mirage: .NET and the Windows Dependency Trap</title>
-			<link>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</link>
-			<pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</guid>
-			<description>
-			
-				The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system.
-			
-			</description>
-		</item>
-		<item>
-			<title>ORM vs. Raw SQL: A Performance Showdown</title>
-			<link>https://www.ozzie.eu/post/orm-vs-raw-sql/</link>
-			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/orm-vs-raw-sql/</guid>
-			<description>
-			
-				In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. This post delves into the nuances of each and explore a comparative analysis using .NET code examples.
-			
-			</description>
-		</item>
-		<item>
-			<title>Recover deleted .net EF Core Migration History Table</title>
-			<link>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</link>
-			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</guid>
-			<description>
-			
-				Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&#39;s an easy way to do it.
-			
-			</description>
-		</item>
-		<item>
-			<title>Why I think you should use only LTS versions of .NET</title>
-			<link>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</link>
-			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</guid>
-			<description>
-			
-				In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming
-			
-			</description>
-		</item>
-		<item>
-			<title>This is why you&#39;re not better off with a commercial database</title>
-			<link>https://www.ozzie.eu/post/youre-not-better-commercial-database/</link>
-			<pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/youre-not-better-commercial-database/</guid>
-			<description>
-			
-				When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.
-			
-			</description>
-		</item>
-		<item>
-			<title>MySQL vs MariaDB: Performance on Bug Management </title>
-			<link>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</link>
-			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</guid>
-			<description>
-			
-				Cleaning up the e-mail inbox, I discovered a 7-year-old bug report I made on the MySQL bugs database: Bug #79497. Someone verified it on the …
-			
-			</description>
-		</item>
-		<item>
-			<title>ORA-01704: string literal too long</title>
-			<link>https://www.ozzie.eu/post/ora-01704/</link>
-			<pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/ora-01704/</guid>
-			<description>
-			
-				On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates.
-			
-			</description>
-		</item>
-		<item>
-			<title>Better Powershell SQL comand exection using Dbatools</title>
-			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
-			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</guid>
-			<description>
-			
-				Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.
-			
-			</description>
-		</item>
-		<item>
-			<title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
-			<link>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</link>
-			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</guid>
-			<description>
-			
-				As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
-			
-			</description>
-		</item>
-		<item>
-			<title>EF Core Update Model on Database First Project</title>
-			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
-			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
-			<description>
-			
-				Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task.
-			
-			</description>
-		</item>
-		<item>
-			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
-			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>
-			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/wsl-cross-platform-testing/</guid>
-			<description>
-			
-				WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.
-			
-			</description>
-		</item>
-		<item>
-			<title>Generating PDF in .NET Core using Libreoffice</title>
-			<link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
-			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</guid>
-			<description>
-			
-				Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion.
-			
-			</description>
-		</item>
-		<item>
-			<title>Contract First Web Service Development in .NET</title>
-			<link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
-			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/contract-first-ws-development/</guid>
-			<description>
-			
-				Working on information systems integration, often comes the task of implementing a Web Service following a previously defined contract.
-			
-			</description>
-		</item>
-		<item>
-			<title>Automation programs in .NET Core - more examples</title>
-			<link>https://www.ozzie.eu/post/more-automate-programs/</link>
-			<pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/more-automate-programs/</guid>
-			<description>
-			
-				Addition of some more examples to the collection of simple automation programs, using C#.
-			
-			</description>
-		</item>
-		<item>
-			<title>SQL Server alias is not supported on .NET Core</title>
-			<link>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</link>
-			<pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</guid>
-			<description>
-			
-				The support for SQL alias has been intentionally removed from .NET Core.
-			
-			</description>
-		</item>
-		<item>
-			<title>Simple automation programs in .NET Core</title>
-			<link>https://www.ozzie.eu/post/automate-dotnetcore/</link>
-			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/automate-dotnetcore/</guid>
-			<description>
-			
-				Collection of simple programs, using C#, for automating everyday tasks
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Backend on Ozzie.eu</title>
+    <link>http://localhost:44149/categories/backend/</link>
+    <description>Recent content in Backend on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:44149/categories/backend/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32</title>
+      <link>http://localhost:44149/post/object-not-found-mssql-kb5058722/</link>
+      <pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
+      <guid>http://localhost:44149/post/object-not-found-mssql-kb5058722/</guid>
+      <description>With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &amp;ldquo;object not found&amp;rdquo; when accessing objects outside the default dbo schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.&#xA;What Changed with KB5058722? Update KB5058722 addresses multiple security vulnerabilities identified in SQL Server, including information disclosure risks and remote code execution threats.</description>
+    </item>
+    <item>
+      <title>The Cross-Platform Mirage: .NET and the Windows Dependency Trap</title>
+      <link>http://localhost:44149/post/dotnet-cross-platform-mirage/</link>
+      <pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
+      <guid>http://localhost:44149/post/dotnet-cross-platform-mirage/</guid>
+      <description>The Cross-Platform Mirage: .NET and the Windows Dependency Trap The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system.&#xA;Let&amp;rsquo;s dive into a couple of real-world scenarios that illustrate this pitfall.</description>
+    </item>
+    <item>
+      <title>ORM vs. Raw SQL: A Performance Showdown</title>
+      <link>http://localhost:44149/post/orm-vs-raw-sql/</link>
+      <pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
+      <guid>http://localhost:44149/post/orm-vs-raw-sql/</guid>
+      <description>ORM vs. Raw SQL: A Performance Showdown with Northwind Traders&#xA;In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. Let&amp;rsquo;s delve into the nuances of each and explore a comparative analysis using .NET code examples, benchmarking their performance against the classic Northwind Traders database.&#xA;Understanding the Contenders&#xA;ORM (Entity Framework Core):</description>
+    </item>
+    <item>
+      <title>Recover deleted .net EF Core Migration History Table</title>
+      <link>http://localhost:44149/post/deleted-dotnet-ef-core-migration-history/</link>
+      <pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
+      <guid>http://localhost:44149/post/deleted-dotnet-ef-core-migration-history/</guid>
+      <description>Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&amp;rsquo;s an easy way to do it, right from Visual Studio&amp;rsquo;s Package Manager Console.&#xA;If you&amp;rsquo;re using migrations, for sure you have used Microsoft.EntityFrameworkCore.Tools. this tools make available a set of Cmdlets, the one we need for the task in hand is Get-Migration.&#xA;First of all, go to the Nuget Package Manager and check which version of the EF package you are using.</description>
+    </item>
+    <item>
+      <title>Why I think you should use only LTS versions of .NET</title>
+      <link>http://localhost:44149/post/why-use-only-dotnet-lts-versions/</link>
+      <pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+      <guid>http://localhost:44149/post/why-use-only-dotnet-lts-versions/</guid>
+      <description>In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming. If you&amp;rsquo;re not familiar with the terms, LTS stands for Long Term Support and .NET is the platform that provides a runtime, a SDK, and various libraries and frameworks for building applications.&#xA;.NET has a release cadence of one major version every year in November. Each release is either LTS or STS (Standard Term Support).</description>
+    </item>
+    <item>
+      <title>This is why you&#39;re not better off with a commercial database</title>
+      <link>http://localhost:44149/post/youre-not-better-commercial-database/</link>
+      <pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
+      <guid>http://localhost:44149/post/youre-not-better-commercial-database/</guid>
+      <description>When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.&#xA;Typically, several factors should be taken into consideration like security features, storage requirements, reliability, high availability, backups, disaster recovery, data compression, technical support, and last but not least, the cost of the solution.</description>
+    </item>
+    <item>
+      <title>MySQL vs MariaDB: Performance on Bug Management </title>
+      <link>http://localhost:44149/post/mysql-mariadb-bug-mgmt-performance/</link>
+      <pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
+      <guid>http://localhost:44149/post/mysql-mariadb-bug-mgmt-performance/</guid>
+      <description>Cleaning up the e-mail inbox, I discovered a 7-year-old bug report I made on the MySQL bugs database: Bug #79497. Someone verified it on the same day. It has been simmering there, journeying into oblivion. An optimistic guess might be that it is solved, but they forgot to close it. On a quick revisit to the topic, I used an Ubuntu terminal environment on Windows (WSL), installed MySQL 8 (in mind that the bug report was on version 5.</description>
+    </item>
+    <item>
+      <title>ORA-01704: string literal too long</title>
+      <link>http://localhost:44149/post/ora-01704/</link>
+      <pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
+      <guid>http://localhost:44149/post/ora-01704/</guid>
+      <description>Having an Oracle database with a given table storing long strings as binary data types (BLOB/CLOB), one might need to perform manual updates on those columns:&#xA;update myTable set lobColumn=&amp;#39;Some String Value&amp;#39; where somekey=somecriteria; The following error might occur while performing the direct update on that column:&#xA;ORA-01704: string literal too long Cause: The string literal is longer than 4000 characters. Action: Use a string literal of at most 4000 characters.</description>
+    </item>
+    <item>
+      <title>Better Powershell SQL comand exection using Dbatools</title>
+      <link>http://localhost:44149/post/posh-better-sqlcmd-using-dbatools/</link>
+      <pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
+      <guid>http://localhost:44149/post/posh-better-sqlcmd-using-dbatools/</guid>
+      <description>Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.&#xA;The Invoke-DbaQuery Cmdlet is part of the Dbatools, a free PowerShell module with over 500 SQL Server best practice, administration, development and migration commands included.</description>
+    </item>
+    <item>
+      <title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
+      <link>http://localhost:44149/post/posh-error-invoke-sqlcmd/</link>
+      <pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
+      <guid>http://localhost:44149/post/posh-error-invoke-sqlcmd/</guid>
+      <description>As you might have read, I&amp;rsquo;m a fan of getting things done. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I faced unexpected errors for something as trivial as an export/import job. The first version of my script went like the example below:&#xA;On execution, it read the first record correctly and then aborted with the following error:</description>
+    </item>
+    <item>
+      <title>EF Core Update Model on Database First Project</title>
+      <link>http://localhost:44149/post/ef-core-update-model-db-first/</link>
+      <pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
+      <guid>http://localhost:44149/post/ef-core-update-model-db-first/</guid>
+      <description>Started on a software project that will run using an existing database. Went with a minimalistic structure and used the EF Core Tools, from the Package Manager Console in Visual Studio, to generate the database context and table model classes. Namely scaffold-dbcontext. Used the &amp;lsquo;-t&amp;rsquo; option to create just the model classes I would use. It went very well and development went on, business as usual.&#xA;As it turned out, I missed a table, so I had to add the model class for that and update the database context.</description>
+    </item>
+    <item>
+      <title>Using Windows Subsystem for Linux for cross-platform testing</title>
+      <link>http://localhost:44149/post/wsl-cross-platform-testing/</link>
+      <pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
+      <guid>http://localhost:44149/post/wsl-cross-platform-testing/</guid>
+      <description>Windows Subsystem for Linux is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.&#xA;It&amp;rsquo;s been around as an optional feature on Microsoft&amp;rsquo;s Windows 10, since 2016. With the release of WSL2, users can now use a genuine linux kernel running on top of a Virtual Machine Platform based on a subset of Hyper-V features.&#xA;Before you proceed, be sure you&amp;rsquo;re running all the latest Windows updates.</description>
+    </item>
+    <item>
+      <title>Generating PDF in .NET Core using Libreoffice</title>
+      <link>http://localhost:44149/post/pdf-dotnet-libreoffice/</link>
+      <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
+      <guid>http://localhost:44149/post/pdf-dotnet-libreoffice/</guid>
+      <description>Looking for Nuget extensions to generate PDF output, there&amp;rsquo;s a lot of offer, but you have to either convert from another format like HTML or hard-code each page, text block, and layout. Also, most extensions come in freemium versions.&#xA;An interesting option is used by the team at Smart In Media GmbH &amp;amp; Co. KG. To use their words:&#xA;I was surprised, just how difficult that endeavor is if you don&amp;rsquo;t want to pay huge amounts of money to commercial libraries.</description>
+    </item>
+    <item>
+      <title>Contract First Web Service Development in .NET</title>
+      <link>http://localhost:44149/post/contract-first-ws-development/</link>
+      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
+      <guid>http://localhost:44149/post/contract-first-ws-development/</guid>
+      <description>Working on information systems integration often comes with the task of implementing a Web Service following a previously defined contract. This can happen with a design-first approach or a partner interoperability project where you must implement the expected receiver for the incoming data.&#xA;To develop an XML web service, having an existing WSDL, we can use the tooling provided with Microsoft Visual Studio.&#xA;We will use an ASMX project. If you&amp;rsquo;re worried about support because this is no longer a part of .</description>
+    </item>
+    <item>
+      <title>Automation programs in .NET Core - more examples</title>
+      <link>http://localhost:44149/post/more-automate-programs/</link>
+      <pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
+      <guid>http://localhost:44149/post/more-automate-programs/</guid>
+      <description>I&amp;rsquo;ve added some more examples to the collection of simple programs, using C#, for automating everyday tasks with .NET Core. The updated list of examples now includes:&#xA;Organize files inside a folder according to date: date-named-folders Compress files inside a given folder into a ZIP archive: compress-folder-zip Flatten a folder, moving files to parent directory: flatten-folder Scrape html table to csv text file: web-scrape-table Take a CSV file and save it into Excel: save-csv-to-excel Create a basic Word document: create-simple-docx Search text inside Word documents on a given folder and subfolders: search-text-docx Get JSON data from a REST end point, parse and display content: read-json.</description>
+    </item>
+    <item>
+      <title>SQL Server alias is not supported on .NET Core</title>
+      <link>http://localhost:44149/post/sqlalias-no-support-dotnetcore/</link>
+      <pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
+      <guid>http://localhost:44149/post/sqlalias-no-support-dotnetcore/</guid>
+      <description>Sharing is caring, so this is more to save time for other developers out there than to put something new on the table. Having set-up 3 different environments, development, Q&amp;amp;A, and Production for an ASP.NET Core application, I tried to preserve the naming on the configuration parameters so that rollouts between them would have a low impact on necessary changes.&#xA;One of the things I remembered was to create SQL Server alias with identical names between environments.</description>
+    </item>
+    <item>
+      <title>Simple automation programs in .NET Core</title>
+      <link>http://localhost:44149/post/automate-dotnetcore/</link>
+      <pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
+      <guid>http://localhost:44149/post/automate-dotnetcore/</guid>
+      <description>I&amp;rsquo;m building a collection of simple programs, using C#, for automating everyday tasks with .NET Core. So far I&amp;rsquo;ve made available examples on how to:&#xA;Organize files inside a folder according to date: date-named-folders Compress files inside a given folder into a ZIP archive: compress-folder-zip Flatten a folder, moving files to parent directory: flatten-folder Scrape html table to csv text file: web-scrape-table Take a CSV file and save it into Excel: save-csv-to-excel The samples are built with VSCode, the integrated terminal and the following extensions:</description>
+    </item>
+  </channel>
 </rss>

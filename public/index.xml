@@ -1,340 +1,201 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Ozzie.eu</title>
-		<link>https://www.ozzie.eu/</link>
-		<description>Recent content on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32</title>
-			<link>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</link>
-			<pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/object-not-found-mssql-kb5058722/</guid>
-			<description>
-			
-				With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &#34;object not found&#34; when accessing objects outside the default `dbo` schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.
-			
-			</description>
-		</item>
-		<item>
-			<title>The Cross-Platform Mirage: .NET and the Windows Dependency Trap</title>
-			<link>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</link>
-			<pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/dotnet-cross-platform-mirage/</guid>
-			<description>
-			
-				The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system.
-			
-			</description>
-		</item>
-		<item>
-			<title>ORM vs. Raw SQL: A Performance Showdown</title>
-			<link>https://www.ozzie.eu/post/orm-vs-raw-sql/</link>
-			<pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/orm-vs-raw-sql/</guid>
-			<description>
-			
-				In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. This post delves into the nuances of each and explore a comparative analysis using .NET code examples.
-			
-			</description>
-		</item>
-		<item>
-			<title>Recover deleted .net EF Core Migration History Table</title>
-			<link>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</link>
-			<pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</guid>
-			<description>
-			
-				Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&#39;s an easy way to do it.
-			
-			</description>
-		</item>
-		<item>
-			<title>Using an email as your login is a bad idea</title>
-			<link>https://www.ozzie.eu/post/using-email-as-login-bad-idea/</link>
-			<pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/using-email-as-login-bad-idea/</guid>
-			<description>
-			
-				Using Email as Your Login - A Security Risk That&#39;s Been Around for Too Long.
-			
-			</description>
-		</item>
-		<item>
-			<title>Why I think you should use only LTS versions of .NET</title>
-			<link>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</link>
-			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</guid>
-			<description>
-			
-				In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming
-			
-			</description>
-		</item>
-		<item>
-			<title>This is why you&#39;re not better off with a commercial database</title>
-			<link>https://www.ozzie.eu/post/youre-not-better-commercial-database/</link>
-			<pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/youre-not-better-commercial-database/</guid>
-			<description>
-			
-				When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.
-			
-			</description>
-		</item>
-		<item>
-			<title>MySQL vs MariaDB: Performance on Bug Management </title>
-			<link>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</link>
-			<pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</guid>
-			<description>
-			
-				Cleaning up the e-mail inbox, I discovered a 7-year-old bug report I made on the MySQL bugs database: Bug #79497. Someone verified it on the …
-			
-			</description>
-		</item>
-		<item>
-			<title>ORA-01704: string literal too long</title>
-			<link>https://www.ozzie.eu/post/ora-01704/</link>
-			<pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/ora-01704/</guid>
-			<description>
-			
-				On an Oracle database with a table storing long strings as BLOB/CLOB, you might get an ORA-01704 error trying to perform manual updates.
-			
-			</description>
-		</item>
-		<item>
-			<title>Award on Better Governance through Procurement Digitalisation</title>
-			<link>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</link>
-			<pubDate>Fri, 21 Oct 2022 09:21:57 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/2018-award-procurement-digitalisation/</guid>
-			<description>
-			
-				Four years ago, I was the technical lead in the development and support team for the Portuguese Public Contract Register. The platform won …
-			
-			</description>
-		</item>
-		<item>
-			<title>Better Powershell SQL comand exection using Dbatools</title>
-			<link>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</link>
-			<pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/posh-better-sqlcmd-using-dbatools/</guid>
-			<description>
-			
-				Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.
-			
-			</description>
-		</item>
-		<item>
-			<title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
-			<link>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</link>
-			<pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/posh-error-invoke-sqlcmd/</guid>
-			<description>
-			
-				As you might have read, I&#39;m a fan of GTD. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I was faced with unexpected errors for something as trivial as an export/import job.
-			
-			</description>
-		</item>
-		<item>
-			<title>Preferred Programming Language Versus Getting Things Done</title>
-			<link>https://www.ozzie.eu/post/preferred-language-vs-gtd/</link>
-			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/preferred-language-vs-gtd/</guid>
-			<description>
-			
-				Now and then you’ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations. For that, the key performance indicator is GTD.
-			
-			</description>
-		</item>
-		<item>
-			<title>Python script to unfollow inactive friends on Twitter</title>
-			<link>https://www.ozzie.eu/post/twitter-unfollow-inactive/</link>
-			<pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/twitter-unfollow-inactive/</guid>
-			<description>
-			
-				Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&#39;t updated their status in ages.
-			
-			</description>
-		</item>
-		<item>
-			<title>EF Core Update Model on Database First Project</title>
-			<link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
-			<pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
-			<description>
-			
-				Developing a project using .NET Core and Entity Framework, using an existing database, does not come with a Model update wizard. But still, it doesn&#39;t have to be a daunting task.
-			
-			</description>
-		</item>
-		<item>
-			<title>Using Windows Subsystem for Linux for cross-platform testing</title>
-			<link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>
-			<pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/wsl-cross-platform-testing/</guid>
-			<description>
-			
-				WSL is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.
-			
-			</description>
-		</item>
-		<item>
-			<title>Generating PDF in .NET Core using Libreoffice</title>
-			<link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
-			<pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</guid>
-			<description>
-			
-				Looking for Nuget extensions to generate PDF output? Here&#39;s an interesting option that uses templates in DOCX/HTML and performs the conversion.
-			
-			</description>
-		</item>
-		<item>
-			<title>Contract First Web Service Development in .NET</title>
-			<link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
-			<pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/contract-first-ws-development/</guid>
-			<description>
-			
-				Working on information systems integration, often comes the task of implementing a Web Service following a previously defined contract.
-			
-			</description>
-		</item>
-		<item>
-			<title>Reading appsettings.json without DI/IoC using .NET Core</title>
-			<link>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</link>
-			<pubDate>Mon, 19 Apr 2021 18:05:17 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</guid>
-			<description>
-			
-				Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some …
-			
-			</description>
-		</item>
-		<item>
-			<title>Automation programs in .NET Core - more examples</title>
-			<link>https://www.ozzie.eu/post/more-automate-programs/</link>
-			<pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/more-automate-programs/</guid>
-			<description>
-			
-				Addition of some more examples to the collection of simple automation programs, using C#.
-			
-			</description>
-		</item>
-		<item>
-			<title>Automatic class creation for unmarshalling JSON</title>
-			<link>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</link>
-			<pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</guid>
-			<description>
-			
-				If you&#39;re working with JSON, say for REST web services, and you don&#39;t have the class to unmarshall the response, Visual Studio can automatically generate the class for you.
-			
-			</description>
-		</item>
-		<item>
-			<title>SQL Server alias is not supported on .NET Core</title>
-			<link>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</link>
-			<pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/sqlalias-no-support-dotnetcore/</guid>
-			<description>
-			
-				The support for SQL alias has been intentionally removed from .NET Core.
-			
-			</description>
-		</item>
-		<item>
-			<title>Hugo post tag causing 404 Error</title>
-			<link>https://www.ozzie.eu/post/hugo-tag-404-error/</link>
-			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/hugo-tag-404-error/</guid>
-			<description>
-			
-				Using the &#39;#&#39; special character caused HTTP 404 Not Found error.
-			
-			</description>
-		</item>
-		<item>
-			<title>Simple automation programs in .NET Core</title>
-			<link>https://www.ozzie.eu/post/automate-dotnetcore/</link>
-			<pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/automate-dotnetcore/</guid>
-			<description>
-			
-				Collection of simple programs, using C#, for automating everyday tasks
-			
-			</description>
-		</item>
-		<item>
-			<title>Umbraco Forms Translations</title>
-			<link>https://www.ozzie.eu/post/umbraco-forms-translations/</link>
-			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/umbraco-forms-translations/</guid>
-			<description>
-			
-				Umbraco consent warning translations not working.
-			
-			</description>
-		</item>
-		<item>
-			<title>Stepping Stone</title>
-			<link>https://www.ozzie.eu/post/stepping-stone/</link>
-			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/stepping-stone/</guid>
-			<description>
-			
-				Starting over with a clean slate.
-			
-			</description>
-		</item>
-		<item>
-			<title>About</title>
-			<link>https://www.ozzie.eu/about/</link>
-			<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/about/</guid>
-			<description>
-			
-				Over 25 years of IT experience. I started my career as a systems analyst (a jack-of-all-trades programmer back then) at Andersen Consulting …
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Ozzie.eu</title>
+    <link>http://localhost:44149/</link>
+    <description>Recent content on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:44149/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The &#39;object not found&#39; Error After Applying KB5058722 on SQL Server 2019 CU32</title>
+      <link>http://localhost:44149/post/object-not-found-mssql-kb5058722/</link>
+      <pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
+      <guid>http://localhost:44149/post/object-not-found-mssql-kb5058722/</guid>
+      <description>With the release of security update KB5058722 (SQL Server 2019 CU32) on July 8, 2025, some administrators and developers reported encountering the error &amp;ldquo;object not found&amp;rdquo; when accessing objects outside the default dbo schema. This post explains the root cause of this issue, why it occurs after the update, and how to address it.&#xA;What Changed with KB5058722? Update KB5058722 addresses multiple security vulnerabilities identified in SQL Server, including information disclosure risks and remote code execution threats.</description>
+    </item>
+    <item>
+      <title>The Cross-Platform Mirage: .NET and the Windows Dependency Trap</title>
+      <link>http://localhost:44149/post/dotnet-cross-platform-mirage/</link>
+      <pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
+      <guid>http://localhost:44149/post/dotnet-cross-platform-mirage/</guid>
+      <description>The Cross-Platform Mirage: .NET and the Windows Dependency Trap The promise of .NET has always included cross-platform capabilities, allowing developers to build applications that run seamlessly on Windows, Linux, and macOS. However, this dream can quickly turn into a mirage when you rely on third-party packages, even those from Microsoft, that are intrinsically tied to the Windows operating system.&#xA;Let&amp;rsquo;s dive into a couple of real-world scenarios that illustrate this pitfall.</description>
+    </item>
+    <item>
+      <title>ORM vs. Raw SQL: A Performance Showdown</title>
+      <link>http://localhost:44149/post/orm-vs-raw-sql/</link>
+      <pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
+      <guid>http://localhost:44149/post/orm-vs-raw-sql/</guid>
+      <description>ORM vs. Raw SQL: A Performance Showdown with Northwind Traders&#xA;In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. Let&amp;rsquo;s delve into the nuances of each and explore a comparative analysis using .NET code examples, benchmarking their performance against the classic Northwind Traders database.&#xA;Understanding the Contenders&#xA;ORM (Entity Framework Core):</description>
+    </item>
+    <item>
+      <title>Recover deleted .net EF Core Migration History Table</title>
+      <link>http://localhost:44149/post/deleted-dotnet-ef-core-migration-history/</link>
+      <pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
+      <guid>http://localhost:44149/post/deleted-dotnet-ef-core-migration-history/</guid>
+      <description>Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&amp;rsquo;s an easy way to do it, right from Visual Studio&amp;rsquo;s Package Manager Console.&#xA;If you&amp;rsquo;re using migrations, for sure you have used Microsoft.EntityFrameworkCore.Tools. this tools make available a set of Cmdlets, the one we need for the task in hand is Get-Migration.&#xA;First of all, go to the Nuget Package Manager and check which version of the EF package you are using.</description>
+    </item>
+    <item>
+      <title>Using an email as your login is a bad idea</title>
+      <link>http://localhost:44149/post/using-email-as-login-bad-idea/</link>
+      <pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
+      <guid>http://localhost:44149/post/using-email-as-login-bad-idea/</guid>
+      <description>In the digital age, we&amp;rsquo;ve become accustomed to using email addresses as our primary login credentials for various online accounts. It&amp;rsquo;s a convenient and widely accepted practice, but it&amp;rsquo;s also a security risk that&amp;rsquo;s been around for far too long.&#xA;Why Email Logins Are a Bad Idea Email Address Leakage: Email addresses are a prime target for data breaches and leaks. Once an attacker has your email address, they can use it to reset your passwords, intercept your communications, or launch phishing attacks.</description>
+    </item>
+    <item>
+      <title>Why I think you should use only LTS versions of .NET</title>
+      <link>http://localhost:44149/post/why-use-only-dotnet-lts-versions/</link>
+      <pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+      <guid>http://localhost:44149/post/why-use-only-dotnet-lts-versions/</guid>
+      <description>In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming. If you&amp;rsquo;re not familiar with the terms, LTS stands for Long Term Support and .NET is the platform that provides a runtime, a SDK, and various libraries and frameworks for building applications.&#xA;.NET has a release cadence of one major version every year in November. Each release is either LTS or STS (Standard Term Support).</description>
+    </item>
+    <item>
+      <title>This is why you&#39;re not better off with a commercial database</title>
+      <link>http://localhost:44149/post/youre-not-better-commercial-database/</link>
+      <pubDate>Tue, 31 Jan 2023 08:30:20 +0000</pubDate>
+      <guid>http://localhost:44149/post/youre-not-better-commercial-database/</guid>
+      <description>When tackling a new enterprise project to support a given business, you face the challenge of choosing and committing to a database platform. The choice should be the one most adequate, given the needs and requirements of the new information system and data to be hosted and managed.&#xA;Typically, several factors should be taken into consideration like security features, storage requirements, reliability, high availability, backups, disaster recovery, data compression, technical support, and last but not least, the cost of the solution.</description>
+    </item>
+    <item>
+      <title>MySQL vs MariaDB: Performance on Bug Management </title>
+      <link>http://localhost:44149/post/mysql-mariadb-bug-mgmt-performance/</link>
+      <pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
+      <guid>http://localhost:44149/post/mysql-mariadb-bug-mgmt-performance/</guid>
+      <description>Cleaning up the e-mail inbox, I discovered a 7-year-old bug report I made on the MySQL bugs database: Bug #79497. Someone verified it on the same day. It has been simmering there, journeying into oblivion. An optimistic guess might be that it is solved, but they forgot to close it. On a quick revisit to the topic, I used an Ubuntu terminal environment on Windows (WSL), installed MySQL 8 (in mind that the bug report was on version 5.</description>
+    </item>
+    <item>
+      <title>ORA-01704: string literal too long</title>
+      <link>http://localhost:44149/post/ora-01704/</link>
+      <pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
+      <guid>http://localhost:44149/post/ora-01704/</guid>
+      <description>Having an Oracle database with a given table storing long strings as binary data types (BLOB/CLOB), one might need to perform manual updates on those columns:&#xA;update myTable set lobColumn=&amp;#39;Some String Value&amp;#39; where somekey=somecriteria; The following error might occur while performing the direct update on that column:&#xA;ORA-01704: string literal too long Cause: The string literal is longer than 4000 characters. Action: Use a string literal of at most 4000 characters.</description>
+    </item>
+    <item>
+      <title>Award on Better Governance through Procurement Digitalisation</title>
+      <link>http://localhost:44149/post/2018-award-procurement-digitalisation/</link>
+      <pubDate>Fri, 21 Oct 2022 09:21:57 +0100</pubDate>
+      <guid>http://localhost:44149/post/2018-award-procurement-digitalisation/</guid>
+      <description>Four years ago, I was the technical lead in the development and support team for the Portuguese Public Contract Register. The platform won second place in the Award &amp;lsquo;Better Governance through Procurement Digitalisation&amp;rsquo;. That award aimed to highlight and reward the solutions in digital public procurement in Europe that help to improve the governance of the national procurement systems. There was a cash prize for the award winners. We invested ours in text-to-speech software.</description>
+    </item>
+    <item>
+      <title>Better Powershell SQL comand exection using Dbatools</title>
+      <link>http://localhost:44149/post/posh-better-sqlcmd-using-dbatools/</link>
+      <pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
+      <guid>http://localhost:44149/post/posh-better-sqlcmd-using-dbatools/</guid>
+      <description>Recently I chose to develop a quick batch solution, for working with SQL Server databases, using Powershell and the Invoke-SqlCmd cmdlet. I was faced with unexpected errors. After quick workaround on the code, I was able to get things done. However, recently I got to redo the batch resulting on a more performant solution. The key to this was the Invoke-DbaQuery Cmdlet.&#xA;The Invoke-DbaQuery Cmdlet is part of the Dbatools, a free PowerShell module with over 500 SQL Server best practice, administration, development and migration commands included.</description>
+    </item>
+    <item>
+      <title>Powershell Error on Invoke-Sqlcmd?  Ditch the pipe operator.</title>
+      <link>http://localhost:44149/post/posh-error-invoke-sqlcmd/</link>
+      <pubDate>Mon, 20 Jun 2022 11:20:16 +0100</pubDate>
+      <guid>http://localhost:44149/post/posh-error-invoke-sqlcmd/</guid>
+      <description>As you might have read, I&amp;rsquo;m a fan of getting things done. Having to develop a quick batch solution for some data copying between different SQL Server databases, I chose to use Powershell scripting and the Invoke-SqlCmd cmdlet. However I faced unexpected errors for something as trivial as an export/import job. The first version of my script went like the example below:&#xA;On execution, it read the first record correctly and then aborted with the following error:</description>
+    </item>
+    <item>
+      <title>Preferred Programming Language Versus Getting Things Done</title>
+      <link>http://localhost:44149/post/preferred-language-vs-gtd/</link>
+      <pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
+      <guid>http://localhost:44149/post/preferred-language-vs-gtd/</guid>
+      <description>Getting skills in more than one programming language is a must for professional developers and multitaskers. You can try creating a toolbelt of ready-to-use code snippets, bookmark all the handy libraries, and even practice hypothetical situations. That&amp;rsquo;s what I had in mind working on my automate-dotnetcore project.&#xA;But now and then you&amp;rsquo;ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations.</description>
+    </item>
+    <item>
+      <title>Python script to unfollow inactive friends on Twitter</title>
+      <link>http://localhost:44149/post/twitter-unfollow-inactive/</link>
+      <pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
+      <guid>http://localhost:44149/post/twitter-unfollow-inactive/</guid>
+      <description>Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&amp;rsquo;t updated their status in ages. It&amp;rsquo;s a daunting task to go over all of your friends, check their status, and unfollow the ones not using Twitter for a long time.&#xA;I&amp;rsquo;ve written a Python script to do this. The script works with the following python packages:</description>
+    </item>
+    <item>
+      <title>EF Core Update Model on Database First Project</title>
+      <link>http://localhost:44149/post/ef-core-update-model-db-first/</link>
+      <pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
+      <guid>http://localhost:44149/post/ef-core-update-model-db-first/</guid>
+      <description>Started on a software project that will run using an existing database. Went with a minimalistic structure and used the EF Core Tools, from the Package Manager Console in Visual Studio, to generate the database context and table model classes. Namely scaffold-dbcontext. Used the &amp;lsquo;-t&amp;rsquo; option to create just the model classes I would use. It went very well and development went on, business as usual.&#xA;As it turned out, I missed a table, so I had to add the model class for that and update the database context.</description>
+    </item>
+    <item>
+      <title>Using Windows Subsystem for Linux for cross-platform testing</title>
+      <link>http://localhost:44149/post/wsl-cross-platform-testing/</link>
+      <pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
+      <guid>http://localhost:44149/post/wsl-cross-platform-testing/</guid>
+      <description>Windows Subsystem for Linux is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.&#xA;It&amp;rsquo;s been around as an optional feature on Microsoft&amp;rsquo;s Windows 10, since 2016. With the release of WSL2, users can now use a genuine linux kernel running on top of a Virtual Machine Platform based on a subset of Hyper-V features.&#xA;Before you proceed, be sure you&amp;rsquo;re running all the latest Windows updates.</description>
+    </item>
+    <item>
+      <title>Generating PDF in .NET Core using Libreoffice</title>
+      <link>http://localhost:44149/post/pdf-dotnet-libreoffice/</link>
+      <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
+      <guid>http://localhost:44149/post/pdf-dotnet-libreoffice/</guid>
+      <description>Looking for Nuget extensions to generate PDF output, there&amp;rsquo;s a lot of offer, but you have to either convert from another format like HTML or hard-code each page, text block, and layout. Also, most extensions come in freemium versions.&#xA;An interesting option is used by the team at Smart In Media GmbH &amp;amp; Co. KG. To use their words:&#xA;I was surprised, just how difficult that endeavor is if you don&amp;rsquo;t want to pay huge amounts of money to commercial libraries.</description>
+    </item>
+    <item>
+      <title>Contract First Web Service Development in .NET</title>
+      <link>http://localhost:44149/post/contract-first-ws-development/</link>
+      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
+      <guid>http://localhost:44149/post/contract-first-ws-development/</guid>
+      <description>Working on information systems integration often comes with the task of implementing a Web Service following a previously defined contract. This can happen with a design-first approach or a partner interoperability project where you must implement the expected receiver for the incoming data.&#xA;To develop an XML web service, having an existing WSDL, we can use the tooling provided with Microsoft Visual Studio.&#xA;We will use an ASMX project. If you&amp;rsquo;re worried about support because this is no longer a part of .</description>
+    </item>
+    <item>
+      <title>Reading appsettings.json without DI/IoC using .NET Core</title>
+      <link>http://localhost:44149/post/appsettings-wo-di-ioc/</link>
+      <pubDate>Mon, 19 Apr 2021 18:05:17 +0100</pubDate>
+      <guid>http://localhost:44149/post/appsettings-wo-di-ioc/</guid>
+      <description>Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some parameters using a configuration file.&#xA;If you search the Internet for some help on using a configuration file with a .NET Core console application, you get some pretty good results if you want to use some Dependency Injection/Inversion of Control pattern, or build classes to represent and perform a sort of unmarshalling of the JSON configuration file, or even go through the Microsoft Docs that probably inspired the first two options.</description>
+    </item>
+    <item>
+      <title>Automation programs in .NET Core - more examples</title>
+      <link>http://localhost:44149/post/more-automate-programs/</link>
+      <pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
+      <guid>http://localhost:44149/post/more-automate-programs/</guid>
+      <description>I&amp;rsquo;ve added some more examples to the collection of simple programs, using C#, for automating everyday tasks with .NET Core. The updated list of examples now includes:&#xA;Organize files inside a folder according to date: date-named-folders Compress files inside a given folder into a ZIP archive: compress-folder-zip Flatten a folder, moving files to parent directory: flatten-folder Scrape html table to csv text file: web-scrape-table Take a CSV file and save it into Excel: save-csv-to-excel Create a basic Word document: create-simple-docx Search text inside Word documents on a given folder and subfolders: search-text-docx Get JSON data from a REST end point, parse and display content: read-json.</description>
+    </item>
+    <item>
+      <title>Automatic class creation for unmarshalling JSON</title>
+      <link>http://localhost:44149/post/json-automatic-class-unmarshall/</link>
+      <pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
+      <guid>http://localhost:44149/post/json-automatic-class-unmarshall/</guid>
+      <description>If you&amp;rsquo;re working with JSON, say for REST web services, and you don&amp;rsquo;t have the class to unmarshal the response, Visual Studio can automatically generate the class for you:&#xA;Open your Visual Studio Project and create a class file. Delete the contents: Copy the JSON text string you will need to unmarshall onto the clipboard. Take this example from the JSON Placeholder mock API: { &amp;#34;userId&amp;#34;: 1, &amp;#34;id&amp;#34;: 1, &amp;#34;title&amp;#34;: &amp;#34;delectus aut autem&amp;#34;, &amp;#34;completed&amp;#34;: false } Go to Edit &amp;gt; Paste Special &amp;gt; Paste JSON as Classes: The result is a class named &amp;ldquo;Rootobject&amp;rdquo; that you can use to unmarshall the information on your code.</description>
+    </item>
+    <item>
+      <title>SQL Server alias is not supported on .NET Core</title>
+      <link>http://localhost:44149/post/sqlalias-no-support-dotnetcore/</link>
+      <pubDate>Mon, 22 Mar 2021 15:58:36 +0000</pubDate>
+      <guid>http://localhost:44149/post/sqlalias-no-support-dotnetcore/</guid>
+      <description>Sharing is caring, so this is more to save time for other developers out there than to put something new on the table. Having set-up 3 different environments, development, Q&amp;amp;A, and Production for an ASP.NET Core application, I tried to preserve the naming on the configuration parameters so that rollouts between them would have a low impact on necessary changes.&#xA;One of the things I remembered was to create SQL Server alias with identical names between environments.</description>
+    </item>
+    <item>
+      <title>Hugo post tag causing 404 Error</title>
+      <link>http://localhost:44149/post/hugo-tag-404-error/</link>
+      <pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
+      <guid>http://localhost:44149/post/hugo-tag-404-error/</guid>
+      <description>I write code mainly in C# so imagine my surprise when I was testing the tags on this site and that one in particular caused a 404 - Not Found error.&#xA;After some searching, I found the source file where the Hugo theme I&amp;rsquo;m using renders the tag links (\hugo-vitae\layouts_default\terms.html).&#xA;The only character causing this error, so far, is the &amp;ldquo;#&amp;rdquo; so I edited the file for a quick and dirty solution, replacing the special character &amp;lsquo;#&amp;rsquo; with the URL encoding &amp;lsquo;#23&amp;rsquo;.</description>
+    </item>
+    <item>
+      <title>Simple automation programs in .NET Core</title>
+      <link>http://localhost:44149/post/automate-dotnetcore/</link>
+      <pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
+      <guid>http://localhost:44149/post/automate-dotnetcore/</guid>
+      <description>I&amp;rsquo;m building a collection of simple programs, using C#, for automating everyday tasks with .NET Core. So far I&amp;rsquo;ve made available examples on how to:&#xA;Organize files inside a folder according to date: date-named-folders Compress files inside a given folder into a ZIP archive: compress-folder-zip Flatten a folder, moving files to parent directory: flatten-folder Scrape html table to csv text file: web-scrape-table Take a CSV file and save it into Excel: save-csv-to-excel The samples are built with VSCode, the integrated terminal and the following extensions:</description>
+    </item>
+    <item>
+      <title>Umbraco Forms Translations</title>
+      <link>http://localhost:44149/post/umbraco-forms-translations/</link>
+      <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
+      <guid>http://localhost:44149/post/umbraco-forms-translations/</guid>
+      <description>Last year I evaluated the Umbraco Forms product to migrate some existing forms and build new ones. Despite being overall satisfied, I stumbled upon an issue with form control translation. The consent warning translations were not working. Being Umbraco a developer-friendly CMS, the workaround solution was easy enough to come by and extend with this piece of code:&#xA;Anyway, the good news is the issue is closed as of today with a report that it&amp;rsquo;s working fine on the upcoming 8.</description>
+    </item>
+    <item>
+      <title>Stepping Stone</title>
+      <link>http://localhost:44149/post/stepping-stone/</link>
+      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
+      <guid>http://localhost:44149/post/stepping-stone/</guid>
+      <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve published anything on my previous web log. So, it sort of did not make sense to give it continuity with such a big hiatus. I also wanted to stop using blogging platforms and really have full control on the site&amp;rsquo;s content, navigation and overall source code.&#xA;So for code versioning system and full source disclosure I&amp;rsquo;ve chosen Github. For the web site building and content management framework I&amp;rsquo;ve gone with Hugo.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:44149/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:44149/about/</guid>
+      <description>Over 25 years of IT experience. I started my career as a systems analyst (a jack-of-all-trades programmer back then) at Andersen Consulting (now Accenture). After gaining CRM experience at a Portuguese firm called Novabase, I transitioned to a developer and later database support engineer role at the Portuguese Ministry of Justice. I then took on a leadership role as head of unit at a public institution for regulatory affairs. I&amp;rsquo;m currently engaged in a consulting role.</description>
+    </item>
+  </channel>
 </rss>

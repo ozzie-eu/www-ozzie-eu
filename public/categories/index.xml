@@ -1,112 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Categories on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/categories/</link>
-		<description>Recent content in Categories on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/categories/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Backend</title>
-			<link>https://www.ozzie.eu/categories/backend/</link>
-			<pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/backend/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Database</title>
-			<link>https://www.ozzie.eu/categories/database/</link>
-			<pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/database/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Console</title>
-			<link>https://www.ozzie.eu/categories/console/</link>
-			<pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/console/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Security</title>
-			<link>https://www.ozzie.eu/categories/security/</link>
-			<pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/security/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>frontend</title>
-			<link>https://www.ozzie.eu/categories/frontend/</link>
-			<pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/frontend/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>Tools</title>
-			<link>https://www.ozzie.eu/categories/tools/</link>
-			<pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/tools/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>web</title>
-			<link>https://www.ozzie.eu/categories/web/</link>
-			<pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/web/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		<item>
-			<title>CMS</title>
-			<link>https://www.ozzie.eu/categories/cms/</link>
-			<pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/categories/cms/</guid>
-			<description>
-			
-				
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Categories on Ozzie.eu</title>
+    <link>http://localhost:44149/categories/</link>
+    <description>Recent content in Categories on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate>
+    <atom:link href="http://localhost:44149/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Backend</title>
+      <link>http://localhost:44149/categories/backend/</link>
+      <pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
+      <guid>http://localhost:44149/categories/backend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>http://localhost:44149/categories/database/</link>
+      <pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
+      <guid>http://localhost:44149/categories/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Console</title>
+      <link>http://localhost:44149/categories/console/</link>
+      <pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
+      <guid>http://localhost:44149/categories/console/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:44149/categories/security/</link>
+      <pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
+      <guid>http://localhost:44149/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend</title>
+      <link>http://localhost:44149/categories/frontend/</link>
+      <pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
+      <guid>http://localhost:44149/categories/frontend/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>http://localhost:44149/categories/tools/</link>
+      <pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
+      <guid>http://localhost:44149/categories/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://localhost:44149/categories/web/</link>
+      <pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
+      <guid>http://localhost:44149/categories/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CMS</title>
+      <link>http://localhost:44149/categories/cms/</link>
+      <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
+      <guid>http://localhost:44149/categories/cms/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

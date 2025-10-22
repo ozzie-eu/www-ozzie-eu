@@ -1,28 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>firebase on Ozzie.eu</title>
-		<link>https://www.ozzie.eu/tags/firebase/</link>
-		<description>Recent content in firebase on www.ozzie.eu</description>
-		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
-		<copyright>© Copyright Joao Osorio | Vitae theme for Hugo</copyright>
-		<lastBuildDate>Sun, 28 Feb 2021 21:41:22 +0000</lastBuildDate>
-		
-		<atom:link href="https://www.ozzie.eu/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Stepping Stone</title>
-			<link>https://www.ozzie.eu/post/stepping-stone/</link>
-			<pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-			
-			<guid>https://www.ozzie.eu/post/stepping-stone/</guid>
-			<description>
-			
-				Starting over with a clean slate.
-			
-			</description>
-		</item>
-		
-	</channel>
+  <channel>
+    <title>Firebase on Ozzie.eu</title>
+    <link>http://localhost:44149/tags/firebase/</link>
+    <description>Recent content in Firebase on Ozzie.eu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Feb 2021 21:41:22 +0000</lastBuildDate>
+    <atom:link href="http://localhost:44149/tags/firebase/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stepping Stone</title>
+      <link>http://localhost:44149/post/stepping-stone/</link>
+      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
+      <guid>http://localhost:44149/post/stepping-stone/</guid>
+      <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve published anything on my previous web log. So, it sort of did not make sense to give it continuity with such a big hiatus. I also wanted to stop using blogging platforms and really have full control on the site&amp;rsquo;s content, navigation and overall source code.&#xA;So for code versioning system and full source disclosure I&amp;rsquo;ve chosen Github. For the web site building and content management framework I&amp;rsquo;ve gone with Hugo.</description>
+    </item>
+  </channel>
 </rss>
