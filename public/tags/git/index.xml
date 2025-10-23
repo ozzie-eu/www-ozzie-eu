@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Ozzie.eu</title>
-    <link>https://www.ozzie.eu/tags/git/</link>
+    <link>/tags/git/</link>
     <description>Recent content in git on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Mar 2021 15:47:06 +0000</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Mar 2021 15:47:06 +0000</lastBuildDate><atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Umbraco Forms Translations</title>
-      <link>https://www.ozzie.eu/post/umbraco-forms-translations/</link>
+      <link>/post/umbraco-forms-translations/</link>
       <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/umbraco-forms-translations/</guid>
+      <guid>/post/umbraco-forms-translations/</guid>
       <description>Last year I evaluated the Umbraco Forms product to migrate some existing forms and build new ones. Despite being overall satisfied, I stumbled upon an issue with form control translation. The consent warning translations were not working. Being Umbraco a developer-friendly CMS, the workaround solution was easy enough to come by and extend with this piece of code:
 Anyway, the good news is the issue is closed as of today with a report that it&amp;rsquo;s working fine on the upcoming 8.</description>
     </item>
     
     <item>
       <title>Stepping Stone</title>
-      <link>https://www.ozzie.eu/post/stepping-stone/</link>
+      <link>/post/stepping-stone/</link>
       <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/stepping-stone/</guid>
+      <guid>/post/stepping-stone/</guid>
       <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve published anything on my previous web log. So, it sort of did not make sense to give it continuity with such a big hiatus. I also wanted to stop using blogging platforms and really have full control on the site&amp;rsquo;s content, navigation and overall source code.
 So for code versioning system and full source disclosure I&amp;rsquo;ve chosen Github. For the web site building and content management framework I&amp;rsquo;ve gone with Hugo.</description>
     </item>

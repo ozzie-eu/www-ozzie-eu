@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VisualStudio on Ozzie.eu</title>
-    <link>https://www.ozzie.eu/tags/visualstudio/</link>
+    <link>/tags/visualstudio/</link>
     <description>Recent content in VisualStudio on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/visualstudio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate><atom:link href="/tags/visualstudio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contract First Web Service Development in .NET</title>
-      <link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
+      <link>/post/contract-first-ws-development/</link>
       <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/contract-first-ws-development/</guid>
+      <guid>/post/contract-first-ws-development/</guid>
       <description>Working on information systems integration often comes with the task of implementing a Web Service following a previously defined contract. This can happen with a design-first approach or a partner interoperability project where you must implement the expected receiver for the incoming data.
 To develop an XML web service, having an existing WSDL, we can use the tooling provided with Microsoft Visual Studio.
 We will use an ASMX project. If you&amp;rsquo;re worried about support because this is no longer a part of .</description>
@@ -20,10 +20,10 @@ We will use an ASMX project. If you&amp;rsquo;re worried about support because t
     
     <item>
       <title>Automatic class creation for unmarshalling JSON</title>
-      <link>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</link>
+      <link>/post/json-automatic-class-unmarshall/</link>
       <pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</guid>
+      <guid>/post/json-automatic-class-unmarshall/</guid>
       <description>If you&amp;rsquo;re working with JSON, say for REST web services, and you don&amp;rsquo;t have the class to unmarshal the response, Visual Studio can automatically generate the class for you:
 Open your Visual Studio Project and create a class file. Delete the contents: Copy the JSON text string you will need to unmarshall onto the clipboard. Take this example from the JSON Placeholder mock API: {&amp;#34;userId&amp;#34;: 1,&amp;#34;id&amp;#34;: 1,&amp;#34;title&amp;#34;: &amp;#34;delectus aut autem&amp;#34;,&amp;#34;completed&amp;#34;: false} Go to Edit &amp;gt; Paste Special &amp;gt; Paste JSON as Classes: The result is a class named &amp;ldquo;Rootobject&amp;rdquo; that you can use to unmarshall the information on your code.</description>
     </item>

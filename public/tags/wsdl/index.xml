@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WSDL on Ozzie.eu</title>
-    <link>https://www.ozzie.eu/tags/wsdl/</link>
+    <link>/tags/wsdl/</link>
     <description>Recent content in WSDL on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/wsdl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate><atom:link href="/tags/wsdl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contract First Web Service Development in .NET</title>
-      <link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
+      <link>/post/contract-first-ws-development/</link>
       <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/contract-first-ws-development/</guid>
+      <guid>/post/contract-first-ws-development/</guid>
       <description>Working on information systems integration often comes with the task of implementing a Web Service following a previously defined contract. This can happen with a design-first approach or a partner interoperability project where you must implement the expected receiver for the incoming data.
 To develop an XML web service, having an existing WSDL, we can use the tooling provided with Microsoft Visual Studio.
 We will use an ASMX project. If you&amp;rsquo;re worried about support because this is no longer a part of .</description>

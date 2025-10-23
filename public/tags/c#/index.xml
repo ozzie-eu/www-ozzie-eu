@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C# on Ozzie.eu</title>
-    <link>https://www.ozzie.eu/tags/c#/</link>
+    <link>/tags/c#/</link>
     <description>Recent content in C# on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Oct 2024 12:38:26 +0000</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2024 12:38:26 +0000</lastBuildDate><atom:link href="/tags/c#/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ORM vs. Raw SQL: A Performance Showdown</title>
-      <link>https://www.ozzie.eu/post/orm-vs-raw-sql/</link>
+      <link>/post/orm-vs-raw-sql/</link>
       <pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/orm-vs-raw-sql/</guid>
+      <guid>/post/orm-vs-raw-sql/</guid>
       <description>ORM vs. Raw SQL: A Performance Showdown with Northwind Traders
 In the realm of data access, the choice between Object-Relational Mappers (ORMs) like Entity Framework (EF) Core and direct SQL approaches like Dapper can significantly impact application performance. Let&amp;rsquo;s delve into the nuances of each and explore a comparative analysis using .NET code examples, benchmarking their performance against the classic Northwind Traders database.
 Understanding the Contenders
@@ -21,10 +21,10 @@ ORM (Entity Framework Core):</description>
     
     <item>
       <title>Recover deleted .net EF Core Migration History Table</title>
-      <link>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</link>
+      <link>/post/deleted-dotnet-ef-core-migration-history/</link>
       <pubDate>Thu, 23 May 2024 16:02:02 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/deleted-dotnet-ef-core-migration-history/</guid>
+      <guid>/post/deleted-dotnet-ef-core-migration-history/</guid>
       <description>Working with Microsoft EF Core you might need to recover the records on the entity framework migration history table. Here&amp;rsquo;s an easy way to do it, right from Visual Studio&amp;rsquo;s Package Manager Console.
 If you&amp;rsquo;re using migrations, for sure you have used Microsoft.EntityFrameworkCore.Tools. this tools make available a set of Cmdlets, the one we need for the task in hand is Get-Migration.
 First of all, go to the Nuget Package Manager and check which version of the EF package you are using.</description>
@@ -32,40 +32,40 @@ First of all, go to the Nuget Package Manager and check which version of the EF 
     
     <item>
       <title>Why I think you should use only LTS versions of .NET</title>
-      <link>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</link>
+      <link>/post/why-use-only-dotnet-lts-versions/</link>
       <pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/why-use-only-dotnet-lts-versions/</guid>
+      <guid>/post/why-use-only-dotnet-lts-versions/</guid>
       <description>In this blog post, I want to share with you why I think you should use only LTS versions of .NET when programming. If you&amp;rsquo;re not familiar with the terms, LTS stands for Long Term Support and .NET is the platform that provides a runtime, a SDK, and various libraries and frameworks for building applications.
 .NET has a release cadence of one major version every year in November. Each release is either LTS or STS (Standard Term Support).</description>
     </item>
     
     <item>
       <title>Preferred Programming Language Versus Getting Things Done</title>
-      <link>https://www.ozzie.eu/post/preferred-language-vs-gtd/</link>
+      <link>/post/preferred-language-vs-gtd/</link>
       <pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/preferred-language-vs-gtd/</guid>
+      <guid>/post/preferred-language-vs-gtd/</guid>
       <description>Getting skills in more than one programming language is a must for professional developers and multitaskers. You can try creating a toolbelt of ready-to-use code snippets, bookmark all the handy libraries, and even practice hypothetical situations. That&amp;rsquo;s what I had in mind working on my automate-dotnetcore project.
 But now and then you&amp;rsquo;ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations.</description>
     </item>
     
     <item>
       <title>EF Core Update Model on Database First Project</title>
-      <link>https://www.ozzie.eu/post/ef-core-update-model-db-first/</link>
+      <link>/post/ef-core-update-model-db-first/</link>
       <pubDate>Tue, 07 Sep 2021 12:00:48 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/ef-core-update-model-db-first/</guid>
+      <guid>/post/ef-core-update-model-db-first/</guid>
       <description>Started on a software project that will run using an existing database. Went with a minimalistic structure and used the EF Core Tools, from the Package Manager Console in Visual Studio, to generate the database context and table model classes. Namely scaffold-dbcontext. Used the &amp;lsquo;-t&amp;rsquo; option to create just the model classes I would use. It went very well and development went on, business as usual.
 As it turned out, I missed a table, so I had to add the model class for that and update the database context.</description>
     </item>
     
     <item>
       <title>Generating PDF in .NET Core using Libreoffice</title>
-      <link>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</link>
+      <link>/post/pdf-dotnet-libreoffice/</link>
       <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/pdf-dotnet-libreoffice/</guid>
+      <guid>/post/pdf-dotnet-libreoffice/</guid>
       <description>Looking for Nuget extensions to generate PDF output, there&amp;rsquo;s a lot of offer, but you have to either convert from another format like HTML or hard-code each page, text block, and layout. Also, most extensions come in freemium versions.
 An interesting option is used by the team at Smart In Media GmbH &amp;amp; Co. KG. To use their words:
 I was surprised, just how difficult that endeavor is if you don&amp;rsquo;t want to pay huge amounts of money to commercial libraries.</description>
@@ -73,10 +73,10 @@ I was surprised, just how difficult that endeavor is if you don&amp;rsquo;t want
     
     <item>
       <title>Contract First Web Service Development in .NET</title>
-      <link>https://www.ozzie.eu/post/contract-first-ws-development/</link>
+      <link>/post/contract-first-ws-development/</link>
       <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/contract-first-ws-development/</guid>
+      <guid>/post/contract-first-ws-development/</guid>
       <description>Working on information systems integration often comes with the task of implementing a Web Service following a previously defined contract. This can happen with a design-first approach or a partner interoperability project where you must implement the expected receiver for the incoming data.
 To develop an XML web service, having an existing WSDL, we can use the tooling provided with Microsoft Visual Studio.
 We will use an ASMX project. If you&amp;rsquo;re worried about support because this is no longer a part of .</description>
@@ -84,50 +84,50 @@ We will use an ASMX project. If you&amp;rsquo;re worried about support because t
     
     <item>
       <title>Reading appsettings.json without DI/IoC using .NET Core</title>
-      <link>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</link>
+      <link>/post/appsettings-wo-di-ioc/</link>
       <pubDate>Mon, 19 Apr 2021 18:05:17 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/appsettings-wo-di-ioc/</guid>
+      <guid>/post/appsettings-wo-di-ioc/</guid>
       <description>Creating a console program to run a batch job or some other kind of recurrent task is nice. Even nicer is to be able to pass along some parameters using a configuration file.
 If you search the Internet for some help on using a configuration file with a .NET Core console application, you get some pretty good results if you want to use some Dependency Injection/Inversion of Control pattern, or build classes to represent and perform a sort of unmarshalling of the JSON configuration file, or even go through the Microsoft Docs that probably inspired the first two options.</description>
     </item>
     
     <item>
       <title>Automation programs in .NET Core - more examples</title>
-      <link>https://www.ozzie.eu/post/more-automate-programs/</link>
+      <link>/post/more-automate-programs/</link>
       <pubDate>Wed, 07 Apr 2021 17:30:14 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/more-automate-programs/</guid>
+      <guid>/post/more-automate-programs/</guid>
       <description>I&amp;rsquo;ve added some more examples to the collection of simple programs, using C#, for automating everyday tasks with .NET Core. The updated list of examples now includes:
 Organize files inside a folder according to date: date-named-folders Compress files inside a given folder into a ZIP archive: compress-folder-zip Flatten a folder, moving files to parent directory: flatten-folder Scrape html table to csv text file: web-scrape-table Take a CSV file and save it into Excel: save-csv-to-excel Create a basic Word document: create-simple-docx Search text inside Word documents on a given folder and subfolders: search-text-docx Get JSON data from a REST end point, parse and display content: read-json.</description>
     </item>
     
     <item>
       <title>Automatic class creation for unmarshalling JSON</title>
-      <link>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</link>
+      <link>/post/json-automatic-class-unmarshall/</link>
       <pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/json-automatic-class-unmarshall/</guid>
+      <guid>/post/json-automatic-class-unmarshall/</guid>
       <description>If you&amp;rsquo;re working with JSON, say for REST web services, and you don&amp;rsquo;t have the class to unmarshal the response, Visual Studio can automatically generate the class for you:
 Open your Visual Studio Project and create a class file. Delete the contents: Copy the JSON text string you will need to unmarshall onto the clipboard. Take this example from the JSON Placeholder mock API: {&amp;#34;userId&amp;#34;: 1,&amp;#34;id&amp;#34;: 1,&amp;#34;title&amp;#34;: &amp;#34;delectus aut autem&amp;#34;,&amp;#34;completed&amp;#34;: false} Go to Edit &amp;gt; Paste Special &amp;gt; Paste JSON as Classes: The result is a class named &amp;ldquo;Rootobject&amp;rdquo; that you can use to unmarshall the information on your code.</description>
     </item>
     
     <item>
       <title>Simple automation programs in .NET Core</title>
-      <link>https://www.ozzie.eu/post/automate-dotnetcore/</link>
+      <link>/post/automate-dotnetcore/</link>
       <pubDate>Fri, 12 Mar 2021 16:05:02 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/automate-dotnetcore/</guid>
+      <guid>/post/automate-dotnetcore/</guid>
       <description>I&amp;rsquo;m building a collection of simple programs, using C#, for automating everyday tasks with .NET Core. So far I&amp;rsquo;ve made available examples on how to:
 Organize files inside a folder according to date: date-named-folders Compress files inside a given folder into a ZIP archive: compress-folder-zip Flatten a folder, moving files to parent directory: flatten-folder Scrape html table to csv text file: web-scrape-table Take a CSV file and save it into Excel: save-csv-to-excel The samples are built with VSCode, the integrated terminal and the following extensions:</description>
     </item>
     
     <item>
       <title>Umbraco Forms Translations</title>
-      <link>https://www.ozzie.eu/post/umbraco-forms-translations/</link>
+      <link>/post/umbraco-forms-translations/</link>
       <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/umbraco-forms-translations/</guid>
+      <guid>/post/umbraco-forms-translations/</guid>
       <description>Last year I evaluated the Umbraco Forms product to migrate some existing forms and build new ones. Despite being overall satisfied, I stumbled upon an issue with form control translation. The consent warning translations were not working. Being Umbraco a developer-friendly CMS, the workaround solution was easy enough to come by and extend with this piece of code:
 Anyway, the good news is the issue is closed as of today with a report that it&amp;rsquo;s working fine on the upcoming 8.</description>
     </item>

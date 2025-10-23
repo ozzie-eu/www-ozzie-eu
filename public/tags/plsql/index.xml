@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>plsql on Ozzie.eu</title>
-    <link>https://www.ozzie.eu/tags/plsql/</link>
+    <link>/tags/plsql/</link>
     <description>Recent content in plsql on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Nov 2022 08:58:50 +0000</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/plsql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2022 08:58:50 +0000</lastBuildDate><atom:link href="/tags/plsql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ORA-01704: string literal too long</title>
-      <link>https://www.ozzie.eu/post/ora-01704/</link>
+      <link>/post/ora-01704/</link>
       <pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/ora-01704/</guid>
+      <guid>/post/ora-01704/</guid>
       <description>Having an Oracle database with a given table storing long strings as binary data types (BLOB/CLOB), one might need to perform manual updates on those columns:
 update myTable set lobColumn=&amp;#39;Some String Value&amp;#39; where somekey=somecriteria; The following error might occur while performing the direct update on that column:
 ORA-01704: string literal too longCause: The string literal is longer than 4000 characters.Action: Use a string literal of at most 4000 characters.</description>

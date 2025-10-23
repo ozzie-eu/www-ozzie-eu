@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Ozzie.eu</title>
-    <link>https://www.ozzie.eu/tags/linux/</link>
+    <link>/tags/linux/</link>
     <description>Recent content in linux on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Jun 2021 13:00:00 +0100</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jun 2021 13:00:00 +0100</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Windows Subsystem for Linux for cross-platform testing</title>
-      <link>https://www.ozzie.eu/post/wsl-cross-platform-testing/</link>
+      <link>/post/wsl-cross-platform-testing/</link>
       <pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
       
-      <guid>https://www.ozzie.eu/post/wsl-cross-platform-testing/</guid>
+      <guid>/post/wsl-cross-platform-testing/</guid>
       <description>Windows Subsystem for Linux is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.
 It&amp;rsquo;s been around as an optional feature on Microsoft&amp;rsquo;s Windows 10, since 2016. With the release of WSL2, users can now use a genuine linux kernel running on top of a Virtual Machine Platform based on a subset of Hyper-V features.
 Before you proceed, be sure you&amp;rsquo;re running all the latest Windows updates.</description>

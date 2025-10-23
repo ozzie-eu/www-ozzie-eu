@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on Ozzie.eu</title>
-    <link>https://www.ozzie.eu/tags/hugo/</link>
+    <link>/tags/hugo/</link>
     <description>Recent content in hugo on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Mar 2021 14:36:32 +0000</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Mar 2021 14:36:32 +0000</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo post tag causing 404 Error</title>
-      <link>https://www.ozzie.eu/post/hugo-tag-404-error/</link>
+      <link>/post/hugo-tag-404-error/</link>
       <pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/hugo-tag-404-error/</guid>
+      <guid>/post/hugo-tag-404-error/</guid>
       <description>I write code mainly in C# so imagine my surprise when I was testing the tags on this site and that one in particular caused a 404 - Not Found error.
 After some searching, I found the source file where the Hugo theme I&amp;rsquo;m using renders the tag links (\hugo-vitae\layouts_default\terms.html).
 The only character causing this error, so far, is the &amp;ldquo;#&amp;rdquo; so I edited the file for a quick and dirty solution, replacing the special character &amp;lsquo;#&amp;rsquo; with the URL encoding &amp;lsquo;#23&amp;rsquo;.</description>
@@ -20,10 +20,10 @@ The only character causing this error, so far, is the &amp;ldquo;#&amp;rdquo; so
     
     <item>
       <title>Stepping Stone</title>
-      <link>https://www.ozzie.eu/post/stepping-stone/</link>
+      <link>/post/stepping-stone/</link>
       <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
       
-      <guid>https://www.ozzie.eu/post/stepping-stone/</guid>
+      <guid>/post/stepping-stone/</guid>
       <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve published anything on my previous web log. So, it sort of did not make sense to give it continuity with such a big hiatus. I also wanted to stop using blogging platforms and really have full control on the site&amp;rsquo;s content, navigation and overall source code.
 So for code versioning system and full source disclosure I&amp;rsquo;ve chosen Github. For the web site building and content management framework I&amp;rsquo;ve gone with Hugo.</description>
     </item>
