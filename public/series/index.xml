@@ -2,10 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Ozzie.eu</title>
-    <link>http://localhost:44149/series/</link>
+    <link>https://www.ozzie.eu/series/</link>
     <description>Recent content in Series on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:44149/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://www.ozzie.eu/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

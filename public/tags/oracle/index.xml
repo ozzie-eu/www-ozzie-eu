@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oracle on Ozzie.eu</title>
-    <link>http://localhost:44149/tags/oracle/</link>
-    <description>Recent content in Oracle on Ozzie.eu</description>
+    <title>oracle on Ozzie.eu</title>
+    <link>https://www.ozzie.eu/tags/oracle/</link>
+    <description>Recent content in oracle on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Nov 2022 08:58:50 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44149/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Nov 2022 08:58:50 +0000</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/oracle/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ORA-01704: string literal too long</title>
-      <link>http://localhost:44149/post/ora-01704/</link>
+      <link>https://www.ozzie.eu/post/ora-01704/</link>
       <pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
-      <guid>http://localhost:44149/post/ora-01704/</guid>
-      <description>Having an Oracle database with a given table storing long strings as binary data types (BLOB/CLOB), one might need to perform manual updates on those columns:&#xA;update myTable set lobColumn=&amp;#39;Some String Value&amp;#39; where somekey=somecriteria; The following error might occur while performing the direct update on that column:&#xA;ORA-01704: string literal too long Cause: The string literal is longer than 4000 characters. Action: Use a string literal of at most 4000 characters.</description>
+      
+      <guid>https://www.ozzie.eu/post/ora-01704/</guid>
+      <description>Having an Oracle database with a given table storing long strings as binary data types (BLOB/CLOB), one might need to perform manual updates on those columns:
+update myTable set lobColumn=&amp;#39;Some String Value&amp;#39; where somekey=somecriteria; The following error might occur while performing the direct update on that column:
+ORA-01704: string literal too longCause: The string literal is longer than 4000 characters.Action: Use a string literal of at most 4000 characters.</description>
     </item>
+    
   </channel>
 </rss>

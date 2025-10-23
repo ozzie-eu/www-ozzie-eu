@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mysql on Ozzie.eu</title>
-    <link>http://localhost:44149/tags/mysql/</link>
-    <description>Recent content in Mysql on Ozzie.eu</description>
+    <title>mysql on Ozzie.eu</title>
+    <link>https://www.ozzie.eu/tags/mysql/</link>
+    <description>Recent content in mysql on Ozzie.eu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Dec 2022 12:00:34 +0000</lastBuildDate>
-    <atom:link href="http://localhost:44149/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Dec 2022 12:00:34 +0000</lastBuildDate><atom:link href="https://www.ozzie.eu/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL vs MariaDB: Performance on Bug Management </title>
-      <link>http://localhost:44149/post/mysql-mariadb-bug-mgmt-performance/</link>
+      <link>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</link>
       <pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
-      <guid>http://localhost:44149/post/mysql-mariadb-bug-mgmt-performance/</guid>
+      
+      <guid>https://www.ozzie.eu/post/mysql-mariadb-bug-mgmt-performance/</guid>
       <description>Cleaning up the e-mail inbox, I discovered a 7-year-old bug report I made on the MySQL bugs database: Bug #79497. Someone verified it on the same day. It has been simmering there, journeying into oblivion. An optimistic guess might be that it is solved, but they forgot to close it. On a quick revisit to the topic, I used an Ubuntu terminal environment on Windows (WSL), installed MySQL 8 (in mind that the bug report was on version 5.</description>
     </item>
+    
   </channel>
 </rss>
