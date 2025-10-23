@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Ozzie.eu</title>
+    <title>Linux on Ozzie.eu</title>
     <link>/tags/linux/</link>
-    <description>Recent content in linux on Ozzie.eu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Linux on Ozzie.eu</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Jun 2021 13:00:00 +0100</lastBuildDate><atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 21:53:00 +0100</lastBuildDate>
+    <atom:link href="/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond the Mirage: Leaving Windows Behind for Good</title>
+      <link>/post/beyond-the-mirage-full-time-linux-open-source-privacy/</link>
+      <pubDate>Wed, 22 Oct 2025 21:53:00 +0100</pubDate>
+      <guid>/post/beyond-the-mirage-full-time-linux-open-source-privacy/</guid>
+      <description>In The Cross-Platform Mirage, we explored how developing on Linux helps uncover the hidden pitfalls of so-called “cross-platform” .NET libraries. Now, it’s time to go further. The truth is, merely testing on Linux isn&amp;rsquo;t enough anymore — it’s time to live on Linux full-time.&#xA;The End of Trust in Windows For years, developers and users tolerated Microsoft’s quirks in exchange for convenience. But the latest decisions from Redmond have made that bargain impossible to justify.</description>
+    </item>
     <item>
       <title>Using Windows Subsystem for Linux for cross-platform testing</title>
       <link>/post/wsl-cross-platform-testing/</link>
       <pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
-      
       <guid>/post/wsl-cross-platform-testing/</guid>
-      <description>Windows Subsystem for Linux is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.
-It&amp;rsquo;s been around as an optional feature on Microsoft&amp;rsquo;s Windows 10, since 2016. With the release of WSL2, users can now use a genuine linux kernel running on top of a Virtual Machine Platform based on a subset of Hyper-V features.
-Before you proceed, be sure you&amp;rsquo;re running all the latest Windows updates.</description>
+      <description>Windows Subsystem for Linux is a wonderful feature to perform cross-plataform testing without having to install 3rd party virtualization software or containers.&#xA;It&amp;rsquo;s been around as an optional feature on Microsoft&amp;rsquo;s Windows 10, since 2016. With the release of WSL2, users can now use a genuine linux kernel running on top of a Virtual Machine Platform based on a subset of Hyper-V features.&#xA;Before you proceed, be sure you&amp;rsquo;re running all the latest Windows updates.</description>
     </item>
-    
   </channel>
 </rss>

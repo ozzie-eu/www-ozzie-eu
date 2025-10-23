@@ -4,242 +4,212 @@
     <title>Tags on Ozzie.eu</title>
     <link>/tags/</link>
     <description>Recent content in Tags on Ozzie.eu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 04 Aug 2025 23:30:44 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Oct 2025 21:53:00 +0100</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>sqlserver</title>
-      <link>/tags/sqlserver/</link>
-      <pubDate>Mon, 04 Aug 2025 23:30:44 +0100</pubDate>
-      
-      <guid>/tags/sqlserver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dotnetcore</title>
-      <link>/tags/dotnetcore/</link>
-      <pubDate>Mon, 31 Mar 2025 12:30:22 +0100</pubDate>
-      
-      <guid>/tags/dotnetcore/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>C#</title>
-      <link>/tags/c#/</link>
-      <pubDate>Tue, 29 Oct 2024 12:38:26 +0000</pubDate>
-      
-      <guid>/tags/c#/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Authentication</title>
-      <link>/tags/authentication/</link>
-      <pubDate>Fri, 05 Jan 2024 13:44:06 +0000</pubDate>
-      
-      <guid>/tags/authentication/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dotnet</title>
+      <title>Dotnet</title>
       <link>/tags/dotnet/</link>
-      <pubDate>Thu, 13 Apr 2023 14:03:58 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/dotnet/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mariadb</title>
-      <link>/tags/mariadb/</link>
-      <pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
-      
-      <guid>/tags/mariadb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mysql</title>
-      <link>/tags/mysql/</link>
-      <pubDate>Fri, 02 Dec 2022 12:00:34 +0000</pubDate>
-      
-      <guid>/tags/mysql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>oracle</title>
-      <link>/tags/oracle/</link>
-      <pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
-      
-      <guid>/tags/oracle/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>plsql</title>
-      <link>/tags/plsql/</link>
-      <pubDate>Thu, 03 Nov 2022 08:58:50 +0000</pubDate>
-      
-      <guid>/tags/plsql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>powershell</title>
-      <link>/tags/powershell/</link>
-      <pubDate>Mon, 27 Jun 2022 11:20:16 +0100</pubDate>
-      
-      <guid>/tags/powershell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
-      
-      <guid>/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>twitter</title>
-      <link>/tags/twitter/</link>
-      <pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
-      
-      <guid>/tags/twitter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>/tags/linux/</link>
-      <pubDate>Fri, 11 Jun 2021 13:00:00 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/linux/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Open Source</title>
+      <link>/tags/open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>/tags/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
+      <link>/tags/windows/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/windows/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sqlserver</title>
+      <link>/tags/sqlserver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/sqlserver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dotnetcore</title>
+      <link>/tags/dotnetcore/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/dotnetcore/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C#</title>
+      <link>/tags/c%23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/c%23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Authentication</title>
+      <link>/tags/authentication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/authentication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mariadb</title>
+      <link>/tags/mariadb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/mariadb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mysql</title>
+      <link>/tags/mysql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/mysql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle</title>
+      <link>/tags/oracle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/oracle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plsql</title>
+      <link>/tags/plsql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/plsql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Powershell</title>
+      <link>/tags/powershell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/powershell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Twitter</title>
+      <link>/tags/twitter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/twitter/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Automation</title>
       <link>/tags/automation/</link>
-      <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/automation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>PDF</title>
       <link>/tags/pdf/</link>
-      <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/pdf/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SOAP</title>
       <link>/tags/soap/</link>
-      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/soap/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>VisualStudio</title>
       <link>/tags/visualstudio/</link>
-      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/visualstudio/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>WSDL</title>
       <link>/tags/wsdl/</link>
-      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/wsdl/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>XML</title>
       <link>/tags/xml/</link>
-      <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/xml/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>JSON</title>
       <link>/tags/json/</link>
-      <pubDate>Mon, 29 Mar 2021 16:30:47 +0100</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/json/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>/tags/hugo/</link>
-      <pubDate>Tue, 16 Mar 2021 14:36:32 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>git</title>
+      <title>Git</title>
       <link>/tags/git/</link>
-      <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Umbraco</title>
       <link>/tags/umbraco/</link>
-      <pubDate>Tue, 02 Mar 2021 15:47:06 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/umbraco/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>firebase</title>
+      <title>Firebase</title>
       <link>/tags/firebase/</link>
-      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/firebase/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>google</title>
+      <title>Google</title>
       <link>/tags/google/</link>
-      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/google/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>jamstack</title>
+      <title>Jamstack</title>
       <link>/tags/jamstack/</link>
-      <pubDate>Sun, 28 Feb 2021 21:41:22 +0000</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/jamstack/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

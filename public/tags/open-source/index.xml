@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Source on Ozzie.eu</title>
+    <link>/tags/open-source/</link>
+    <description>Recent content in Open Source on Ozzie.eu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 22 Oct 2025 21:53:00 +0100</lastBuildDate>
+    <atom:link href="/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond the Mirage: Leaving Windows Behind for Good</title>
+      <link>/post/beyond-the-mirage-full-time-linux-open-source-privacy/</link>
+      <pubDate>Wed, 22 Oct 2025 21:53:00 +0100</pubDate>
+      <guid>/post/beyond-the-mirage-full-time-linux-open-source-privacy/</guid>
+      <description>In The Cross-Platform Mirage, we explored how developing on Linux helps uncover the hidden pitfalls of so-called “cross-platform” .NET libraries. Now, it’s time to go further. The truth is, merely testing on Linux isn&amp;rsquo;t enough anymore — it’s time to live on Linux full-time.&#xA;The End of Trust in Windows For years, developers and users tolerated Microsoft’s quirks in exchange for convenience. But the latest decisions from Redmond have made that bargain impossible to justify.</description>
+    </item>
+  </channel>
+</rss>

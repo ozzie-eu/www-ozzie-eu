@@ -2,25 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/backend/</loc>
-    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
+    <loc>/post/beyond-the-mirage-full-time-linux-open-source-privacy/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/tags/dotnet/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/tags/open-source/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/tags/privacy/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/categories/software-development/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/categories/technology/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/tags/windows/</loc>
+    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
+  </url><url>
+    <loc>/categories/backend/</loc>
     <lastmod>2025-08-04T23:30:44+01:00</lastmod>
   </url><url>
     <loc>/categories/database/</loc>
     <lastmod>2025-08-04T23:30:44+01:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
-  </url><url>
     <loc>/tags/sqlserver/</loc>
-    <lastmod>2025-08-04T23:30:44+01:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-08-04T23:30:44+01:00</lastmod>
   </url><url>
     <loc>/post/object-not-found-mssql-kb5058722/</loc>
@@ -35,7 +59,7 @@
     <loc>/post/dotnet-cross-platform-mirage/</loc>
     <lastmod>2025-03-31T12:30:22+01:00</lastmod>
   </url><url>
-    <loc>/tags/c#/</loc>
+    <loc>/tags/c%23/</loc>
     <lastmod>2024-10-29T12:38:26+00:00</lastmod>
   </url><url>
     <loc>/post/orm-vs-raw-sql/</loc>
@@ -52,9 +76,6 @@
   </url><url>
     <loc>/post/using-email-as-login-bad-idea/</loc>
     <lastmod>2024-01-05T13:44:06+00:00</lastmod>
-  </url><url>
-    <loc>/tags/dotnet/</loc>
-    <lastmod>2023-04-13T14:03:58+01:00</lastmod>
   </url><url>
     <loc>/categories/frontend/</loc>
     <lastmod>2023-04-13T14:03:58+01:00</lastmod>
@@ -112,9 +133,6 @@
   </url><url>
     <loc>/post/ef-core-update-model-db-first/</loc>
     <lastmod>2021-09-07T12:00:48+01:00</lastmod>
-  </url><url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2021-06-11T13:00:00+01:00</lastmod>
   </url><url>
     <loc>/post/wsl-cross-platform-testing/</loc>
     <lastmod>2021-06-11T13:00:00+01:00</lastmod>

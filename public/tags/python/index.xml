@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Ozzie.eu</title>
+    <title>Python on Ozzie.eu</title>
     <link>/tags/python/</link>
-    <description>Recent content in python on Ozzie.eu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Python on Ozzie.eu</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Dec 2021 15:31:31 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Dec 2021 15:31:31 +0000</lastBuildDate>
+    <atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Preferred Programming Language Versus Getting Things Done</title>
       <link>/post/preferred-language-vs-gtd/</link>
       <pubDate>Tue, 07 Dec 2021 15:31:31 +0000</pubDate>
-      
       <guid>/post/preferred-language-vs-gtd/</guid>
-      <description>Getting skills in more than one programming language is a must for professional developers and multitaskers. You can try creating a toolbelt of ready-to-use code snippets, bookmark all the handy libraries, and even practice hypothetical situations. That&amp;rsquo;s what I had in mind working on my automate-dotnetcore project.
-But now and then you&amp;rsquo;ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations.</description>
+      <description>Getting skills in more than one programming language is a must for professional developers and multitaskers. You can try creating a toolbelt of ready-to-use code snippets, bookmark all the handy libraries, and even practice hypothetical situations. That&amp;rsquo;s what I had in mind working on my automate-dotnetcore project.&#xA;But now and then you&amp;rsquo;ll face some important task that needs to be done on the spot, with no delays. Usually single-shot operations.</description>
     </item>
-    
     <item>
       <title>Python script to unfollow inactive friends on Twitter</title>
       <link>/post/twitter-unfollow-inactive/</link>
       <pubDate>Mon, 25 Oct 2021 15:50:14 +0100</pubDate>
-      
       <guid>/post/twitter-unfollow-inactive/</guid>
-      <description>Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&amp;rsquo;t updated their status in ages. It&amp;rsquo;s a daunting task to go over all of your friends, check their status, and unfollow the ones not using Twitter for a long time.
-I&amp;rsquo;ve written a Python script to do this. The script works with the following python packages:</description>
+      <description>Twitter is great to learn the news of your chosen interests, but sometimes your get stuck with an increasing amount of inactive friends who haven&amp;rsquo;t updated their status in ages. It&amp;rsquo;s a daunting task to go over all of your friends, check their status, and unfollow the ones not using Twitter for a long time.&#xA;I&amp;rsquo;ve written a Python script to do this. The script works with the following python packages:</description>
     </item>
-    
   </channel>
 </rss>

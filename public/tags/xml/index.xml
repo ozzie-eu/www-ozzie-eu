@@ -4,19 +4,16 @@
     <title>XML on Ozzie.eu</title>
     <link>/tags/xml/</link>
     <description>Recent content in XML on Ozzie.eu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate><atom:link href="/tags/xml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 May 2021 09:24:28 +0100</lastBuildDate>
+    <atom:link href="/tags/xml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contract First Web Service Development in .NET</title>
       <link>/post/contract-first-ws-development/</link>
       <pubDate>Wed, 05 May 2021 09:24:28 +0100</pubDate>
-      
       <guid>/post/contract-first-ws-development/</guid>
-      <description>Working on information systems integration often comes with the task of implementing a Web Service following a previously defined contract. This can happen with a design-first approach or a partner interoperability project where you must implement the expected receiver for the incoming data.
-To develop an XML web service, having an existing WSDL, we can use the tooling provided with Microsoft Visual Studio.
-We will use an ASMX project. If you&amp;rsquo;re worried about support because this is no longer a part of .</description>
+      <description>Working on information systems integration often comes with the task of implementing a Web Service following a previously defined contract. This can happen with a design-first approach or a partner interoperability project where you must implement the expected receiver for the incoming data.&#xA;To develop an XML web service, having an existing WSDL, we can use the tooling provided with Microsoft Visual Studio.&#xA;We will use an ASMX project. If you&amp;rsquo;re worried about support because this is no longer a part of .</description>
     </item>
-    
   </channel>
 </rss>

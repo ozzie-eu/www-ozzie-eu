@@ -4,19 +4,16 @@
     <title>PDF on Ozzie.eu</title>
     <link>/tags/pdf/</link>
     <description>Recent content in PDF on Ozzie.eu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 May 2021 15:16:04 +0100</lastBuildDate><atom:link href="/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 May 2021 15:16:04 +0100</lastBuildDate>
+    <atom:link href="/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generating PDF in .NET Core using Libreoffice</title>
       <link>/post/pdf-dotnet-libreoffice/</link>
       <pubDate>Fri, 14 May 2021 15:16:04 +0100</pubDate>
-      
       <guid>/post/pdf-dotnet-libreoffice/</guid>
-      <description>Looking for Nuget extensions to generate PDF output, there&amp;rsquo;s a lot of offer, but you have to either convert from another format like HTML or hard-code each page, text block, and layout. Also, most extensions come in freemium versions.
-An interesting option is used by the team at Smart In Media GmbH &amp;amp; Co. KG. To use their words:
-I was surprised, just how difficult that endeavor is if you don&amp;rsquo;t want to pay huge amounts of money to commercial libraries.</description>
+      <description>Looking for Nuget extensions to generate PDF output, there&amp;rsquo;s a lot of offer, but you have to either convert from another format like HTML or hard-code each page, text block, and layout. Also, most extensions come in freemium versions.&#xA;An interesting option is used by the team at Smart In Media GmbH &amp;amp; Co. KG. To use their words:&#xA;I was surprised, just how difficult that endeavor is if you don&amp;rsquo;t want to pay huge amounts of money to commercial libraries.</description>
     </item>
-    
   </channel>
 </rss>
