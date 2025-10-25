@@ -3,10 +3,12 @@ title: "About"
 draft: false
 ---
 
+![avatar-banner](/img/avatar-banner.jpeg)
+
 # Over 25 years of IT experience.
 
 * I started my career as a systems analyst (a jack-of-all-trades programmer back then) at Andersen Consulting (now Accenture).
-* After gaining CRM experience at a Portuguese firm called Novabase, I transitioned to a developer and later database support engineer role at the Portuguese Ministry of Justice. 
+* After gaining CRM experience at a Portuguese firm called Novabase, I transitioned to a developer and later database support engineer role at the Portuguese Ministry of Justice.
 * I then took on a leadership role as head of unit at a public institution for regulatory affairs.
 * I'm currently engaged in a consulting role.
 
