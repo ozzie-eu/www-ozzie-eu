@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/tags/fedora/</loc>
+    <lastmod>2025-10-28T22:11:17+00:00</lastmod>
+  </url><url>
+    <loc>/post/fedora-workstation-43-upgrade/</loc>
+    <lastmod>2025-10-28T22:11:17+00:00</lastmod>
+  </url><url>
+    <loc>/tags/linux/</loc>
+    <lastmod>2025-10-28T22:11:17+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2025-10-28T22:11:17+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2025-10-28T22:11:17+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2025-10-28T22:11:17+00:00</lastmod>
+  </url><url>
+    <loc>/tags/upgrade/</loc>
+    <lastmod>2025-10-28T22:11:17+00:00</lastmod>
+  </url><url>
     <loc>/post/beyond-the-mirage-full-time-linux-open-source-privacy/</loc>
     <lastmod>2025-10-22T21:53:00+01:00</lastmod>
   </url><url>
@@ -11,25 +32,13 @@
     <loc>/tags/dotnet/</loc>
     <lastmod>2025-10-22T21:53:00+01:00</lastmod>
   </url><url>
-    <loc>/tags/linux/</loc>
-    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
-  </url><url>
     <loc>/tags/open-source/</loc>
-    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
     <lastmod>2025-10-22T21:53:00+01:00</lastmod>
   </url><url>
     <loc>/tags/privacy/</loc>
     <lastmod>2025-10-22T21:53:00+01:00</lastmod>
   </url><url>
     <loc>/categories/software-development/</loc>
-    <lastmod>2025-10-22T21:53:00+01:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2025-10-22T21:53:00+01:00</lastmod>
   </url><url>
     <loc>/categories/technology/</loc>

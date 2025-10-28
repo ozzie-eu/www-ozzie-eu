@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fedora on Ozzie.eu</title>
+    <link>/tags/fedora/</link>
+    <description>Recent content in Fedora on Ozzie.eu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Oct 2025 22:11:17 +0000</lastBuildDate>
+    <atom:link href="/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fedora Workstation 43 Upgrade</title>
+      <link>/post/fedora-workstation-43-upgrade/</link>
+      <pubDate>Tue, 28 Oct 2025 22:11:17 +0000</pubDate>
+      <guid>/post/fedora-workstation-43-upgrade/</guid>
+      <description>I just upgraded my laptop from Fedora Workstation 42 to 43, and the process was beautifully seamless. It&amp;rsquo;s truly a testament to the fantastic work of the Fedora Project that a full operating system upgrade feels just like any other software update.&#xA;The entire process was handled through the GNOME Software center, with a clear and simple user interface. A few clicks, a reboot, and the system was running the latest and greatest version of Fedora.</description>
+    </item>
+  </channel>
+</rss>

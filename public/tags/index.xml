@@ -6,13 +6,13 @@
     <description>Recent content in Tags on Ozzie.eu</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Oct 2025 21:53:00 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 22:11:17 +0000</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dotnet</title>
-      <link>/tags/dotnet/</link>
+      <title>Fedora</title>
+      <link>/tags/fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/dotnet/</guid>
+      <guid>/tags/fedora/</guid>
       <description></description>
     </item>
     <item>
@@ -20,6 +20,20 @@
       <link>/tags/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Upgrade</title>
+      <link>/tags/upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/upgrade/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dotnet</title>
+      <link>/tags/dotnet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/tags/dotnet/</guid>
       <description></description>
     </item>
     <item>
